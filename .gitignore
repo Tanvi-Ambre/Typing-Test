@@ -1,0 +1,15 @@
+# Test files
+test.html
+test-app.html
+debug-test.html
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
