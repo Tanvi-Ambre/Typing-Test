@@ -63,7 +63,7 @@ Based on GCC TBC English typing exam requirements:
 
 ## Live Demo
 
-[View Live Demo](https://yourusername.github.io/typing-test/)
+[View Live Demo](https://tanvi-ambre.github.io/Typing-Test/)
 
 ## License
 
