@@ -103,19 +103,13 @@ h1 {
 }
 
 .test-area {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
     flex: 1;
     overflow: hidden;
     padding: 20px;
     min-height: 0;
-}
-
-@media (max-width: 768px) {
-    .test-area {
-        grid-template-columns: 1fr;
-    }
 }
 
 .passage-section, .typing-section {
@@ -126,6 +120,7 @@ h1 {
     flex-direction: column;
     overflow: hidden;
     min-height: 0;
+    flex: 1;
 }
 
 h3 {
