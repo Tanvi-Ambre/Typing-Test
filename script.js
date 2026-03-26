@@ -700,4 +700,40 @@ typingArea.addEventListener('paste', (e) => {
 // Initialize on load
 document.addEventListener('DOMContentLoaded', () => {
     init();
+    
+    // Sidebar toggle functionality
+    const sidebar = document.getElementById('sidebar');
+    const sidebarToggle = document.getElementById('sidebarToggle');
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mainContent = document.querySelector('.main-content');
+    
+    // Desktop toggle (collapse/expand)
+    if (sidebarToggle) {
+        sidebarToggle.addEventListener('click', () => {
+            sidebar.classList.toggle('collapsed');
+            mainContent.classList.toggle('sidebar-collapsed');
+        });
+    }
+    
+    // Mobile toggle (open/close)
+    if (mobileMenuBtn) {
+        mobileMenuBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            sidebar.classList.toggle('open');
+        });
+    }
+    
+    // Close sidebar when clicking outside on mobile
+    document.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768) {
+            if (!sidebar.contains(e.target) && !e.target.closest('.mobile-menu-btn')) {
+                sidebar.classList.remove('open');
+            }
+        }
+    });
+    
+    // Prevent clicks inside sidebar from closing it
+    sidebar.addEventListener('click', (e) => {
+        e.stopPropagation();
+    });
 });

@@ -7,74 +7,111 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>30 WPM Typing Test</h1>
-            <p class="subtitle">GCC TBC English Exam Practice</p>
-            <nav class="nav-links" style="display: flex; gap: 10px; margin-top: 10px;">
-                <a href="index.html" style="padding: 8px 16px; background: #667eea; color: white; text-decoration: none; border-radius: 6px; font-size: 0.9em;">Speed Passage</a>
-                <a href="mcq-practice.html" style="padding: 8px 16px; background: #f0f0f0; color: #333; text-decoration: none; border-radius: 6px; font-size: 0.9em;">MCQ Practice</a>
-            </nav>
-        </header>
-
-        <div class="stats-bar">
-            <div class="stat">
-                <span class="label">Time:</span>
-                <span id="timer" class="value">7:00</span>
-            </div>
-            <div class="stat">
-                <span class="label">Words:</span>
-                <span id="wordCount" class="value">0</span>
-            </div>
-            <div class="stat">
-                <span class="label">Errors:</span>
-                <span id="errorCount" class="value">0</span>
-                <span class="limit">/14</span>
-            </div>
-            <div class="stat">
-                <span class="label">WPM:</span>
-                <span id="wpm" class="value">0</span>
-            </div>
-            <div class="stat">
-                <span class="label">Accuracy:</span>
-                <span id="accuracy" class="value">100%</span>
-            </div>
-            <div class="stat mode-toggle">
-                <label class="toggle-label">
-                    <input type="checkbox" id="realtimeMode" checked>
-                    <span class="toggle-slider"></span>
-                    <span class="toggle-text">Real-time</span>
-                </label>
-            </div>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2>GCC TBC</h2>
+            <button class="sidebar-toggle" id="sidebarToggle">
+                <span class="toggle-icon">◀</span>
+            </button>
         </div>
-
-        <div class="test-area">
-            <div class="passage-section">
-                <h3>Passage to Type</h3>
-                <div id="passage" class="passage"></div>
-            </div>
-            
-            <div class="typing-section">
-                <h3>Your Typing</h3>
-                <textarea 
-                    id="typingArea" 
-                    placeholder="Click 'Start Test' to begin typing..."
-                    disabled
-                ></textarea>
-            </div>
+        <nav class="sidebar-nav">
+            <a href="index.html" class="nav-item active">
+                <span class="nav-icon">⌨️</span>
+                <span class="nav-text">Speed Passage</span>
+            </a>
+            <a href="mcq-practice.html" class="nav-item">
+                <span class="nav-icon">📝</span>
+                <span class="nav-text">MCQ Practice</span>
+            </a>
+            <a href="#" class="nav-item disabled">
+                <span class="nav-icon">📧</span>
+                <span class="nav-text">Email Writing</span>
+            </a>
+            <a href="#" class="nav-item disabled">
+                <span class="nav-icon">✉️</span>
+                <span class="nav-text">Letter Writing</span>
+            </a>
+            <a href="#" class="nav-item disabled">
+                <span class="nav-icon">📄</span>
+                <span class="nav-text">Statement</span>
+            </a>
+        </nav>
+        <div class="sidebar-footer">
+            <p>English Exam Practice</p>
         </div>
+    </div>
 
-        <div class="controls">
-            <button id="startBtn" class="btn btn-primary">Start Test</button>
-            <button id="submitBtn" class="btn btn-success hidden">Submit Test</button>
-            <button id="resetBtn" class="btn btn-secondary">Reset</button>
-        </div>
+    <!-- Mobile Menu Button -->
+    <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
 
-        <div id="results" class="results hidden">
-            <div class="results-content">
-                <h2>Test Results</h2>
-                <div class="result-status"></div>
-                <div class="result-details"></div>
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+            <header>
+                <h1>30 WPM Typing Test</h1>
+                <p class="subtitle">GCC TBC English Exam Practice</p>
+            </header>
+
+            <div class="stats-bar">
+                <div class="stat">
+                    <span class="label">Time:</span>
+                    <span id="timer" class="value">7:00</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Words:</span>
+                    <span id="wordCount" class="value">0</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Errors:</span>
+                    <span id="errorCount" class="value">0</span>
+                    <span class="limit">/14</span>
+                </div>
+                <div class="stat">
+                    <span class="label">WPM:</span>
+                    <span id="wpm" class="value">0</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Accuracy:</span>
+                    <span id="accuracy" class="value">100%</span>
+                </div>
+                <div class="stat mode-toggle">
+                    <label class="toggle-label">
+                        <input type="checkbox" id="realtimeMode" checked>
+                        <span class="toggle-slider"></span>
+                        <span class="toggle-text">Real-time</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="test-area">
+                <div class="passage-section">
+                    <h3>Passage to Type</h3>
+                    <div id="passage" class="passage"></div>
+                </div>
+                
+                <div class="typing-section">
+                    <h3>Your Typing</h3>
+                    <textarea 
+                        id="typingArea" 
+                        placeholder="Click 'Start Test' to begin typing..."
+                        disabled
+                    ></textarea>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="startBtn" class="btn btn-primary">Start Test</button>
+                <button id="submitBtn" class="btn btn-success hidden">Submit Test</button>
+                <button id="resetBtn" class="btn btn-secondary">Reset</button>
+            </div>
+
+            <div id="results" class="results hidden">
+                <div class="results-content">
+                    <h2>Test Results</h2>
+                    <div class="result-status"></div>
+                    <div class="result-details"></div>
+                </div>
             </div>
         </div>
     </div>
