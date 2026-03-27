@@ -71,300 +71,66 @@ pdfInput.addEventListener('change', (e) => {
     }
 });
 
-// Handle PDF upload and extraction
+// Handle PDF upload and extraction (server-side)
 async function handlePDFUpload(file) {
-    showUploadFeedback('Processing PDF...', 'success');
+    showUploadFeedback('Uploading PDF to server...', 'info');
     
     try {
-        const text = await extractTextFromPDF(file);
+        // Extract batch name from filename
+        const batchMatch = file.name.match(/BATCH\s*-?\s*\((\d+)\)/i);
+        const batchName = batchMatch ? `BATCH ${batchMatch[1]}` : file.name.replace('.pdf', '');
         
-        // Show extracted text in console for debugging
-        console.log('=== FULL EXTRACTED TEXT ===');
-        console.log(text);
-        console.log('=== END EXTRACTED TEXT ===');
-        
-        const questions = parseQuestions(text);
-        
-        if (questions.length === 0) {
-            showUploadFeedback('No questions found in PDF', 'error');
-            
-            // Show helpful error message with extracted text preview
-            const textPreview = text.substring(0, 500);
-            const errorMsg = `No questions found in the PDF.\n\n` +
-                `Extracted text preview:\n${textPreview}\n\n` +
-                `Please check:\n` +
-                `1. PDF contains text (not scanned images)\n` +
-                `2. Questions are in table format with columns\n` +
-                `3. Open browser console (F12) to see full extracted text\n\n` +
-                `If the text looks correct in console, the PDF format might be different.\n` +
-                `Please share the console output for debugging.`;
-            
-            alert(errorMsg);
+        // Check if batch already exists in pre-loaded data
+        if (typeof allMCQBatches !== 'undefined' && allMCQBatches[batchName]) {
+            showUploadFeedback(`${batchName} is already pre-loaded. Please select it from the dropdown.`, 'info');
+            console.log(`ℹ️ ${batchName} already exists in pre-loaded data`);
             return;
         }
         
-        // Add to question bank
-        questionBank = [...questionBank, ...questions];
-        saveQuestions();
+        // Create FormData for upload
+        const formData = new FormData();
+        formData.append('pdf', file);
         
-        showUploadFeedback(`✓ Extracted ${questions.length} questions successfully`, 'success');
+        console.log(`📤 Uploading ${file.name} to server...`);
         
-        document.getElementById('storedQuestions').classList.remove('hidden');
+        // Upload to server
+        const response = await fetch('/api/upload-mcq-pdf', {
+            method: 'POST',
+            body: formData
+        });
         
-        setTimeout(() => {
-            pdfInput.value = '';
-        }, 3000);
+        const result = await response.json();
+        
+        if (!response.ok || !result.success) {
+            throw new Error(result.error || 'Upload failed');
+        }
+        
+        console.log(`✅ Server extracted ${result.count} questions from ${result.batchName}`);
+        
+        // Add to allMCQBatches object for dropdown
+        if (typeof allMCQBatches === 'undefined') {
+            window.allMCQBatches = {};
+        }
+        allMCQBatches[result.batchName] = result.questions;
+        
+        // Refresh dropdown to include newly uploaded batch
+        populateQuestionSets();
+        
+        // Auto-select the uploaded batch in dropdown
+        const questionSetSelect = document.getElementById('questionSetSelect');
+        if (questionSetSelect) {
+            questionSetSelect.value = result.batchName;
+            console.log(`✓ Auto-selected uploaded batch: ${result.batchName}`);
+        }
+        
+        showUploadFeedback(`✓ Successfully loaded ${result.count} questions from ${result.batchName}. Selected in dropdown.`, 'success');
         
     } catch (error) {
-        console.error('Error processing PDF:', error);
-        showUploadFeedback('✗ Error processing PDF', 'error');
-        alert(`Error processing PDF: ${error.message}\n\nPlease check:\n1. File is a valid PDF\n2. PDF is not password protected\n3. PDF contains text (not just images)\n\nError details: ${error.stack}`);
+        console.error('❌ Upload error:', error.message);
+        showUploadFeedback(`Error: ${error.message}`, 'error');
     }
 }
 
-// Extract text from PDF using PDF.js
-async function extractTextFromPDF(file) {
-    const arrayBuffer = await file.arrayBuffer();
-    const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
-    let fullText = '';
-    
-    console.log('PDF Pages:', pdf.numPages);
-    
-    for (let i = 1; i <= pdf.numPages; i++) {
-        const page = await pdf.getPage(i);
-        const textContent = await page.getTextContent();
-        
-        // Better text extraction - group by Y position (rows in table)
-        const rows = {};
-        
-        textContent.items.forEach((item) => {
-            const y = Math.round(item.transform[5]); // Y position
-            if (!rows[y]) {
-                rows[y] = [];
-            }
-            rows[y].push({
-                text: item.str,
-                x: item.transform[4] // X position for sorting
-            });
-        });
-        
-        // Sort rows by Y position (top to bottom)
-        const sortedYs = Object.keys(rows).map(Number).sort((a, b) => b - a);
-        
-        // Build text row by row
-        sortedYs.forEach(y => {
-            // Sort items in row by X position (left to right)
-            rows[y].sort((a, b) => a.x - b.x);
-            const rowText = rows[y].map(item => item.text).join(' ');
-            fullText += rowText + '\n';
-        });
-        
-        fullText += '\n';
-    }
-    
-    console.log('Extracted text preview:', fullText.substring(0, 800));
-    
-    return fullText;
-}
-
-// Parse questions from extracted text
-function parseQuestions(text) {
-    const questions = [];
-    
-    console.log('=== PDF TEXT EXTRACTION DEBUG ===');
-    console.log('Total text length:', text.length);
-    console.log('First 1000 chars:', text.substring(0, 1000));
-    
-    // Check if this is a table format (like MSCE answer key)
-    // Table format has: Sr.No | Question | Option A | Option B | Option C | Option D | Provisional Ans.
-    const isTableFormat = text.includes('Sr.No') && text.includes('Option A') && text.includes('Option B');
-    
-    if (isTableFormat) {
-        console.log('✓ Detected TABLE FORMAT (MSCE Answer Key style)');
-        return parseTableFormat(text);
-    } else {
-        console.log('✓ Detected STANDARD FORMAT');
-        return parseStandardFormat(text);
-    }
-}
-
-// Parse table format (MSCE answer key style)
-// Parse table format (MSCE answer key style)
-function parseTableFormat(text) {
-    const questions = [];
-    
-    console.log('=== PARSING TABLE FORMAT ===');
-    
-    // Remove headers
-    text = text.replace(/MAHARASHTRA STATE COUNCIL.*?BATCH - \d+/s, '');
-    text = text.replace(/Sr\.No\s+Question\s+Option A\s+Option B\s+Option C\s+Option D\s+Provisional Ans\./g, '');
-    
-    const allLines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
-    console.log('Total lines:', allLines.length);
-    
-    let i = 0;
-    while (i < allLines.length) {
-        const line = allLines[i];
-        
-        // Check if line starts with a number (question row)
-        const numberMatch = line.match(/^(\d{1,2})\s+(.+)/);
-        
-        if (!numberMatch) {
-            i++;
-            continue;
-        }
-        
-        const questionNumber = parseInt(numberMatch[1]);
-        let restOfLine = numberMatch[2];
-        
-        console.log(`\n--- Q${questionNumber} ---`);
-        console.log('Line:', line.substring(0, 100));
-        
-        // Check for continuation line (doesn't start with number)
-        if (i + 1 < allLines.length) {
-            const nextLine = allLines[i + 1];
-            if (!/^\d{1,2}\s/.test(nextLine) && !nextLine.includes('Sr.No')) {
-                restOfLine += ' ' + nextLine;
-                i++; // Skip continuation
-                console.log('+ Continuation:', nextLine.substring(0, 50));
-            }
-        }
-        
-        // Extract answer from end (single letter A-D)
-        const answerMatch = restOfLine.match(/\s+([A-D])(?:\s+[^\s]+)*\s*$/);
-        
-        if (!answerMatch) {
-            console.log('❌ No answer');
-            i++;
-            continue;
-        }
-        
-        const correctAnswer = answerMatch[1].toUpperCase();
-        const answerPos = restOfLine.lastIndexOf(answerMatch[1]);
-        
-        // Content before answer (question + options)
-        const contentBeforeAnswer = restOfLine.substring(0, answerPos).trim();
-        
-        // Content after answer (usually last part of option D or question continuation)
-        const contentAfterAnswer = restOfLine.substring(answerPos + 1).trim();
-        
-        console.log('Answer:', correctAnswer);
-        
-        // Split by 3+ spaces (table columns)
-        const parts = contentBeforeAnswer.split(/\s{3,}/);
-        
-        console.log('Parts:', parts.length);
-        parts.forEach((p, idx) => console.log(`  [${idx}]: "${p.substring(0, 35)}"`));
-        
-        if (parts.length < 5) {
-            console.log('❌ Need 5+ parts');
-            i++;
-            continue;
-        }
-        
-        // Last 4 parts are options
-        let optionD = parts[parts.length - 1].trim();
-        const optionC = parts[parts.length - 2].trim();
-        const optionB = parts[parts.length - 3].trim();
-        const optionA = parts[parts.length - 4].trim();
-        
-        // Add content after answer to option D
-        if (contentAfterAnswer) {
-            optionD += ' ' + contentAfterAnswer;
-        }
-        
-        // Everything else is question
-        const questionText = parts.slice(0, parts.length - 4).join(' ').trim();
-        
-        if (!questionText) {
-            console.log('❌ Empty question');
-            i++;
-            continue;
-        }
-        
-        questions.push({
-            id: Date.now() + questionNumber + Math.random(),
-            question: questionText,
-            options: {
-                A: optionA,
-                B: optionB,
-                C: optionC,
-                D: optionD.trim()
-            },
-            correctAnswer: correctAnswer,
-            userAnswer: null
-        });
-        
-        console.log(`✅ Q${questionNumber}: "${questionText.substring(0, 35)}"`);
-        console.log(`   A:"${optionA}" B:"${optionB}" C:"${optionC}" D:"${optionD.substring(0, 20)}"`);
-        
-        i++;
-    }
-    
-    console.log('\n=== RESULT: ${questions.length} questions ===');
-    return questions;
-}
-
-// Alternative parsing for when standard pattern doesn't work
-function parseTableFormatAlternative(text) {
-    console.log('=== TRYING ALTERNATIVE PARSING ===');
-    return [];
-}
-
-
-// Parse standard format (Question 1: ... A) ... B) ... Answer: B)
-function parseStandardFormat(text) {
-    const questions = [];
-    
-    const questionPattern = /Question\s+(\d+)[:\.]?\s*(.+?)(?=Question\s+\d+|$)/gis;
-    const matches = [...text.matchAll(questionPattern)];
-    
-    console.log('Standard format - Questions matched:', matches.length);
-    
-    for (const match of matches) {
-        const questionNum = match[1];
-        const questionBlock = match[2];
-        
-        // Extract question text (everything before first option)
-        const questionTextMatch = questionBlock.match(/^(.+?)(?=[A-D][\)\.\:])/s);
-        if (!questionTextMatch) continue;
-        
-        const questionText = questionTextMatch[1].trim();
-        
-        // Extract options
-        const optionPattern = /([A-D])[\)\.\:\s]+([^A-D\n]+?)(?=[A-D][\)\.\:]|Answer[\s:]+|$)/gis;
-        const optionMatches = [...questionBlock.matchAll(optionPattern)];
-        
-        if (optionMatches.length < 2) continue;
-        
-        const options = {};
-        optionMatches.forEach(opt => {
-            const letter = opt[1].toUpperCase();
-            let text = opt[2].trim();
-            text = text.replace(/\s+/g, ' ').trim();
-            options[letter] = text;
-        });
-        
-        // Extract answer
-        const answerMatch = questionBlock.match(/(?:Answer|Ans)[\s:]+([A-D])/i);
-        if (!answerMatch) continue;
-        
-        const correctAnswer = answerMatch[1].toUpperCase();
-        
-        if (!options[correctAnswer]) continue;
-        
-        questions.push({
-            id: Date.now() + parseInt(questionNum) + Math.random(),
-            question: questionText,
-            options: options,
-            correctAnswer: correctAnswer,
-            userAnswer: null
-        });
-    }
-    
-    console.log('Standard format parsed:', questions.length, 'questions');
-    return questions;
-}
 
 // Start practice
 function startPractice() {
@@ -765,8 +531,8 @@ document.addEventListener('DOMContentLoaded', () => {
 function populateQuestionSets() {
     const questionSetSelect = document.getElementById('questionSetSelect');
     
-    // Check if extractedMCQSets is available
-    if (typeof extractedMCQSets === 'undefined' || !extractedMCQSets || extractedMCQSets.length === 0) {
+    // Check if allMCQBatches is available (from mcq-data.js)
+    if (typeof allMCQBatches === 'undefined' || !allMCQBatches || Object.keys(allMCQBatches).length === 0) {
         questionSetSelect.innerHTML = '<option value="">No question sets available</option>';
         document.getElementById('startPracticeFromSetBtn').disabled = true;
         return;
@@ -775,23 +541,24 @@ function populateQuestionSets() {
     // Clear loading message
     questionSetSelect.innerHTML = '<option value="">-- Select a question set --</option>';
     
-    // Add each question set as an option
-    extractedMCQSets.forEach((set, index) => {
+    // Add each batch as an option
+    Object.keys(allMCQBatches).forEach((batchName) => {
+        const questions = allMCQBatches[batchName];
         const option = document.createElement('option');
-        option.value = index;
-        option.textContent = `BATCH ${set.batchNumber} - ${set.examDate} (${set.questions.length} questions)`;
+        option.value = batchName;
+        option.textContent = `${batchName} (${questions.length} questions)`;
         questionSetSelect.appendChild(option);
     });
     
-    console.log(`✓ Loaded ${extractedMCQSets.length} question set(s)`);
+    console.log(`✓ Loaded ${Object.keys(allMCQBatches).length} pre-loaded batch(es)`);
 }
 
 // Start practice from selected question set
 document.getElementById('startPracticeFromSetBtn').addEventListener('click', () => {
     const questionSetSelect = document.getElementById('questionSetSelect');
-    const selectedIndex = questionSetSelect.value;
+    const selectedBatchName = questionSetSelect.value;
     
-    if (!selectedIndex || selectedIndex === '') {
+    if (!selectedBatchName || selectedBatchName === '') {
         showUploadFeedback('Please select a question set first', 'error');
         return;
     }
@@ -800,10 +567,11 @@ document.getElementById('startPracticeFromSetBtn').addEventListener('click', () 
     const selectedMode = document.querySelector('input[name="practiceMode"]:checked').value;
     practiceMode = (selectedMode === 'practice');
     
-    const selectedSet = extractedMCQSets[parseInt(selectedIndex)];
+    // Get questions from selected batch
+    const questions = allMCQBatches[selectedBatchName];
     
     // Convert questions to the format expected by the app
-    questionBank = selectedSet.questions.map(q => ({
+    questionBank = questions.map(q => ({
         id: Date.now() + q.id + Math.random(),
         question: q.question,
         options: q.options,
@@ -811,7 +579,7 @@ document.getElementById('startPracticeFromSetBtn').addEventListener('click', () 
         userAnswer: null
     }));
     
-    console.log(`✓ Loaded ${questionBank.length} questions from ${selectedSet.filename}`);
+    console.log(`✓ Loaded ${questionBank.length} questions from ${selectedBatchName}`);
     console.log(`✓ Mode: ${practiceMode ? 'Practice' : 'Test'}`);
     
     // Start practice immediately

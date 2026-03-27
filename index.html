@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>30 WPM Typing Test - GCC TBC English Exam</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Mammoth.js for .docx parsing -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+    <link rel="stylesheet" href="style.css?v=3.7">
+    <link rel="stylesheet" href="mcq-style.css?v=3.7">
     <!-- Extracted passages from exam files -->
     <script src="passages-data.js"></script>
+    <script src="script.js?v=3.7"></script>
 </head>
 <body>
     <!-- Sidebar Navigation -->
@@ -57,74 +57,143 @@
                 <p class="subtitle">GCC TBC English Exam Practice</p>
             </header>
 
-            <div class="stats-bar">
-                <div class="stat">
-                    <span class="label">Time:</span>
-                    <span id="timer" class="value">7:00</span>
-                </div>
-                <div class="stat">
-                    <span class="label">Words:</span>
-                    <span id="wordCount" class="value">0</span>
-                </div>
-                <div class="stat">
-                    <span class="label">Errors:</span>
-                    <span id="errorCount" class="value">0</span>
-                    <span class="limit">/14</span>
-                </div>
-                <div class="stat">
-                    <span class="label">WPM:</span>
-                    <span id="wpm" class="value">0</span>
-                </div>
-                <div class="stat">
-                    <span class="label">Accuracy:</span>
-                    <span id="accuracy" class="value">100%</span>
-                </div>
-                <div class="stat mode-toggle">
-                    <label class="toggle-label">
-                        <input type="checkbox" id="realtimeMode" checked>
-                        <span class="toggle-slider"></span>
-                        <span class="toggle-text">Real-time</span>
-                    </label>
+            <!-- Passage Selection Section -->
+            <div id="selectionSection" class="section">
+                <div class="upload-card">
+                    <h2>⌨️ Speed Passage Practice</h2>
+                    
+                    <!-- Passage Selection -->
+                    <div class="question-set-selection">
+                        <label for="passageSelect"><strong>Select Passage:</strong></label>
+                        <select id="passageSelect" class="set-select">
+                            <option value="">Loading...</option>
+                        </select>
+                        
+                        <!-- Mode Selection -->
+                        <div class="mode-selection">
+                            <label><strong>Feedback Mode:</strong></label>
+                            <div class="mode-options">
+                                <label class="mode-option">
+                                    <input type="radio" name="feedbackMode" value="realtime" checked>
+                                    <span class="mode-label">
+                                        <span class="mode-icon">✓</span>
+                                        <span class="mode-name">Real-time Feedback</span>
+                                        <span class="mode-desc">See errors as you type</span>
+                                    </span>
+                                </label>
+                                <label class="mode-option">
+                                    <input type="radio" name="feedbackMode" value="exam">
+                                    <span class="mode-label">
+                                        <span class="mode-icon">📝</span>
+                                        <span class="mode-name">Exam Mode</span>
+                                        <span class="mode-desc">Results shown at the end</span>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="selection-actions">
+                            <button id="loadPassageBtn" class="btn btn-primary">Load Passage</button>
+                            <button id="uploadPassageBtn" class="btn btn-secondary" title="Upload custom .docx passages">📄 Upload DOCX</button>
+                            <button id="clearUploadedBtn" class="btn btn-secondary hidden" title="Clear all uploaded passages">🗑️ Clear Uploaded</button>
+                            <input type="file" id="docxInput" accept=".docx" style="display: none;" multiple>
+                        </div>
+                    </div>
+                    
+                    <div id="uploadFeedback" class="upload-feedback hidden"></div>
                 </div>
             </div>
 
-            <div class="test-area">
-                <div class="passage-section">
-                    <h3>Passage to Type</h3>
-                    <div id="passage" class="passage"></div>
+            <!-- Preview Section (shows passage before starting test) -->
+            <div id="previewSection" class="section hidden">
+                <div class="practice-header">
+                    <div>
+                        <h2>Preview Passage</h2>
+                        <span id="previewModeIndicator" class="mode-indicator"></span>
+                    </div>
+                    <div class="practice-stats">
+                        <span>Words: <span id="previewWordCount">0</span></span>
+                        <button id="backToSelectionBtn" class="btn btn-secondary">← Back</button>
+                    </div>
                 </div>
-                
-                <div class="typing-section">
-                    <h3>Your Typing</h3>
-                    <textarea 
-                        id="typingArea" 
-                        placeholder="Click 'Start Test' to begin typing..."
-                        disabled
-                    ></textarea>
+
+                <div class="test-area">
+                    <div class="passage-section">
+                        <h3>Passage to Type</h3>
+                        <div id="previewPassage" class="passage"></div>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <button id="startTypingBtn" class="btn btn-success">Start Test (Timer will begin)</button>
                 </div>
             </div>
 
-            <div class="controls">
-                <button id="startBtn" class="btn btn-primary">Start Test</button>
-                <button id="submitBtn" class="btn btn-success hidden">Submit Test</button>
-                <button id="resetBtn" class="btn btn-secondary">Reset</button>
-                <button id="uploadPassageBtn" class="btn btn-secondary" title="Upload custom .docx passages">📄 Upload</button>
-                <input type="file" id="docxInput" accept=".docx" style="display: none;" multiple>
-            </div>
-            
-            <!-- Compact passage info -->
-            <div id="passageInfo" class="passage-info-compact hidden"></div>
+            <!-- Test Section -->
+            <div id="testSection" class="section hidden">
+                <div class="stats-bar">
+                    <div class="stat">
+                        <span class="label">Time:</span>
+                        <span id="timer" class="value">7:00</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Words:</span>
+                        <span id="wordCount" class="value">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Errors:</span>
+                        <span id="errorCount" class="value">0</span>
+                        <span class="limit">/14</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">WPM:</span>
+                        <span id="wpm" class="value">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Accuracy:</span>
+                        <span id="accuracy" class="value">100%</span>
+                    </div>
+                    <div class="stat">
+                        <button id="exitTestBtn" class="btn btn-exit" title="Go back">← Back</button>
+                    </div>
+                </div>
 
+                <div class="test-area">
+                    <div class="passage-section">
+                        <h3>Passage to Type</h3>
+                        <div id="passage" class="passage"></div>
+                    </div>
+                    
+                    <div class="typing-section">
+                        <h3>Your Typing</h3>
+                        <textarea 
+                            id="typingArea" 
+                            placeholder="Start typing..."
+                            disabled
+                        ></textarea>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <button id="submitBtn" class="btn btn-success">Submit Test</button>
+                </div>
+            </div>
+
+            <!-- Results Section -->
             <div id="results" class="results hidden">
                 <div class="results-content">
                     <h2>Test Results</h2>
                     <div class="result-status"></div>
                     <div class="result-details"></div>
+                    <div class="results-actions">
+                        <button id="retryBtn" class="btn btn-primary">Try Again</button>
+                        <button id="newPassageBtn" class="btn btn-secondary">New Passage</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=3.2"></script>
 </body>
 </html>

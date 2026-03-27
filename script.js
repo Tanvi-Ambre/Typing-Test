@@ -253,48 +253,179 @@ let timerInterval = null;
 let errorCount = 0;
 let startTime = null;
 let realtimeMode = true; // Toggle for real-time feedback
+let selectedPassageSource = 'random'; // 'random' or 'uploaded'
 
-// DOM elements
-const passageEl = document.getElementById('passage');
-const typingArea = document.getElementById('typingArea');
-const startBtn = document.getElementById('startBtn');
-const submitBtn = document.getElementById('submitBtn');
-const resetBtn = document.getElementById('resetBtn');
-const timerEl = document.getElementById('timer');
-const wordCountEl = document.getElementById('wordCount');
-const errorCountEl = document.getElementById('errorCount');
-const wpmEl = document.getElementById('wpm');
-const accuracyEl = document.getElementById('accuracy');
-const resultsEl = document.getElementById('results');
-const realtimeModeToggle = document.getElementById('realtimeMode');
+// DOM elements (will be initialized in DOMContentLoaded)
+let selectionSection;
+let previewSection;
+let testSection;
+let passageEl;
+let previewPassage;
+let typingArea;
+let loadPassageBtn;
+let startTypingBtn;
+let submitBtn;
+let exitTestBtn;
+let backToSelectionBtn;
+let timerEl;
+let wordCountEl;
+let previewWordCount;
+let errorCountEl;
+let wpmEl;
+let accuracyEl;
+let resultsEl;
+let passageSelect;
+let previewModeIndicator;
 
 // Initialize
 function init() {
-    // Load passages from uploaded .docx files or use extracted passages
-    const customPassages = loadCustomPassages();
-    const allPassages = [...passages, ...customPassages];
+    console.log('🔧 Initializing Speed Passage...');
+    populatePassageDropdown();
     
-    if (allPassages.length > 0) {
-        currentPassage = allPassages[Math.floor(Math.random() * allPassages.length)];
+    // Show selection section
+    if (selectionSection) {
+        selectionSection.classList.remove('hidden');
+        console.log('✓ Selection section shown');
     } else {
-        currentPassage = generateRandomPassage();
+        console.error('❌ selectionSection element not found');
     }
     
-    // Use textContent to preserve spaces with pre-wrap
-    passageEl.textContent = currentPassage;
-    
-    resetStats();
-    
-    // Calculate and display word count (after resetStats)
-    const wordCount = currentPassage.trim().split(/\s+/).length;
-    if (wordCountEl) {
-        wordCountEl.textContent = wordCount;
+    if (previewSection) {
+        previewSection.classList.add('hidden');
     }
     
-    updatePassageCount();
+    if (testSection) {
+        testSection.classList.add('hidden');
+    }
+    
+    if (resultsEl) {
+        resultsEl.classList.add('hidden');
+    }
+    
+    console.log('✓ Initialization complete');
 }
 
-function resetStats() {
+// Populate passage dropdown with all available passages
+function populatePassageDropdown() {
+    const customPassages = loadCustomPassages();
+    
+    if (!passageSelect) return;
+    
+    passageSelect.innerHTML = '';
+    
+    // Add pre-loaded passages
+    const preloadedGroup = document.createElement('optgroup');
+    preloadedGroup.label = `Pre-loaded Passages (${passages.length})`;
+    
+    passages.forEach((passage, index) => {
+        const option = document.createElement('option');
+        option.value = `preloaded-${index}`;
+        const wordCount = passage.trim().split(/\s+/).length;
+        option.textContent = `Pre-loaded Passage ${index + 1} (${wordCount} words)`;
+        preloadedGroup.appendChild(option);
+    });
+    
+    passageSelect.appendChild(preloadedGroup);
+    
+    // Add uploaded passages
+    if (customPassages.length > 0) {
+        const uploadedGroup = document.createElement('optgroup');
+        uploadedGroup.label = `Uploaded Passages (${customPassages.length})`;
+        
+        customPassages.forEach((passage, index) => {
+            const option = document.createElement('option');
+            option.value = `uploaded-${index}`;
+            option.textContent = `${passage.filename} (${passage.wordCount} words)`;
+            uploadedGroup.appendChild(option);
+        });
+        
+        passageSelect.appendChild(uploadedGroup);
+        
+        // Show clear button if there are uploaded passages
+        const clearBtn = document.getElementById('clearUploadedBtn');
+        if (clearBtn) {
+            clearBtn.classList.remove('hidden');
+        }
+    } else {
+        // Hide clear button if no uploaded passages
+        const clearBtn = document.getElementById('clearUploadedBtn');
+        if (clearBtn) {
+            clearBtn.classList.add('hidden');
+        }
+    }
+    
+    console.log(`✓ Dropdown populated: ${passages.length} pre-loaded, ${customPassages.length} uploaded`);
+}
+
+// Update passage count display (no longer used in UI, but kept for compatibility)
+function updatePassageCount() {
+    // Passages are now shown in dropdown only
+    // This function is kept for backward compatibility but doesn't update any UI element
+}
+
+// Load passage for preview (doesn't start timer)
+function loadPassageForPreview() {
+    const selectedValue = passageSelect.value;
+    
+    if (!selectedValue) {
+        showUploadFeedback('Please select a passage first', 'error');
+        return;
+    }
+    
+    // Get selected feedback mode
+    const feedbackMode = document.querySelector('input[name="feedbackMode"]:checked').value;
+    realtimeMode = (feedbackMode === 'realtime');
+    
+    // Parse selection
+    const [source, indexStr] = selectedValue.split('-');
+    const index = parseInt(indexStr);
+    
+    // Get passage text
+    if (source === 'preloaded') {
+        currentPassage = passages[index];
+    } else if (source === 'uploaded') {
+        const customPassages = loadCustomPassages();
+        currentPassage = customPassages[index].text;
+    }
+    
+    // Show preview
+    if (previewPassage) {
+        previewPassage.textContent = currentPassage;
+    }
+    
+    const wordCount = currentPassage.trim().split(/\s+/).length;
+    if (previewWordCount) {
+        previewWordCount.textContent = wordCount;
+    }
+    
+    // Update mode indicator
+    if (previewModeIndicator) {
+        if (realtimeMode) {
+            previewModeIndicator.textContent = '✓ Real-time Feedback';
+            previewModeIndicator.className = 'mode-indicator practice';
+        } else {
+            previewModeIndicator.textContent = '📝 Exam Mode';
+            previewModeIndicator.className = 'mode-indicator test';
+        }
+    }
+    
+    // Show preview section
+    selectionSection.classList.add('hidden');
+    previewSection.classList.remove('hidden');
+    
+    console.log(`✓ Passage loaded for preview (${wordCount} words)`);
+    console.log(`✓ Mode: ${realtimeMode ? 'Real-time' : 'Exam'}`);
+}
+
+// Start test from preview (starts timer)
+function startTestFromPreview() {
+    // Setup test UI
+    passageEl.textContent = currentPassage;
+    
+    const wordCount = currentPassage.trim().split(/\s+/).length;
+    wordCountEl.textContent = wordCount;
+    
+    // Reset test state
     testStarted = false;
     testEnded = false;
     timeRemaining = 420;
@@ -302,10 +433,10 @@ function resetStats() {
     startTime = null;
     
     typingArea.value = '';
-    typingArea.disabled = true;
-    typingArea.style.display = 'block';
+    typingArea.disabled = false;
+    typingArea.style.display = ''; // Show typing area (in case it was hidden)
     
-    // Remove any highlight divs
+    // Remove any error highlighting divs from previous test
     const highlightDiv = document.querySelector('.typing-area-highlight');
     if (highlightDiv) {
         highlightDiv.remove();
@@ -316,29 +447,23 @@ function resetStats() {
     wpmEl.textContent = '0';
     accuracyEl.textContent = '100%';
     
-    // Word count will be set by init() function
+    // Show submit button
+    if (submitBtn) {
+        submitBtn.classList.remove('hidden');
+    }
     
+    // Show test section
+    previewSection.classList.add('hidden');
+    testSection.classList.remove('hidden');
     resultsEl.classList.add('hidden');
-    startBtn.disabled = false;
-    submitBtn.classList.add('hidden');
-    realtimeModeToggle.disabled = false;
     
-    // Use textContent to preserve spaces
-    passageEl.textContent = currentPassage;
-}
-
-function startTest() {
+    // Start test immediately
     testStarted = true;
-    testEnded = false;
     startTime = Date.now();
-    
-    typingArea.disabled = false;
     typingArea.focus();
-    startBtn.disabled = true;
-    submitBtn.classList.remove('hidden');
-    realtimeModeToggle.disabled = true;
-    
     timerInterval = setInterval(updateTimer, 1000);
+    
+    console.log(`✓ Test started with timer`);
 }
 
 function endTest() {
@@ -347,7 +472,11 @@ function endTest() {
     
     clearInterval(timerInterval);
     typingArea.disabled = true;
-    submitBtn.classList.add('hidden');
+    
+    // Hide submit button since test is ended
+    if (submitBtn) {
+        submitBtn.classList.add('hidden');
+    }
     
     // If not in realtime mode, show errors in typing area
     if (!realtimeMode) {
@@ -617,7 +746,36 @@ function showResults() {
     // Check if passage is completed
     const passageCompleted = stats.typedWordsCount >= stats.totalWords;
     
-    const passed = stats.errors <= 14 && passageCompleted;
+    // Scoring calculation - Speed Passage is 40 marks, passing is 16
+    const totalMarks = 40;
+    const minMarksRequired = 16;
+    
+    // Marks breakdown:
+    // - Completion: 12 marks (all words typed)
+    // - Accuracy: 16 marks (based on correct words)
+    // - Speed: 12 marks (WPM >= 30)
+    
+    let marksObtained = 0;
+    
+    // Completion marks (12)
+    if (passageCompleted) {
+        marksObtained += 12;
+    } else {
+        marksObtained += Math.round((stats.typedWordsCount / stats.totalWords) * 12);
+    }
+    
+    // Accuracy marks (16) - based on correct words
+    const accuracyScore = stats.totalWords > 0 ? (stats.correctWords / stats.totalWords) : 0;
+    marksObtained += Math.round(accuracyScore * 16);
+    
+    // Speed marks (12) - WPM >= 30 gets full marks
+    if (wpm >= 30) {
+        marksObtained += 12;
+    } else {
+        marksObtained += Math.round((wpm / 30) * 12);
+    }
+    
+    const passed = stats.errors <= 14 && passageCompleted && marksObtained >= minMarksRequired;
     
     const statusEl = resultsEl.querySelector('.result-status');
     const detailsEl = resultsEl.querySelector('.result-details');
@@ -630,40 +788,48 @@ function showResults() {
     const secondsUsed = timeUsed % 60;
     
     detailsEl.innerHTML = `
-        <p><strong>Result:</strong> ${passed ? 'Congratulations! You passed the test.' : 'You did not pass this time. Keep practicing!'}</p>
+        <button id="closeResultsX" class="close-modal-btn" title="Close">×</button>
         
-        <div style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 6px;">
-            <h3 style="margin: 0 0 10px 0; font-size: 1em; color: #495057;">📊 Word Statistics</h3>
-            <p><strong>Total Words in Passage:</strong> ${stats.totalWords}</p>
-            <p><strong>Words Typed:</strong> ${stats.typedWordsCount}</p>
-            <p><strong>Correct Words:</strong> <span style="color: #28a745;">${stats.correctWords}</span></p>
-            <p><strong>Incorrect Words:</strong> <span style="color: #dc3545;">${stats.incorrectWords}</span></p>
-            <p><strong>Spelling Errors:</strong> ${stats.spellingErrors}</p>
-            <p><strong>Extra Words (Insertions):</strong> ${stats.insertions}</p>
-            <p><strong>Missing Words (Deletions):</strong> ${stats.deletions}</p>
+        <div style="margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 8px;">
+            <h3 style="margin: 0 0 15px 0; font-size: 1.1em; color: #495057; border-bottom: 2px solid #dee2e6; padding-bottom: 8px;">📊 Word Statistics</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <p style="margin: 5px 0;"><strong>Total Words:</strong> ${stats.totalWords}</p>
+                <p style="margin: 5px 0;"><strong>Typed Words:</strong> ${stats.typedWordsCount}</p>
+                <p style="margin: 5px 0;"><strong>Correct Words:</strong> <span style="color: #28a745;">${stats.correctWords}</span></p>
+                <p style="margin: 5px 0;"><strong>Incorrect Words:</strong> <span style="color: #dc3545;">${stats.incorrectWords}</span></p>
+                <p style="margin: 5px 0;"><strong>Insertions:</strong> ${stats.insertions}</p>
+                <p style="margin: 5px 0;"><strong>Deletions:</strong> ${stats.deletions}</p>
+                <p style="margin: 5px 0;" colspan="2"><strong>Spelling Errors:</strong> ${stats.spellingErrors}</p>
+            </div>
         </div>
         
-        <div style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 6px;">
-            <h3 style="margin: 0 0 10px 0; font-size: 1em; color: #495057;">⚡ Performance Metrics</h3>
-            <p><strong>Total Errors:</strong> ${stats.errors} / 14 allowed</p>
-            <p><strong>Accuracy:</strong> ${accuracy}%</p>
-            <p><strong>Words Per Minute:</strong> ${wpm} WPM</p>
-            <p><strong>Time Used:</strong> ${minutesUsed}:${secondsUsed.toString().padStart(2, '0')} / 7:00</p>
-            <p><strong>Characters Typed:</strong> ${totalTyped} / ${passageText.length}</p>
-            <p><strong>Correct Characters:</strong> ${stats.correctChars}</p>
+        <div style="margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 8px;">
+            <h3 style="margin: 0 0 15px 0; font-size: 1.1em; color: #495057; border-bottom: 2px solid #dee2e6; padding-bottom: 8px;">⚡ Performance Metrics</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <p style="margin: 5px 0;"><strong>Time Used:</strong> ${minutesUsed}:${secondsUsed.toString().padStart(2, '0')} / 7:00</p>
+                <p style="margin: 5px 0;"><strong>Errors:</strong> ${stats.errors} / 14</p>
+                <p style="margin: 5px 0;"><strong>WPM:</strong> ${wpm}</p>
+                <p style="margin: 5px 0;"><strong>Accuracy:</strong> ${accuracy}%</p>
+            </div>
+        </div>
+        
+        <div style="margin: 20px 0; padding: 20px; background: ${passed ? '#d4edda' : '#f8d7da'}; border-radius: 8px; border: 2px solid ${passed ? '#28a745' : '#dc3545'};">
+            <h3 style="margin: 0 0 15px 0; font-size: 1.1em; color: ${passed ? '#155724' : '#721c24'}; border-bottom: 2px solid ${passed ? '#c3e6cb' : '#f5c6cb'}; padding-bottom: 8px;">🎯 Marks & Result</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <p style="margin: 5px 0;"><strong>Total Marks:</strong> ${totalMarks}</p>
+                <p style="margin: 5px 0;"><strong>Passing Marks:</strong> ${minMarksRequired}</p>
+                <p style="margin: 5px 0; grid-column: 1 / -1;"><strong>Marks Obtained:</strong> <span style="font-size: 1.3em; color: ${passed ? '#28a745' : '#dc3545'};">${marksObtained} / ${totalMarks}</span></p>
+            </div>
+            <p style="margin: 15px 0 0 0; padding-top: 10px; border-top: 1px solid ${passed ? '#c3e6cb' : '#f5c6cb'}; font-weight: bold; font-size: 1.2em; color: ${passed ? '#155724' : '#721c24'}; text-align: center;">
+                ${passed ? '✓ PASS' : '✗ FAIL'}
+            </p>
         </div>
         
         ${!passed && stats.errors > 14 ? '<p style="color: #dc3545; margin-top: 15px;">⚠ Too many errors. Maximum 14 errors allowed.</p>' : ''}
         ${!passed && !passageCompleted ? '<p style="color: #dc3545; margin-top: 15px;">⚠ Passage not completed. Type all words.</p>' : ''}
-        <p style="margin-top: 20px; color: #666; font-style: italic;">
-            ${passed ? 'Great job! Your typing accuracy and speed meet the requirements.' : 'Keep practicing to improve your accuracy and speed. Focus on typing each word correctly.'}
-        </p>
-        <p style="margin-top: 15px; color: #667eea; font-weight: 500;">
-            ${!realtimeMode ? '💡 Close this popup to review your errors highlighted in the typing area.' : ''}
-        </p>
+        ${!realtimeMode ? '<p style="margin-top: 15px; color: #667eea; font-weight: 500;">💡 Close this popup to review your errors highlighted in the typing area.</p>' : ''}
         <div style="margin-top: 25px; display: flex; gap: 10px; justify-content: center;">
             <button id="closeResultsBtn" class="btn btn-secondary">Close & Review</button>
-            <button id="newTestBtn" class="btn btn-primary">Start New Test</button>
         </div>
     `;
     
@@ -671,7 +837,7 @@ function showResults() {
     
     // Add event listeners
     document.getElementById('closeResultsBtn').addEventListener('click', closeResults);
-    document.getElementById('newTestBtn').addEventListener('click', startNewTest);
+    document.getElementById('closeResultsX').addEventListener('click', closeResults);
 }
 
 function closeResults() {
@@ -703,105 +869,6 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
-// Event listeners
-startBtn.addEventListener('click', startTest);
-
-submitBtn.addEventListener('click', () => {
-    if (testStarted && !testEnded) {
-        endTest();
-    }
-});
-
-resetBtn.addEventListener('click', () => {
-    if (timerInterval) {
-        clearInterval(timerInterval);
-    }
-    init();
-});
-
-realtimeModeToggle.addEventListener('change', (e) => {
-    realtimeMode = e.target.checked;
-    if (!testStarted) {
-        // Reset passage display when mode changes - use textContent to preserve spaces
-        passageEl.textContent = currentPassage;
-    }
-});
-
-typingArea.addEventListener('input', () => {
-    if (testStarted && !testEnded) {
-        highlightText();
-    }
-});
-
-// Prevent Tab key from leaving textarea - insert spaces instead
-typingArea.addEventListener('keydown', (e) => {
-    if (e.key === 'Tab' && !typingArea.disabled) {
-        e.preventDefault();
-        
-        // Insert 5 spaces at cursor position (standard indentation)
-        const start = typingArea.selectionStart;
-        const end = typingArea.selectionEnd;
-        const value = typingArea.value;
-        
-        typingArea.value = value.substring(0, start) + '     ' + value.substring(end);
-        
-        // Move cursor after the inserted spaces
-        typingArea.selectionStart = typingArea.selectionEnd = start + 5;
-        
-        // Trigger input event to update highlighting
-        const inputEvent = new Event('input', { bubbles: true });
-        typingArea.dispatchEvent(inputEvent);
-    }
-});
-
-// Prevent paste
-typingArea.addEventListener('paste', (e) => {
-    e.preventDefault();
-    alert('Pasting is not allowed in the typing test!');
-});
-
-// Initialize on load
-document.addEventListener('DOMContentLoaded', () => {
-    init();
-    
-    // Sidebar toggle functionality
-    const sidebar = document.getElementById('sidebar');
-    const sidebarToggle = document.getElementById('sidebarToggle');
-    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-    const mainContent = document.querySelector('.main-content');
-    
-    // Desktop toggle (collapse/expand)
-    if (sidebarToggle) {
-        sidebarToggle.addEventListener('click', () => {
-            sidebar.classList.toggle('collapsed');
-            mainContent.classList.toggle('sidebar-collapsed');
-        });
-    }
-    
-    // Mobile toggle (open/close)
-    if (mobileMenuBtn) {
-        mobileMenuBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            sidebar.classList.toggle('open');
-        });
-    }
-    
-    // Close sidebar when clicking outside on mobile
-    document.addEventListener('click', (e) => {
-        if (window.innerWidth <= 768) {
-            if (!sidebar.contains(e.target) && !e.target.closest('.mobile-menu-btn')) {
-                sidebar.classList.remove('open');
-            }
-        }
-    });
-    
-    // Prevent clicks inside sidebar from closing it
-    sidebar.addEventListener('click', (e) => {
-        e.stopPropagation();
-    });
-});
-
-
 // ===== PASSAGE UPLOAD FUNCTIONALITY =====
 
 // Load custom passages from localStorage
@@ -813,7 +880,6 @@ function loadCustomPassages() {
 // Save custom passages to localStorage
 function saveCustomPassages(passages) {
     localStorage.setItem('customPassages', JSON.stringify(passages));
-    updatePassageCount();
 }
 
 // Update passage count display
@@ -831,84 +897,328 @@ function updatePassageCount() {
     }
 }
 
-// Handle .docx file upload
+// Handle .docx file upload (server-side)
 async function handleDocxUpload(files) {
-    const passageInfo = document.getElementById('passageInfo');
-    
-    passageInfo.classList.remove('hidden');
-    passageInfo.textContent = `Processing ${files.length} file(s)...`;
+    showUploadFeedback(`Uploading ${files.length} file(s) to server...`, 'info');
     
     const customPassages = loadCustomPassages();
     let successCount = 0;
+    let duplicateCount = 0;
+    let lastUploadedIndex = -1;
     
     for (const file of files) {
         try {
-            const arrayBuffer = await file.arrayBuffer();
-            const result = await mammoth.extractRawText({ arrayBuffer });
-            let text = result.value.trim();
+            console.log(`📤 Uploading ${file.name} to server...`);
             
-            if (!text || text.length < 50) {
-                console.warn(`Skipped ${file.name}: too short or empty`);
-                continue;
-            }
+            // Create FormData for upload
+            const formData = new FormData();
+            formData.append('docx', file);
             
-            // Format the passage: split into paragraphs and add 5-space indents
-            const paragraphs = text.split(/\n\s*\n/).map(p => p.replace(/\s+/g, ' ').trim()).filter(p => p.length > 0);
-            const formatted = paragraphs.map(p => '     ' + p).join('\n');
-            
-            const wordCount = formatted.trim().split(/\s+/).length;
-            
-            customPassages.push({
-                filename: file.name,
-                text: formatted,
-                wordCount: wordCount,
-                uploadedAt: new Date().toISOString()
+            // Upload to server
+            const response = await fetch('/api/upload-passage-docx', {
+                method: 'POST',
+                body: formData
             });
             
+            const result = await response.json();
+            
+            if (!response.ok || !result.success) {
+                throw new Error(result.error || 'Upload failed');
+            }
+            
+            console.log(`✅ Server extracted ${result.filename}: ${result.wordCount} words`);
+            
+            // Check for duplicates by filename
+            const existingIndex = customPassages.findIndex(p => p.filename === result.filename);
+            
+            if (existingIndex >= 0) {
+                // Update existing passage instead of adding duplicate
+                console.log(`ℹ️ ${result.filename} already exists, updating...`);
+                customPassages[existingIndex] = {
+                    filename: result.filename,
+                    text: result.text,
+                    wordCount: result.wordCount,
+                    uploadedAt: new Date().toISOString()
+                };
+                lastUploadedIndex = existingIndex;
+                duplicateCount++;
+            } else {
+                // Add new passage
+                customPassages.push({
+                    filename: result.filename,
+                    text: result.text,
+                    wordCount: result.wordCount,
+                    uploadedAt: new Date().toISOString()
+                });
+                lastUploadedIndex = customPassages.length - 1;
+            }
+            
             successCount++;
-            console.log(`✓ Extracted ${file.name}: ${wordCount} words`);
             
         } catch (error) {
-            console.error(`Error processing ${file.name}:`, error);
+            console.error(`❌ Error uploading ${file.name}:`, error.message);
         }
     }
     
     if (successCount > 0) {
         saveCustomPassages(customPassages);
-        passageInfo.textContent = `✓ Uploaded ${successCount} passage(s)`;
         
-        setTimeout(() => {
-            passageInfo.classList.add('hidden');
-        }, 3000);
+        let message = `✓ Successfully uploaded ${successCount} passage(s).`;
+        if (duplicateCount > 0) {
+            message += ` ${duplicateCount} duplicate(s) updated.`;
+        }
+        message += ' Stored in browser for future use.';
+        
+        showUploadFeedback(message, 'success');
+        
+        // Refresh dropdown
+        populatePassageDropdown();
+        
+        // Auto-select the last uploaded file
+        if (lastUploadedIndex >= 0 && passageSelect) {
+            passageSelect.value = `uploaded-${lastUploadedIndex}`;
+            console.log(`✓ Auto-selected uploaded passage: uploaded-${lastUploadedIndex}`);
+        }
     } else {
-        passageInfo.textContent = '✗ No valid passages found';
+        showUploadFeedback('✗ Upload failed', 'error');
+    }
+}
+
+// Show upload feedback
+function showUploadFeedback(message, type) {
+    const feedback = document.getElementById('uploadFeedback');
+    if (!feedback) return;
+    
+    feedback.textContent = message;
+    feedback.className = `upload-feedback ${type}`;
+    feedback.classList.remove('hidden');
+    
+    if (type === 'success' || type === 'error') {
         setTimeout(() => {
-            passageInfo.classList.add('hidden');
+            feedback.classList.add('hidden');
         }, 3000);
     }
 }
 
-// Setup upload button
+// Setup all event handlers when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('📄 DOM Content Loaded');
+    
+    // Initialize DOM elements
+    selectionSection = document.getElementById('selectionSection');
+    previewSection = document.getElementById('previewSection');
+    testSection = document.getElementById('testSection');
+    passageEl = document.getElementById('passage');
+    previewPassage = document.getElementById('previewPassage');
+    typingArea = document.getElementById('typingArea');
+    loadPassageBtn = document.getElementById('loadPassageBtn');
+    startTypingBtn = document.getElementById('startTypingBtn');
+    submitBtn = document.getElementById('submitBtn');
+    exitTestBtn = document.getElementById('exitTestBtn');
+    backToSelectionBtn = document.getElementById('backToSelectionBtn');
+    timerEl = document.getElementById('timer');
+    wordCountEl = document.getElementById('wordCount');
+    previewWordCount = document.getElementById('previewWordCount');
+    errorCountEl = document.getElementById('errorCount');
+    wpmEl = document.getElementById('wpm');
+    accuracyEl = document.getElementById('accuracy');
+    resultsEl = document.getElementById('results');
+    passageSelect = document.getElementById('passageSelect');
+    previewModeIndicator = document.getElementById('previewModeIndicator');
+    
+    console.log('✓ DOM elements initialized:', {
+        selectionSection: !!selectionSection,
+        previewSection: !!previewSection,
+        loadPassageBtn: !!loadPassageBtn,
+        uploadPassageBtn: !!document.getElementById('uploadPassageBtn')
+    });
+    
+    // Typing area event listeners
+    if (typingArea) {
+        // Real-time highlighting during typing
+        typingArea.addEventListener('input', () => {
+            if (testStarted && !testEnded) {
+                highlightText();
+            }
+        });
+
+        // Prevent Tab key from leaving textarea - insert spaces instead
+        typingArea.addEventListener('keydown', (e) => {
+            if (e.key === 'Tab' && !typingArea.disabled) {
+                e.preventDefault();
+                
+                // Insert 5 spaces at cursor position (standard indentation)
+                const start = typingArea.selectionStart;
+                const end = typingArea.selectionEnd;
+                const value = typingArea.value;
+                
+                typingArea.value = value.substring(0, start) + '     ' + value.substring(end);
+                
+                // Move cursor after the inserted spaces
+                typingArea.selectionStart = typingArea.selectionEnd = start + 5;
+                
+                // Trigger input event to update highlighting
+                const inputEvent = new Event('input', { bubbles: true });
+                typingArea.dispatchEvent(inputEvent);
+            }
+        });
+        
+        // Prevent paste
+        typingArea.addEventListener('paste', (e) => {
+            e.preventDefault();
+            alert('Pasting is not allowed in the typing test!');
+        });
+    }
+    
+    // Upload button
     const uploadPassageBtn = document.getElementById('uploadPassageBtn');
     const docxInput = document.getElementById('docxInput');
     
     if (uploadPassageBtn && docxInput) {
-        // Click upload button
+        console.log('✓ Upload button found, attaching event listener');
         uploadPassageBtn.addEventListener('click', () => {
+            console.log('📤 Upload button clicked');
             docxInput.click();
         });
         
-        // File input change
         docxInput.addEventListener('change', (e) => {
             const files = Array.from(e.target.files);
+            console.log(`📁 Files selected: ${files.length}`);
             if (files.length > 0) {
                 handleDocxUpload(files);
             }
             docxInput.value = ''; // Reset input
         });
+    } else {
+        console.error('❌ Upload button or input not found');
     }
     
-    // Initialize passage count
-    updatePassageCount();
+    // Clear uploaded passages button
+    const clearUploadedBtn = document.getElementById('clearUploadedBtn');
+    if (clearUploadedBtn) {
+        clearUploadedBtn.addEventListener('click', () => {
+            const customPassages = loadCustomPassages();
+            if (customPassages.length === 0) {
+                showUploadFeedback('No uploaded passages to clear', 'info');
+                return;
+            }
+            
+            const confirmClear = confirm(`Are you sure you want to clear all ${customPassages.length} uploaded passage(s)? This cannot be undone.`);
+            if (confirmClear) {
+                localStorage.removeItem('customPassages');
+                populatePassageDropdown();
+                showUploadFeedback('✓ All uploaded passages cleared', 'success');
+                console.log('✓ Cleared all uploaded passages');
+            }
+        });
+    }
+    
+    // Load passage button
+    if (loadPassageBtn) {
+        console.log('✓ Load passage button found, attaching event listener');
+        loadPassageBtn.addEventListener('click', () => {
+            console.log('📖 Load passage button clicked');
+            loadPassageForPreview();
+        });
+    } else {
+        console.error('❌ Load passage button not found');
+    }
+    
+    // Start typing button (from preview)
+    if (startTypingBtn) {
+        startTypingBtn.addEventListener('click', () => {
+            console.log('🚀 Start typing button clicked');
+            startTestFromPreview();
+        });
+    }
+    
+    // Back to selection button
+    if (backToSelectionBtn) {
+        backToSelectionBtn.addEventListener('click', () => {
+            previewSection.classList.add('hidden');
+            selectionSection.classList.remove('hidden');
+        });
+    }
+    
+    // Submit test button
+    if (submitBtn) {
+        submitBtn.addEventListener('click', endTest);
+    }
+    
+    // Back button (was Exit button)
+    if (exitTestBtn) {
+        exitTestBtn.addEventListener('click', () => {
+            // If test is in progress, show results
+            if (testStarted && !testEnded) {
+                endTest();
+            } else if (testEnded) {
+                // If test already ended, just show results again
+                resultsEl.classList.remove('hidden');
+            } else {
+                // If test hasn't started, go back to selection
+                testSection.classList.add('hidden');
+                selectionSection.classList.remove('hidden');
+            }
+        });
+    }
+    
+    // Retry button (from results) - Try same passage again
+    const retryBtn = document.getElementById('retryBtn');
+    if (retryBtn) {
+        retryBtn.addEventListener('click', () => {
+            console.log('🔄 Retry button clicked');
+            resultsEl.classList.add('hidden');
+            testSection.classList.add('hidden');
+            previewSection.classList.remove('hidden');
+        });
+    }
+    
+    // New passage button (from results) - Go back to selection
+    const newPassageBtn = document.getElementById('newPassageBtn');
+    if (newPassageBtn) {
+        newPassageBtn.addEventListener('click', () => {
+            console.log('🆕 New passage button clicked');
+            resultsEl.classList.add('hidden');
+            testSection.classList.add('hidden');
+            previewSection.classList.add('hidden');
+            selectionSection.classList.remove('hidden');
+        });
+    }
+    
+    // Sidebar toggle functionality
+    const sidebar = document.getElementById('sidebar');
+    const sidebarToggle = document.getElementById('sidebarToggle');
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mainContent = document.querySelector('.main-content');
+    
+    if (sidebarToggle) {
+        sidebarToggle.addEventListener('click', () => {
+            sidebar.classList.toggle('collapsed');
+            mainContent.classList.toggle('sidebar-collapsed');
+        });
+    }
+    
+    if (mobileMenuBtn) {
+        mobileMenuBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            sidebar.classList.toggle('open');
+        });
+    }
+    
+    document.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768) {
+            if (!sidebar.contains(e.target) && !e.target.closest('.mobile-menu-btn')) {
+                sidebar.classList.remove('open');
+            }
+        }
+    });
+    
+    if (sidebar) {
+        sidebar.addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+    }
+    
+    // Initialize
+    init();
 });

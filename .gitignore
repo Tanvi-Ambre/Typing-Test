@@ -29,3 +29,6 @@ Thumbs.db
 # Build/extraction outputs (optional - keep if you want to commit them)
 # extracted-passages.json
 # extracted-mcq.json
+
+# Server uploads directory
+uploads/
