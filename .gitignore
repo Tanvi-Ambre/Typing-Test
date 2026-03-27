@@ -9,6 +9,11 @@ test-*.js
 node_modules/
 package-lock.json
 
+# Exam materials (source files) - ignore content but not the folder structure
+exam-materials/**/*.docx
+exam-materials/**/*.pdf
+exam-materials/**/*.doc
+
 # System files
 .DS_Store
 Thumbs.db
