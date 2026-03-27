@@ -1,4 +1,3 @@
-The speed pass it doesn't seem like it's working.
 const PORT = 3001;
 
 // Configure multer for file uploads
