@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Writing - GCC TBC English Exam</title>
+    <link rel="stylesheet" href="mcq-style.css?v=1.2">
+    <link rel="stylesheet" href="email-style.css?v=1.2">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2>GCC TBC</h2>
+            <button class="sidebar-toggle" id="sidebarToggle">
+                <span class="toggle-icon">◀</span>
+            </button>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="index.html" class="nav-item">
+                <span class="nav-icon">⌨️</span>
+                <span class="nav-text">Speed Passage</span>
+            </a>
+            <a href="mcq-practice.html" class="nav-item">
+                <span class="nav-icon">📝</span>
+                <span class="nav-text">MCQ Practice</span>
+            </a>
+            <a href="email-writing.html" class="nav-item active">
+                <span class="nav-icon">📧</span>
+                <span class="nav-text">Email Writing</span>
+            </a>
+            <a href="#" class="nav-item disabled">
+                <span class="nav-icon">✉️</span>
+                <span class="nav-text">Letter Writing</span>
+            </a>
+            <a href="#" class="nav-item disabled">
+                <span class="nav-icon">📄</span>
+                <span class="nav-text">Statement</span>
+            </a>
+        </nav>
+        <div class="sidebar-footer">
+            <p>English Exam Practice</p>
+        </div>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+            <header>
+                <h1>Email Writing</h1>
+                <p class="subtitle">GCC TBC English Exam Practice</p>
+            </header>
+
+            <!-- Timer Bar -->
+            <div class="timer-bar">
+                <div class="timer-display" id="timerDisplay">⏱️ Time Remaining: 5:00</div>
+                <div class="timer-info">Total Marks: 5 | Passing: 2.5</div>
+            </div>
+
+            <!-- Start Screen -->
+            <div id="startScreen" class="section">
+                <div class="start-container">
+                    <div class="start-content">
+                        <h2>📧 Email Writing Test</h2>
+                        <div class="test-info">
+                            <p><strong>⏱️ Time Limit:</strong> 5 minutes</p>
+                            <p><strong>📊 Total Marks:</strong> 5</p>
+                            <p><strong>✅ Passing Marks:</strong> 2.5</p>
+                            <p><strong>📝 Task:</strong> Type the reference email exactly as shown</p>
+                        </div>
+                        <button id="startTestBtn" class="btn btn-primary btn-large">Start Test</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Email Writing Section -->
+            <div id="emailSection" class="section hidden">
+                <div class="email-container">
+                    <!-- Left Side - Reference Email -->
+                    <div class="reference-panel">
+                        <h2>📧 Reference Email</h2>
+                        <p class="instruction">Type the email exactly as shown below:</p>
+                        
+                        <div class="email-display">
+                            <div class="email-field">
+                                <label>Mail To:</label>
+                                <div class="field-value" id="refMailTo">manager@company.com</div>
+                            </div>
+                            
+                            <div class="email-field">
+                                <label>Subject:</label>
+                                <div class="field-value" id="refSubject">Request for Leave</div>
+                            </div>
+                            
+                            <div class="email-field">
+                                <label>Body:</label>
+                                <div class="field-value email-body" id="refBody">Dear Sir,
+I am writing to request leave from 15th to 20th January for personal reasons.
+I will ensure all pending work is completed before my leave.</div>
+                            </div>
+                            
+                            <div class="email-field">
+                                <label>Attachment:</label>
+                                <div class="field-value" id="refAttachment">Leave_Application.pdf</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side - User Input -->
+                    <div class="input-panel">
+                        <h2>✍️ Your Email</h2>
+                        <p class="instruction">Type the email in the fields below:</p>
+                        
+                        <form id="emailForm" class="email-form">
+                            <div class="form-group">
+                                <label for="userMailTo">Mail To:</label>
+                                <input type="text" id="userMailTo" class="form-input" placeholder="Enter email address">
+                                <span class="field-status" id="statusMailTo"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="userSubject">Subject:</label>
+                                <input type="text" id="userSubject" class="form-input" placeholder="Enter subject">
+                                <span class="field-status" id="statusSubject"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="userBody">Body:</label>
+                                <textarea id="userBody" class="form-textarea" rows="5" placeholder="Enter email body"></textarea>
+                                <span class="field-status" id="statusBody"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="userAttachment">Attachment:</label>
+                                <select id="userAttachment" class="form-select">
+                                    <option value="">-- Select Attachment --</option>
+                                    <option value="Leave_Application.pdf">Leave_Application.pdf</option>
+                                    <option value="Medical_Certificate.pdf">Medical_Certificate.pdf</option>
+                                    <option value="Project_Report.pdf">Project_Report.pdf</option>
+                                    <option value="Resume.pdf">Resume.pdf</option>
+                                </select>
+                                <span class="field-status" id="statusAttachment"></span>
+                            </div>
+                            
+                            <div class="form-actions">
+                                <button type="button" id="sendBtn" class="btn btn-success">📤 Send Email</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Modal -->
+            <div id="resultsModal" class="modal hidden">
+                <div class="modal-content">
+                    <button id="closeModalX" class="close-modal-btn">×</button>
+                    <h2>📧 Email Sent!</h2>
+                    <div id="resultsContent"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="email-script.js?v=1.2"></script>
+</body>
+</html>
