@@ -77,18 +77,27 @@ async function handlePDFUpload(file) {
     
     try {
         const text = await extractTextFromPDF(file);
+        
+        // Show extracted text in console for debugging
+        console.log('=== FULL EXTRACTED TEXT ===');
+        console.log(text);
+        console.log('=== END EXTRACTED TEXT ===');
+        
         const questions = parseQuestions(text);
         
         if (questions.length === 0) {
             showUploadFeedback('No questions found in PDF', 'error');
             
-            // Show helpful error message
-            const errorMsg = `No questions found. Please check:\n\n` +
-                `1. PDF format matches the guidelines (see SAMPLE_MCQ_FORMAT.md)\n` +
-                `2. Questions start with "Question 1:", "Question 2:", etc.\n` +
-                `3. Options use A), B), C), D) format\n` +
-                `4. Answers marked as "Answer: B" format\n\n` +
-                `Open browser console (F12) to see detailed parsing logs.`;
+            // Show helpful error message with extracted text preview
+            const textPreview = text.substring(0, 500);
+            const errorMsg = `No questions found in the PDF.\n\n` +
+                `Extracted text preview:\n${textPreview}\n\n` +
+                `Please check:\n` +
+                `1. PDF contains text (not scanned images)\n` +
+                `2. Questions are in table format with columns\n` +
+                `3. Open browser console (F12) to see full extracted text\n\n` +
+                `If the text looks correct in console, the PDF format might be different.\n` +
+                `Please share the console output for debugging.`;
             
             alert(errorMsg);
             return;
@@ -109,7 +118,7 @@ async function handlePDFUpload(file) {
     } catch (error) {
         console.error('Error processing PDF:', error);
         showUploadFeedback('✗ Error processing PDF', 'error');
-        alert(`Error processing PDF: ${error.message}\n\nPlease check:\n1. File is a valid PDF\n2. PDF is not password protected\n3. PDF contains text (not just images)`);
+        alert(`Error processing PDF: ${error.message}\n\nPlease check:\n1. File is a valid PDF\n2. PDF is not password protected\n3. PDF contains text (not just images)\n\nError details: ${error.stack}`);
     }
 }
 

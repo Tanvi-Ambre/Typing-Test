@@ -7,8 +7,8 @@ const path = require('path');
 // Check if pdf-parse is installed
 let pdfParse;
 try {
-    const pdfParseModule = require('pdf-parse');
-    pdfParse = pdfParseModule.default || pdfParseModule;
+    const pdfModule = require('pdf-parse');
+    pdfParse = pdfModule.PDFParse || pdfModule;
 } catch (e) {
     console.error('❌ Error: pdf-parse not installed');
     console.log('\n📦 Please install it first:');
@@ -213,7 +213,8 @@ function parseTableFormat(text) {
 async function extractQuestionsFromPDF(filePath) {
     try {
         const dataBuffer = fs.readFileSync(filePath);
-        const data = await pdfParse(dataBuffer);
+        const parser = new pdfParse();
+        const data = await parser.parse(dataBuffer);
         
         console.log(`\n📄 Processing: ${path.basename(filePath)}`);
         console.log(`   Pages: ${data.numpages}`);
@@ -238,8 +239,18 @@ async function extractQuestionsFromPDF(filePath) {
 async function main() {
     console.log('🔍 Scanning for MCQ PDF files...\n');
     
-    const pdfFiles = fs.readdirSync('.')
-        .filter(file => file.endsWith('.pdf') && file.includes('BATCH'));
+    // Look in exam-materials/mcq-questions/ folder
+    const mcqFolder = path.join(__dirname, 'exam-materials', 'mcq-questions');
+    
+    if (!fs.existsSync(mcqFolder)) {
+        console.error(`❌ Folder not found: ${mcqFolder}`);
+        console.log('\n📁 Please create the folder or update the path in this script.');
+        process.exit(1);
+    }
+    
+    const pdfFiles = fs.readdirSync(mcqFolder)
+        .filter(file => file.endsWith('.pdf') && file.includes('BATCH'))
+        .map(file => path.join(mcqFolder, file));
     
     console.log(`Found ${pdfFiles.length} PDF file(s)\n`);
     
