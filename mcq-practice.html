@@ -56,24 +56,46 @@
             <!-- Upload Section -->
             <div id="uploadSection" class="section">
                 <div class="upload-card">
-                    <h2>📄 Upload Question Bank</h2>
-                    <p class="info-text">Upload a PDF file containing MCQ questions with options and answers</p>
+                    <h2>📄 MCQ Practice</h2>
                     
-                    <div class="upload-area" id="uploadArea">
-                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                            <polyline points="17 8 12 3 7 8"></polyline>
-                            <line x1="12" y1="3" x2="12" y2="15"></line>
-                        </svg>
-                        <p>Click to upload or drag and drop</p>
-                        <p class="file-types">PDF files only</p>
-                        <input type="file" id="pdfInput" accept=".pdf" hidden>
+                    <!-- Question Set Selection -->
+                    <div class="question-set-selection">
+                        <label for="questionSetSelect"><strong>Select Question Set:</strong></label>
+                        <select id="questionSetSelect" class="set-select">
+                            <option value="">Loading...</option>
+                        </select>
+                        
+                        <!-- Mode Selection -->
+                        <div class="mode-selection">
+                            <label><strong>Select Mode:</strong></label>
+                            <div class="mode-options">
+                                <label class="mode-option">
+                                    <input type="radio" name="practiceMode" value="practice" checked>
+                                    <span class="mode-label">
+                                        <span class="mode-icon">📚</span>
+                                        <span class="mode-name">Practice Mode</span>
+                                        <span class="mode-desc">See correct answers immediately</span>
+                                    </span>
+                                </label>
+                                <label class="mode-option">
+                                    <input type="radio" name="practiceMode" value="test">
+                                    <span class="mode-label">
+                                        <span class="mode-icon">📝</span>
+                                        <span class="mode-name">Test Mode</span>
+                                        <span class="mode-desc">Results shown at the end</span>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="selection-actions">
+                            <button id="startPracticeFromSetBtn" class="btn btn-primary">Start</button>
+                            <button id="uploadPdfBtn" class="btn btn-secondary" title="Upload custom PDF">📄 Upload PDF</button>
+                            <input type="file" id="pdfInput" accept=".pdf" style="display: none;">
+                        </div>
                     </div>
-
-                    <div id="fileInfo" class="file-info hidden">
-                        <p><strong>File:</strong> <span id="fileName"></span></p>
-                        <p><strong>Status:</strong> <span id="fileStatus">Processing...</span></p>
-                    </div>
+                    
+                    <div id="uploadFeedback" class="upload-feedback hidden"></div>
 
                     <div class="stored-questions" id="storedQuestions">
                         <h3>📚 Question Bank</h3>
@@ -86,10 +108,14 @@
             <!-- Practice Section -->
             <div id="practiceSection" class="section hidden">
                 <div class="practice-header">
-                    <h2>Practice Questions</h2>
+                    <div>
+                        <h2 id="practiceTitle">Practice Questions</h2>
+                        <span id="modeIndicator" class="mode-indicator"></span>
+                    </div>
                     <div class="practice-stats">
                         <span>Question <span id="currentQuestion">1</span> of <span id="totalQuestions">0</span></span>
-                        <span>Score: <span id="currentScore">0</span></span>
+                        <span id="scoreDisplay">Score: <span id="currentScore">0</span></span>
+                        <button id="exitPracticeBtn" class="btn btn-exit" title="Exit and return to question selection">✕ Exit</button>
                     </div>
                 </div>
 
@@ -98,11 +124,21 @@
                     <div class="question-text" id="questionText"></div>
                     
                     <div class="options" id="optionsContainer"></div>
+                    
+                    <!-- Feedback for Practice Mode -->
+                    <div id="answerFeedback" class="answer-feedback hidden"></div>
 
                     <div class="question-navigation">
                         <button id="prevBtn" class="btn btn-secondary">← Previous</button>
                         <button id="nextBtn" class="btn btn-primary">Next →</button>
                         <button id="submitBtn" class="btn btn-success hidden">Submit Answers</button>
+                    </div>
+                    
+                    <!-- Floating Submit Button for Test Mode -->
+                    <div id="floatingSubmit" class="floating-submit hidden">
+                        <button id="floatingSubmitBtn" class="btn btn-success">
+                            📝 Submit Test
+                        </button>
                     </div>
                 </div>
             </div>
@@ -141,6 +177,8 @@
 
     <!-- PDF.js Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <!-- Extracted MCQ questions -->
+    <script src="mcq-data.js"></script>
     <script src="mcq-script.js"></script>
 </body>
 </html>

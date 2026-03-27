@@ -226,7 +226,10 @@ function generateRandomPassage() {
 
 // Sample passages for 30 WPM test (EXACTLY 210 words for 7 minutes)
 // Each paragraph starts with 5 spaces for proper indentation (standard typing format)
-const passages = [
+// These are fallback passages if extractedPassages is not available
+const passages = typeof extractedPassages !== 'undefined' && extractedPassages.length > 0 
+    ? extractedPassages 
+    : [
     "     The art of communication is the language of leadership. Effective leaders know that their words have power and impact. They choose their words carefully and speak with clarity and purpose. Good communication builds trust and creates strong relationships (both personal and professional). It helps teams work together towards common goals. When people understand each other well, they can solve problems more easily.\n     Clear communication reduces confusion and prevents mistakes; it saves time and improves productivity. In the workplace, good communication skills are essential for success. They help in presenting ideas, giving feedback, and resolving conflicts. Active listening is just as important as speaking clearly. When we listen carefully to others, we show respect and build rapport. As the saying goes, \"Communication works for those who work at it.\"\n     Communication is not just about words. Body language, tone of voice, and facial expressions also convey important messages. Being aware of these non-verbal cues (gestures, posture, eye contact) helps us communicate more effectively. In today's digital age, written communication has become increasingly important. Taking time to improve communication skills is a worthwhile investment. Practice makes perfect, and anyone can become a better communicator with effort and dedication. Remember: effective communication is a two-way street that requires both speaking and listening skills to create meaningful connections.",
     
     "     Technology has transformed the way we live and work in remarkable ways. From smartphones to artificial intelligence (AI), innovations continue to shape our daily lives. The internet has connected people across the globe, making information accessible to everyone. Social media platforms allow us to share experiences and stay in touch with friends and family. Online shopping has revolutionized retail, offering convenience and variety.\n     Digital payment systems have made transactions faster and more secure; cloud computing enables businesses to store and access data from anywhere. Remote work has become common, giving employees flexibility and balance. Video conferencing tools help teams collaborate effectively across distances. Educational technology has opened new learning opportunities for students worldwide. As experts say, \"Technology is best when it brings people together.\" These innovations have changed how we learn.\n     Healthcare has benefited from technological advances with telemedicine and electronic health records (EHR). Wearable devices track fitness and health metrics, encouraging healthier lifestyles. However, with these benefits come challenges: privacy concerns and cybersecurity threats require constant attention. As technology evolves, we must adapt and learn continuously. The future promises even more exciting innovations (quantum computing, biotechnology, renewable energy) that will further change our world. Embracing technology while maintaining human connections is key to progress and happiness.",
@@ -267,9 +270,12 @@ const realtimeModeToggle = document.getElementById('realtimeMode');
 
 // Initialize
 function init() {
-    // 50% chance to use generated passage, 50% chance to use static passage
-    if (Math.random() < 0.5 && passages.length > 0) {
-        currentPassage = passages[Math.floor(Math.random() * passages.length)];
+    // Load passages from uploaded .docx files or use extracted passages
+    const customPassages = loadCustomPassages();
+    const allPassages = [...passages, ...customPassages];
+    
+    if (allPassages.length > 0) {
+        currentPassage = allPassages[Math.floor(Math.random() * allPassages.length)];
     } else {
         currentPassage = generateRandomPassage();
     }
@@ -284,6 +290,8 @@ function init() {
     if (wordCountEl) {
         wordCountEl.textContent = wordCount;
     }
+    
+    updatePassageCount();
 }
 
 function resetStats() {
@@ -371,16 +379,17 @@ function updateTimer() {
 }
 
 function calculateErrors(typedText, passageText) {
-    // Standard typing test error counting:
-    // Compare word by word, count errors per word
-    // This way "imaginationnk" vs "imagination" = 1 error (wrong word)
-    // Not cascading character errors
-    
-    const typedWords = typedText.trim().split(/\s+/);
-    const passageWords = passageText.trim().split(/\s+/);
+    // Word-by-word comparison with detailed statistics
+    const typedWords = typedText.trim().split(/\s+/).filter(w => w.length > 0);
+    const passageWords = passageText.trim().split(/\s+/).filter(w => w.length > 0);
     
     let errors = 0;
     let correctChars = 0;
+    let correctWords = 0;
+    let incorrectWords = 0;
+    let spellingErrors = 0;
+    let insertions = 0;
+    let deletions = 0;
     
     const maxWords = Math.max(typedWords.length, passageWords.length);
     
@@ -390,46 +399,77 @@ function calculateErrors(typedText, passageText) {
         
         if (typedWord === passageWord) {
             // Word is completely correct
+            correctWords++;
             correctChars += typedWord.length;
             if (i < maxWords - 1) correctChars++; // Count space
         } else if (typedWord && passageWord) {
-            // Word has errors - count as 1 error per word
+            // Word has errors
             errors++;
-            // But still count correct characters within the word
+            incorrectWords++;
+            
+            // Check if it's a spelling error (similar length, some matching chars)
             const minLen = Math.min(typedWord.length, passageWord.length);
+            let matchingChars = 0;
             for (let j = 0; j < minLen; j++) {
                 if (typedWord[j] === passageWord[j]) {
                     correctChars++;
+                    matchingChars++;
                 }
             }
+            
+            // If more than 50% characters match, it's likely a spelling error
+            if (matchingChars / passageWord.length > 0.5) {
+                spellingErrors++;
+            }
+            
+            // Track insertions/deletions based on length difference
+            if (typedWord.length > passageWord.length) {
+                insertions += (typedWord.length - passageWord.length);
+            } else if (typedWord.length < passageWord.length) {
+                deletions += (passageWord.length - typedWord.length);
+            }
+            
         } else if (typedWord && !passageWord) {
-            // Extra word typed
+            // Extra word typed (insertion)
             errors++;
+            insertions++;
+            incorrectWords++;
         } else if (!typedWord && passageWord) {
-            // Word not typed yet - not an error
+            // Word not typed yet (deletion/missing)
+            deletions++;
         }
     }
     
-    return { errors, correctChars };
+    return { 
+        errors, 
+        correctChars,
+        correctWords,
+        incorrectWords,
+        spellingErrors,
+        insertions,
+        deletions,
+        totalWords: passageWords.length,
+        typedWordsCount: typedWords.length
+    };
 }
 
 function highlightText() {
     const typedText = typingArea.value;
     const passageText = currentPassage;
     
-    const { errors, correctChars } = calculateErrors(typedText, passageText);
+    const stats = calculateErrors(typedText, passageText);
     
     // Update stats
-    errorCount = errors;
-    errorCountEl.textContent = errors;
+    errorCount = stats.errors;
+    errorCountEl.textContent = stats.errors;
     
     const totalTyped = typedText.length;
-    const accuracy = totalTyped > 0 ? ((correctChars / totalTyped) * 100).toFixed(1) : 100;
+    const accuracy = totalTyped > 0 ? ((stats.correctChars / totalTyped) * 100).toFixed(1) : 100;
     accuracyEl.textContent = `${accuracy}%`;
     
     if (startTime) {
         const timeElapsed = (Date.now() - startTime) / 1000 / 60;
-        const wordsTyped = correctChars / 5;
+        const wordsTyped = stats.correctChars / 5;
         const wpm = timeElapsed > 0 ? Math.round(wordsTyped / timeElapsed) : 0;
         wpmEl.textContent = wpm;
     }
@@ -565,16 +605,19 @@ function showResults() {
     const typedText = typingArea.value;
     const passageText = currentPassage;
     
-    const { errors, correctChars, totalCharsChecked } = calculateErrors(typedText, passageText);
+    const stats = calculateErrors(typedText, passageText);
     
     const totalTyped = typedText.length;
-    const accuracy = totalTyped > 0 ? ((correctChars / totalTyped) * 100).toFixed(1) : 0;
+    const accuracy = totalTyped > 0 ? ((stats.correctChars / totalTyped) * 100).toFixed(1) : 0;
     
     const timeElapsed = (420 - timeRemaining) / 60; // in minutes
-    const wordsTyped = correctChars / 5;
+    const wordsTyped = stats.correctChars / 5;
     const wpm = timeElapsed > 0 ? Math.round(wordsTyped / timeElapsed) : 0;
     
-    const passed = errors <= 14 && typedText.length >= passageText.length;
+    // Check if passage is completed
+    const passageCompleted = stats.typedWordsCount >= stats.totalWords;
+    
+    const passed = stats.errors <= 14 && passageCompleted;
     
     const statusEl = resultsEl.querySelector('.result-status');
     const detailsEl = resultsEl.querySelector('.result-details');
@@ -588,16 +631,32 @@ function showResults() {
     
     detailsEl.innerHTML = `
         <p><strong>Result:</strong> ${passed ? 'Congratulations! You passed the test.' : 'You did not pass this time. Keep practicing!'}</p>
-        <p><strong>Errors:</strong> ${errors} / 14 allowed</p>
-        <p><strong>Accuracy:</strong> ${accuracy}%</p>
-        <p><strong>Words Per Minute:</strong> ${wpm} WPM</p>
-        <p><strong>Time Used:</strong> ${minutesUsed}:${secondsUsed.toString().padStart(2, '0')} / 7:00</p>
-        <p><strong>Characters Typed:</strong> ${totalTyped} / ${passageText.length}</p>
-        <p><strong>Correct Characters:</strong> ${correctChars}</p>
-        ${!passed && errors > 14 ? '<p style="color: #dc3545; margin-top: 15px;">⚠ Too many errors. Maximum 14 errors allowed.</p>' : ''}
-        ${!passed && typedText.length < passageText.length ? '<p style="color: #dc3545; margin-top: 15px;">⚠ Passage not completed.</p>' : ''}
+        
+        <div style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 6px;">
+            <h3 style="margin: 0 0 10px 0; font-size: 1em; color: #495057;">📊 Word Statistics</h3>
+            <p><strong>Total Words in Passage:</strong> ${stats.totalWords}</p>
+            <p><strong>Words Typed:</strong> ${stats.typedWordsCount}</p>
+            <p><strong>Correct Words:</strong> <span style="color: #28a745;">${stats.correctWords}</span></p>
+            <p><strong>Incorrect Words:</strong> <span style="color: #dc3545;">${stats.incorrectWords}</span></p>
+            <p><strong>Spelling Errors:</strong> ${stats.spellingErrors}</p>
+            <p><strong>Extra Words (Insertions):</strong> ${stats.insertions}</p>
+            <p><strong>Missing Words (Deletions):</strong> ${stats.deletions}</p>
+        </div>
+        
+        <div style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 6px;">
+            <h3 style="margin: 0 0 10px 0; font-size: 1em; color: #495057;">⚡ Performance Metrics</h3>
+            <p><strong>Total Errors:</strong> ${stats.errors} / 14 allowed</p>
+            <p><strong>Accuracy:</strong> ${accuracy}%</p>
+            <p><strong>Words Per Minute:</strong> ${wpm} WPM</p>
+            <p><strong>Time Used:</strong> ${minutesUsed}:${secondsUsed.toString().padStart(2, '0')} / 7:00</p>
+            <p><strong>Characters Typed:</strong> ${totalTyped} / ${passageText.length}</p>
+            <p><strong>Correct Characters:</strong> ${stats.correctChars}</p>
+        </div>
+        
+        ${!passed && stats.errors > 14 ? '<p style="color: #dc3545; margin-top: 15px;">⚠ Too many errors. Maximum 14 errors allowed.</p>' : ''}
+        ${!passed && !passageCompleted ? '<p style="color: #dc3545; margin-top: 15px;">⚠ Passage not completed. Type all words.</p>' : ''}
         <p style="margin-top: 20px; color: #666; font-style: italic;">
-            ${passed ? 'Great job! Your typing accuracy and speed meet the requirements.' : 'Keep practicing to improve your accuracy and speed. Focus on typing each character exactly as shown.'}
+            ${passed ? 'Great job! Your typing accuracy and speed meet the requirements.' : 'Keep practicing to improve your accuracy and speed. Focus on typing each word correctly.'}
         </p>
         <p style="margin-top: 15px; color: #667eea; font-weight: 500;">
             ${!realtimeMode ? '💡 Close this popup to review your errors highlighted in the typing area.' : ''}
@@ -624,12 +683,16 @@ function startNewTest() {
     if (timerInterval) {
         clearInterval(timerInterval);
     }
-    // Generate new passage - mix of static and generated
-    if (Math.random() < 0.5 && passages.length > 0) {
-        currentPassage = passages[Math.floor(Math.random() * passages.length)];
+    // Load passages and select random one
+    const customPassages = loadCustomPassages();
+    const allPassages = [...passages, ...customPassages];
+    
+    if (allPassages.length > 0) {
+        currentPassage = allPassages[Math.floor(Math.random() * allPassages.length)];
     } else {
         currentPassage = generateRandomPassage();
     }
+    
     passageEl.textContent = currentPassage;
     resetStats();
 }
@@ -736,4 +799,116 @@ document.addEventListener('DOMContentLoaded', () => {
     sidebar.addEventListener('click', (e) => {
         e.stopPropagation();
     });
+});
+
+
+// ===== PASSAGE UPLOAD FUNCTIONALITY =====
+
+// Load custom passages from localStorage
+function loadCustomPassages() {
+    const saved = localStorage.getItem('customPassages');
+    return saved ? JSON.parse(saved) : [];
+}
+
+// Save custom passages to localStorage
+function saveCustomPassages(passages) {
+    localStorage.setItem('customPassages', JSON.stringify(passages));
+    updatePassageCount();
+}
+
+// Update passage count display
+function updatePassageCount() {
+    const customPassages = loadCustomPassages();
+    const totalPassages = passages.length + customPassages.length;
+    
+    // Update upload button tooltip
+    const uploadBtn = document.getElementById('uploadPassageBtn');
+    if (uploadBtn) {
+        const customCount = customPassages.length;
+        uploadBtn.title = customCount > 0 
+            ? `${totalPassages} passages (${passages.length} built-in + ${customCount} uploaded)` 
+            : `${passages.length} built-in passages available`;
+    }
+}
+
+// Handle .docx file upload
+async function handleDocxUpload(files) {
+    const passageInfo = document.getElementById('passageInfo');
+    
+    passageInfo.classList.remove('hidden');
+    passageInfo.textContent = `Processing ${files.length} file(s)...`;
+    
+    const customPassages = loadCustomPassages();
+    let successCount = 0;
+    
+    for (const file of files) {
+        try {
+            const arrayBuffer = await file.arrayBuffer();
+            const result = await mammoth.extractRawText({ arrayBuffer });
+            let text = result.value.trim();
+            
+            if (!text || text.length < 50) {
+                console.warn(`Skipped ${file.name}: too short or empty`);
+                continue;
+            }
+            
+            // Format the passage: split into paragraphs and add 5-space indents
+            const paragraphs = text.split(/\n\s*\n/).map(p => p.replace(/\s+/g, ' ').trim()).filter(p => p.length > 0);
+            const formatted = paragraphs.map(p => '     ' + p).join('\n');
+            
+            const wordCount = formatted.trim().split(/\s+/).length;
+            
+            customPassages.push({
+                filename: file.name,
+                text: formatted,
+                wordCount: wordCount,
+                uploadedAt: new Date().toISOString()
+            });
+            
+            successCount++;
+            console.log(`✓ Extracted ${file.name}: ${wordCount} words`);
+            
+        } catch (error) {
+            console.error(`Error processing ${file.name}:`, error);
+        }
+    }
+    
+    if (successCount > 0) {
+        saveCustomPassages(customPassages);
+        passageInfo.textContent = `✓ Uploaded ${successCount} passage(s)`;
+        
+        setTimeout(() => {
+            passageInfo.classList.add('hidden');
+        }, 3000);
+    } else {
+        passageInfo.textContent = '✗ No valid passages found';
+        setTimeout(() => {
+            passageInfo.classList.add('hidden');
+        }, 3000);
+    }
+}
+
+// Setup upload button
+document.addEventListener('DOMContentLoaded', () => {
+    const uploadPassageBtn = document.getElementById('uploadPassageBtn');
+    const docxInput = document.getElementById('docxInput');
+    
+    if (uploadPassageBtn && docxInput) {
+        // Click upload button
+        uploadPassageBtn.addEventListener('click', () => {
+            docxInput.click();
+        });
+        
+        // File input change
+        docxInput.addEventListener('change', (e) => {
+            const files = Array.from(e.target.files);
+            if (files.length > 0) {
+                handleDocxUpload(files);
+            }
+            docxInput.value = ''; // Reset input
+        });
+    }
+    
+    // Initialize passage count
+    updatePassageCount();
 });

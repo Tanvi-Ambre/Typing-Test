@@ -1,183 +1,143 @@
 # MCQ Practice Mode - User Guide
 
 ## Overview
-The MCQ Practice Mode allows you to upload PDF files containing multiple-choice questions and practice them interactively. The system automatically extracts questions, options, and answers from your PDF.
+The MCQ Practice Mode allows you to practice multiple-choice questions from previous GCC TBC English exams with two different modes: Practice Mode and Test Mode.
 
 ## Features
 
-### ✅ Current Features (Practice Mode)
-- **PDF Upload**: Drag and drop or click to upload PDF files
-- **Automatic Extraction**: Extracts questions, options, and correct answers
-- **Question Bank**: Stores all uploaded questions in browser storage
-- **Interactive Practice**: Click to select answers
-- **Navigation**: Move between questions easily
-- **Score Tracking**: Real-time score display
-- **Results Summary**: See your performance percentage
-- **Answer Review**: Review all questions with correct answers highlighted
-- **Persistent Storage**: Questions saved in browser (LocalStorage)
+### 1. Two Learning Modes
 
-### 🔄 Coming Soon (Test Mode)
-- Random selection of 25 questions
-- Timer (countdown)
-- Test simulation
-- Performance analytics
-- Question categories
-- Difficulty levels
+#### 📚 Practice Mode (Recommended for Learning)
+- **Immediate Feedback**: See if your answer is correct or incorrect right away
+- **Learn from Mistakes**: Correct answer is shown immediately when you select wrong option
+- **Score Tracking**: Real-time score updates as you progress
+- **Answer Locked**: Once you select an answer, you can't change it (encourages careful thinking)
+- **Visual Feedback**: Green for correct, red for incorrect answers
 
-## How to Use
+#### 📝 Test Mode (Exam Simulation)
+- **No Immediate Feedback**: Answers are not revealed during the test
+- **Exam-like Experience**: Simulates real exam conditions
+- **Results at End**: See all correct/incorrect answers only after submission
+- **Score Hidden**: Your score is calculated but not shown until the end
+- **Change Answers**: You can change your answers before final submission
 
-### Step 1: Upload Questions
+### 2. Pre-loaded Question Sets
+- Question sets are automatically extracted from PDF files and embedded in the app
+- Currently available: **BATCH 1303 - January 2026** (25 questions)
+- All Marathi text is correctly displayed with proper encoding
+
+### 3. How to Use
+
+#### Starting Practice/Test:
 1. Open `mcq-practice.html` in your browser
-2. Click the upload area or drag and drop a PDF file
-3. Wait for the extraction to complete
-4. You'll see a confirmation with the number of questions extracted
+2. Select a question set from the dropdown menu
+3. Choose your mode:
+   - **Practice Mode**: For learning and understanding
+   - **Test Mode**: For exam preparation and self-assessment
+4. Click "Start" to begin
 
-### Step 2: Start Practice
-1. Click "Start Practice" button
-2. Questions will be displayed one at a time
-3. Click on an option to select your answer
-4. Use "Previous" and "Next" buttons to navigate
-5. Click "Submit Answers" when done
+#### During Practice Mode:
+- Read the question carefully
+- Click on your answer choice
+- Immediate feedback appears:
+  - ✓ Green = Correct answer
+  - ✗ Red = Incorrect (correct answer shown in green)
+- Use Next/Previous buttons to navigate
+- Your answer is locked once selected (can't change)
 
-### Step 3: Review Results
-1. See your score percentage
-2. Click "Review Answers" to see detailed results
-3. Green = Correct, Red = Incorrect
-4. See both your answer and the correct answer
+#### During Test Mode:
+- Read the question carefully
+- Click on your answer choice (no feedback shown)
+- You can change your answer by clicking another option
+- Use Next/Previous buttons to navigate
+- Click "Submit Answers" when finished
+- Review all answers with correct/incorrect indicators
 
-### Step 4: Practice Again
-- Click "Try Again" to practice the same questions
-- Click "Upload New Questions" to add more questions
-- Click "Clear All Questions" to start fresh
+### 4. Upload Custom PDFs
+- Click the "📄 Upload PDF" button to add more question sets
+- Supports PDF files with questions in table format
+- Automatically parses questions, options, and correct answers
 
-## PDF Format Requirements
-
-Your PDF must follow this format:
-
-```
-Question 1: What is the capital of France?
-A) London
-B) Paris
-C) Berlin
-D) Madrid
-Answer: B
-
-Question 2: Which planet is known as the Red Planet?
-A) Venus
-B) Mars
-C) Jupiter
-D) Saturn
-Answer: B
-```
-
-### Key Points:
-- Start each question with "Question" followed by number
-- Use A), B), C), D) for options
-- Include "Answer:" followed by the correct letter
-- Separate questions with blank lines
-
-See `SAMPLE_MCQ_FORMAT.md` for detailed format guidelines and examples.
+### 5. Results & Review
+- View your score as a percentage
+- **Pass/Fail Indicator**: 40% required to pass (10 out of 25 questions)
+- See how many questions you got correct
+- Review all answers with:
+  - Your selected answer
+  - Correct answer highlighted
+  - Question-by-question breakdown
+- Options to retry or upload new questions
 
 ## Technical Details
 
-### Storage
-- Questions are stored in browser's LocalStorage
-- Data persists across sessions
-- Maximum storage: ~5-10MB (browser dependent)
-- Clear storage using "Clear All Questions" button
+### Files
+- `mcq-practice.html` - Main HTML page
+- `mcq-script.js` - JavaScript logic for question handling
+- `mcq-style.css` - Styling for the interface
+- `mcq-data.js` - Pre-extracted question sets (auto-generated)
+- `extract-mcq-simple.js` - Node.js script to extract questions from PDFs
 
-### Supported Formats
-- PDF files only
-- Text-based PDFs (not scanned images)
-- Standard question formats (see format guide)
+### Adding More Question Sets
 
-### Browser Compatibility
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
-- Requires JavaScript enabled
+To add more question sets from PDF files:
 
-## Troubleshooting
+1. Place your PDF file in the project directory
+2. Run the extraction script:
+   ```bash
+   node extract-mcq-simple.js
+   ```
+3. The script will:
+   - Extract questions from all PDF files
+   - Fix Marathi text encoding
+   - Generate updated `mcq-data.js` file
+4. Refresh the browser to see new question sets
 
-### Questions not extracted?
-- Check PDF format matches the guidelines
-- Ensure PDF is text-based, not scanned image
-- Try a smaller sample first
-- Check browser console for errors
+### Marathi Text Encoding
+The extraction script includes a comprehensive character mapping to fix Marathi text encoding issues:
+- Converts garbled text like "वररल" to correct "वरील"
+- Handles 50+ common character mappings
+- Ensures proper display of Marathi questions and options
 
-### Options not displaying correctly?
-- Verify options use A), B), C), D) format
-- Check for special characters
-- Ensure proper spacing
+## Exam Requirements
 
-### Answers not matching?
-- Verify "Answer:" keyword is present
-- Check answer letter matches an option
-- Ensure no typos in answer key
+### MCQ Section Scoring
+- Total marks: 25
+- Pass marks: 10 (40%)
+- Must pass this section AND overall exam at 40%
 
-### Storage full?
-- Clear old questions
-- Use "Clear All Questions" button
-- Browser storage limit reached
+### Question Format
+- 25 multiple-choice questions
+- 4 options (A, B, C, D) per question
+- Single correct answer per question
 
-## Tips for Best Results
+## Recommended Study Approach
 
-1. **Start Small**: Upload 10-20 questions first to test
-2. **Check Format**: Verify PDF follows the format guidelines
-3. **Review Extraction**: Check if all questions extracted correctly
-4. **Practice Regularly**: Use practice mode frequently
-5. **Track Progress**: Note your scores over time
+1. **Start with Practice Mode**
+   - Learn the material and understand concepts
+   - See immediate feedback on your answers
+   - Review correct answers for questions you got wrong
 
-## Keyboard Shortcuts
+2. **Move to Test Mode**
+   - Once comfortable with the material
+   - Simulate real exam conditions
+   - Test your knowledge without immediate feedback
+   - Build exam-taking confidence
 
-- **Arrow Keys**: Navigate between questions (coming soon)
-- **1-4 Keys**: Select options A-D (coming soon)
-- **Enter**: Submit/Next (coming soon)
-- **Esc**: Exit review (coming soon)
+3. **Review Your Results**
+   - Analyze which questions you got wrong
+   - Understand why the correct answer is right
+   - Retry until you consistently score above 40%
 
-## Data Privacy
+## Tips for Success
 
-- All data stored locally in your browser
-- No data sent to external servers
-- Questions remain on your device only
-- Clear data anytime using "Clear All Questions"
+### Practice Mode Tips:
+- Don't rush - read each question carefully before selecting
+- Once you select an answer, you can't change it (like real exam)
+- Learn from incorrect answers - read the correct answer explanation
+- Take notes on questions you find difficult
 
-## Future Enhancements
-
-### Planned Features:
-- [ ] Test mode with 25 random questions
-- [ ] Timer for timed tests
-- [ ] Question categories/tags
-- [ ] Difficulty levels
-- [ ] Performance analytics
-- [ ] Export results as PDF
-- [ ] Import/Export question banks
-- [ ] Bookmarking questions
-- [ ] Notes on questions
-- [ ] Search functionality
-- [ ] Mobile app version
-
-## Support
-
-For issues or questions:
-1. Check `SAMPLE_MCQ_FORMAT.md` for format guidelines
-2. Review `EXAM_REQUIREMENTS.md` for exam details
-3. Check browser console for error messages
-4. Ensure JavaScript is enabled
-5. Try a different browser
-
-## Version History
-
-### v1.0.0 (Current)
-- Initial release
-- PDF upload and extraction
-- Practice mode
-- Results and review
-- LocalStorage persistence
-
----
-
-**Last Updated:** Current Date  
-**Status:** Active Development  
-**Module:** MCQ Practice Mode
+### Test Mode Tips:
+- Manage your time - don't spend too long on one question
+- You can change answers before submitting
+- Review all questions before final submission
+- Aim for at least 40% (10 correct answers) to pass
