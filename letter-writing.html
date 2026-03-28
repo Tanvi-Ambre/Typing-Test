@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter Writing - GCC TBC English Exam</title>
+    <link rel="stylesheet" href="mcq-style.css?v=1.0">
+    <link rel="stylesheet" href="letter-style.css?v=1.0">
+    <!-- Quill Rich Text Editor -->
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2>GCC TBC</h2>
+            <button class="sidebar-toggle" id="sidebarToggle">
+                <span class="toggle-icon">◀</span>
+            </button>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="index.html" class="nav-item">
+                <span class="nav-icon">⌨️</span>
+                <span class="nav-text">Speed Passage</span>
+            </a>
+            <a href="mcq-practice.html" class="nav-item">
+                <span class="nav-icon">📝</span>
+                <span class="nav-text">MCQ Practice</span>
+            </a>
+            <a href="email-writing.html" class="nav-item">
+                <span class="nav-icon">📧</span>
+                <span class="nav-text">Email Writing</span>
+            </a>
+            <a href="letter-writing.html" class="nav-item active">
+                <span class="nav-icon">✉️</span>
+                <span class="nav-text">Letter Writing</span>
+            </a>
+            <a href="#" class="nav-item disabled">
+                <span class="nav-icon">📄</span>
+                <span class="nav-text">Statement</span>
+            </a>
+        </nav>
+        <div class="sidebar-footer">
+            <p>English Exam Practice</p>
+        </div>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+            <header>
+                <h1>Letter Writing</h1>
+                <p class="subtitle">Business Letter - 15 Marks</p>
+            </header>
+
+            <!-- Start Screen -->
+            <div id="startScreen" class="section">
+                <div class="start-container">
+                    <div class="start-content">
+                        <h2>✉️ Business Letter Typing</h2>
+                        <div class="test-info">
+                            <p><strong>⏱️ Time Limit:</strong> 25 minutes</p>
+                            <p><strong>📊 Total Marks:</strong> 15</p>
+                            <p><strong>✅ Passing Marks:</strong> Part of Section B (14/35 combined)</p>
+                            <p><strong>📝 Task:</strong> Type the business letter with proper formatting</p>
+                            <p><strong>⚠️ Important:</strong> Follow formatting rules carefully</p>
+                        </div>
+                        <button id="startTestBtn" class="btn btn-primary btn-large">Start Typing</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timer Bar -->
+            <div class="timer-bar hidden" id="timerBar">
+                <div class="timer-display" id="timerDisplay">⏱️ Time Remaining: 25:00</div>
+                <div class="timer-info">Typing: 7.5 marks | Presentation: 7.5 marks</div>
+            </div>
+
+            <!-- Letter Writing Section -->
+            <div id="letterSection" class="section hidden">
+                <div class="letter-container">
+                    <!-- Left Side - Reference Letter -->
+                    <div class="reference-panel">
+                        <h2>📄 Reference Letter</h2>
+                        <p class="instruction">Type the letter exactly as shown with proper formatting:</p>
+                        
+                        <div class="letter-display" id="referenceLetter">
+                            <!-- Letter content will be loaded here -->
+                        </div>
+                    </div>
+
+                    <!-- Right Side - Rich Text Editor -->
+                    <div class="editor-panel">
+                        <h2>✍️ Your Letter</h2>
+                        <p class="instruction">Use the toolbar to format your letter:</p>
+                        
+                        <!-- Quill Editor -->
+                        <div id="editor"></div>
+                        
+                        <div class="form-actions">
+                            <button type="button" id="submitBtn" class="btn btn-success">📤 Submit Letter</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Modal -->
+            <div id="resultsModal" class="modal hidden">
+                <div class="modal-content">
+                    <button id="closeModalX" class="close-modal-btn">×</button>
+                    <h2>✉️ Letter Submitted!</h2>
+                    <div id="resultsContent"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quill JS -->
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="letter-script.js?v=1.0"></script>
+</body>
+</html>
