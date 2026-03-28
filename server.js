@@ -1,4 +1,15 @@
+const express = require('express');
+const multer = require('multer');
+const fs = require('fs');
+const path = require('path');
+const { spawn } = require('child_process');
+const { correctAllQuestions } = require('./marathi-corrections');
+
+const app = express();
 const PORT = 3001;
+
+// Set default encoding for child processes
+process.env.PYTHONIOENCODING = 'utf-8';
 
 // Configure multer for file uploads
 const upload = multer({
@@ -49,17 +60,21 @@ app.post('/api/upload-mcq-pdf', upload.single('pdf'), async (req, res) => {
             });
         }
 
+        // Correct Marathi text in all questions
+        const correctedQuestions = correctAllQuestions(questions);
+
         // Extract batch name
         const batchMatch = originalName.match(/BATCH\s*-?\s*\((\d+)\)/i);
         const batchName = batchMatch ? `BATCH ${batchMatch[1]}` : originalName.replace('.pdf', '');
 
-        console.log(`✅ Extracted ${questions.length} questions from ${batchName}`);
+        console.log(`✅ Extracted ${correctedQuestions.length} questions from ${batchName}`);
+        console.log(`✅ Applied Marathi text corrections`);
 
         res.json({
             success: true,
             batchName: batchName,
-            questions: questions,
-            count: questions.length
+            questions: correctedQuestions,
+            count: correctedQuestions.length
         });
 
     } catch (error) {
@@ -89,11 +104,11 @@ function extractQuestionsFromPDF(pdfPath, originalName) {
         let stderr = '';
 
         python.stdout.on('data', (data) => {
-            stdout += data.toString();
+            stdout += data.toString('utf8');
         });
 
         python.stderr.on('data', (data) => {
-            stderr += data.toString();
+            stderr += data.toString('utf8');
         });
 
         python.on('close', (code) => {

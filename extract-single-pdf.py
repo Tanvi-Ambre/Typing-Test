@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Single PDF Extraction Script
 Extracts MCQ questions from a single PDF file and outputs JSON
@@ -9,6 +10,10 @@ import pdfplumber
 import json
 import sys
 import re
+import io
+
+# Force UTF-8 encoding for stdout
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 def extract_questions_from_pdf(pdf_path):
     """Extract MCQ questions from PDF using pdfplumber table extraction"""

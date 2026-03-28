@@ -6,22 +6,22 @@ const allMCQBatches = {
   "BATCH 1601": [
     {
       "id": 1,
-      "question": "एक बबईट ममणजज -----------.",
+      "question": "एक बाईट म्हणजे -----------.",
       "options": {
-        "A": "४ बबट",
-        "B": "८ बबट",
-        "C": "६ बबट",
-        "D": "१० बबट"
+        "A": "४ बिट",
+        "B": "८ बिट",
+        "C": "६ बिट",
+        "D": "१० बिट"
       },
       "correctAnswer": "B",
       "userAnswer": null
     },
     {
       "id": 2,
-      "question": "PDF फबईल मधधज समज बदल\nकरतब धजऊ शकतबत.",
+      "question": "PDF फाईल मध्ये सहज बदल करता येऊ शकतात.",
       "options": {
-        "A": "बररबर",
-        "B": "चचक",
+        "A": "बरोबर",
+        "B": "चूक",
         "C": "",
         "D": ""
       },
@@ -30,22 +30,22 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "भबरतबध भबषजमधधज टबईप\nकरणधबसबठब ___________ चब\nवबपर मरतर.",
+      "question": "भारतीय भाषेमध्ये टाईप करण्यासाठी ___________ चा वापर करतो.",
       "options": {
         "A": "Unicode",
         "B": "ASCII",
-        "C": "दरनमब A आणण B",
-        "D": "वरबलपपकक एकमब\nनबमब"
+        "C": "दोन्ही A आणि B",
+        "D": "वरीलपैकी एकही नाही"
       },
       "correctAnswer": "A",
       "userAnswer": null
     },
     {
       "id": 4,
-      "question": "compressed files वबपरबपचवर\nextract करणज गरजजचज असत.ज",
+      "question": "compressed files वापरापूर्वी extract करणे गरजेचे असते.",
       "options": {
-        "A": "बररबर",
-        "B": "चचक",
+        "A": "बरोबर",
+        "B": "चूक",
         "C": "",
         "D": ""
       },
@@ -54,33 +54,33 @@ const allMCQBatches = {
     },
     {
       "id": 5,
-      "question": "OPERATING SYSTEM म ज\n___________ SOFTWARE\nचज उदबमरण आम.ज",
+      "question": "OPERATING SYSTEM हे ___________ SOFTWARE चे उदाहरण आहे.",
       "options": {
         "A": "System",
         "B": "Application",
         "C": "Program",
-        "D": "वरबलपपकक एकमब\nनबमब"
+        "D": "वरीलपैकी एकही नाही"
       },
       "correctAnswer": "A",
       "userAnswer": null
     },
     {
       "id": 6,
-      "question": "Text Content चधब मबगबल\nGhosted Text लब\n_____________ असज ममणतबत.",
+      "question": "Text Content च्या मागील Ghosted Text ला _____________ असे म्हणतात.",
       "options": {
         "A": "Marktext",
         "B": "Watertext",
         "C": "Watermark",
-        "D": "धबपपकक नबमब"
+        "D": "यापैकी नाही"
       },
       "correctAnswer": "C",
       "userAnswer": null
     },
     {
       "id": 7,
-      "question": "Page Nos., Dated धबयसबरखब\nमबणमतब सबधबरणपणज _______\nमधधज पबमबधलब णमळत.ज",
+      "question": "Page Nos., Date यासारख्या माहिती सामान्यपणे _______ मध्ये पाहायला मिळते.",
       "options": {
-        "A": "Header/Foot\ner",
+        "A": "Header/Footer",
         "B": "Page breaks",
         "C": "Margins",
         "D": "Insert"
@@ -90,7 +90,7 @@ const allMCQBatches = {
     },
     {
       "id": 8,
-      "question": "Page चधब खबलब जब मबणमतब\nददलब जबतज णतलब ____ असज\nममणतबत.",
+      "question": "Page च्या खाली जी माहिती दिली जाते तिला ____ असे म्हणतात.",
       "options": {
         "A": "End Note",
         "B": "Footnote",
@@ -102,19 +102,19 @@ const allMCQBatches = {
     },
     {
       "id": 9,
-      "question": "F12 Key मब\n_________________ सबठब\nOpen मरत.ज",
+      "question": "F12 Key हा _________________ साठी Open करते.",
       "options": {
-        "A": "Save\nAs dialog box",
-        "B": "Open dialog\nbox",
-        "C": "Save dialog\nbox",
-        "D": "Close dialog\nbox"
+        "A": "Save As dialog box",
+        "B": "Open dialog box",
+        "C": "Save dialog box",
+        "D": "Close dialog box"
       },
       "correctAnswer": "A",
       "userAnswer": null
     },
     {
       "id": 10,
-      "question": "...............key cursor चधब\nमबगबल letter remove\nकरणधबस वबपरतबत",
+      "question": "...............key cursor च्या मागील letter remove करण्यास वापरतात",
       "options": {
         "A": "Arrow Key",
         "B": "Backspace",
@@ -126,7 +126,7 @@ const allMCQBatches = {
     },
     {
       "id": 11,
-      "question": "MS Excel 2019 मधधज\nworksheet print करणधबसबठब\nकरणतब keyboard shortcut\nवबपरतबत?",
+      "question": "MS Excel 2019 मध्ये worksheet print करण्यासाठी कोणता keyboard shortcut वापरतात?",
       "options": {
         "A": "Ctrl+ t",
         "B": "Ctrl+ l",
@@ -138,7 +138,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "MS Excel 2019 मधधज शबद\nशरधणधबसबठब करणतब\nkeyboard shortcut\nवबपरतबत?",
+      "question": "MS Excel 2019 मध्ये शब्द शोधण्यासाठी कोणता keyboard shortcut वापरतात?",
       "options": {
         "A": "Ctrl+ s",
         "B": "Ctrl+ f",
@@ -150,7 +150,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "MS Excel 2019 मधधज\nselect all सबठब करणतब\nkeyboard shortcut\nवबपरतबत?",
+      "question": "MS Excel 2019 मध्ये select all साठी कोणता keyboard shortcut वापरतात?",
       "options": {
         "A": "Ctrl+ a",
         "B": "Ctrl+ l",
@@ -162,7 +162,7 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "MS Excel 2019 मधधज कमबत\nकमब zoom % दकतब असतज ?",
+      "question": "MS Excel 2019 मध्ये कमीत कमी zoom % किती असते ?",
       "options": {
         "A": "1",
         "B": "5",
@@ -174,10 +174,10 @@ const allMCQBatches = {
     },
     {
       "id": 15,
-      "question": "MS Excel 2019 मधधज =now()\nfunction कबध result दतज ज ?",
+      "question": "MS Excel 2019 मध्ये =now() function काय result देते ?",
       "options": {
-        "A": "system date\nand time",
-        "B": "spelling of\nthe day e.g\nMonday",
+        "A": "system date and time",
+        "B": "spelling of the day e.g Monday",
         "C": "the word now",
         "D": "live clock"
       },
@@ -186,11 +186,11 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "slide वरबल सवर objects चब\nanimation order\nबदलणधबसबठब animation tab\nवरबल ____ command चब\nउपधरग मरतर.",
+      "question": "slide वरील सर्व objects चा animation order बदलण्यासाठी animation tab वरील ____ command चा उपयोग करतो.",
       "options": {
-        "A": "Preset\nanimation",
-        "B": "Slide\nTransition",
-        "C": "Animation\nPane",
+        "A": "Preset animation",
+        "B": "Slide Transition",
+        "C": "Animation Pane",
         "D": "Set up show"
       },
       "correctAnswer": "C",
@@ -198,11 +198,11 @@ const allMCQBatches = {
     },
     {
       "id": 17,
-      "question": "Slide चज transition change\nकरणधबसबठब transition tab\nमधबल _________ group मधधज\nजबवज लबगत.ज",
+      "question": "Slide चे transition change करण्यासाठी transition tab मधील _________ group मध्ये जावे लागते.",
       "options": {
-        "A": "transition to\nthis slide",
-        "B": "transition to\nnext slide",
-        "C": "transition to\nprevious slide",
+        "A": "transition to this slide",
+        "B": "transition to next slide",
+        "C": "transition to previous slide",
         "D": "advance slide"
       },
       "correctAnswer": "A",
@@ -210,7 +210,7 @@ const allMCQBatches = {
     },
     {
       "id": 18,
-      "question": "उपलबध presentation मधबल\nSpelling Check करणधबसबठब\nपपढबलपपकक करणतधब key चब\nवबपर करबवब लबगतर",
+      "question": "उपलब्ध presentation मधील Spelling Check करण्यासाठी पुढीलपैकी कोणत्या key चा वापर करावा लागतो",
       "options": {
         "A": "F5",
         "B": "F7",
@@ -222,7 +222,7 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "full screen slide show सबठब\nscreen resolution णसलजकट\nकरणधबसबठब __________\noption मब slide show\nउपधरगब धजतर.",
+      "question": "full screen slide show साठी screen resolution सिलेक्ट करण्यासाठी __________ option हा slide show उपयोगा येतो.",
       "options": {
         "A": "Resolution",
         "B": "Setup",
@@ -234,7 +234,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "नवबन Presentation तधबर\nकरणधबसबठब आपण\n--------------- मब shortcut key\nवबपरतर.",
+      "question": "नवीन Presentation तयार करण्यासाठी आपण --------------- हा shortcut key वापरतो.",
       "options": {
         "A": "Ctrl + O",
         "B": "Ctrl + M",
@@ -246,10 +246,10 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "Operating system मब file\nmanagement चज कबधर करत.ज",
+      "question": "Operating system हा file management चे काम करते.",
       "options": {
-        "A": "बररबर",
-        "B": "चचक",
+        "A": "बरोबर",
+        "B": "चूक",
         "C": "",
         "D": ""
       },
@@ -258,10 +258,10 @@ const allMCQBatches = {
     },
     {
       "id": 22,
-      "question": "Optical Disk धब Magnetic\nDisk असतबत.",
+      "question": "Optical Disk हा Magnetic Disk असतात.",
       "options": {
-        "A": "बररबर",
-        "B": "चचक",
+        "A": "बरोबर",
+        "B": "चूक",
         "C": "",
         "D": ""
       },
@@ -270,22 +270,22 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "OS\nममणजज___________________\n_____",
+      "question": "OS म्हणजे_____________________",
       "options": {
-        "A": "Organization\nSystem",
-        "B": "Operational\nSystem",
-        "C": "Operating\nSystem",
-        "D": "Operator\nSystem"
+        "A": "Organization System",
+        "B": "Operational System",
+        "C": "Operating System",
+        "D": "Operator System"
       },
       "correctAnswer": "C",
       "userAnswer": null
     },
     {
       "id": 24,
-      "question": "Outlook express म जईमजल\nपरगबम आम.ज",
+      "question": "Outlook express हे ईमेल प्रोग्राम आहे.",
       "options": {
-        "A": "बररबर",
-        "B": "चचक",
+        "A": "बरोबर",
+        "B": "चूक",
         "C": "",
         "D": ""
       },
@@ -294,10 +294,10 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "Outlook मब Email Client\nमरध.",
+      "question": "Outlook हा Email Client होय.",
       "options": {
-        "A": "बररबर",
-        "B": "चचक",
+        "A": "बरोबर",
+        "B": "चूक",
         "C": "",
         "D": ""
       },
