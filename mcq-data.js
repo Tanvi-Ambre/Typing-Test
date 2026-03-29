@@ -1,7 +1,8 @@
-// MCQ Questions - Auto-generated from PDFs with Marathi corrections
-// Generated: 2026-03-29T19:53:18.107Z
+// MCQ Questions - Extracted with Hybrid OCR + Marathi corrections
+// Generated: 2026-03-29T20:07:33.035Z
 // Total batches: 29
 // Total questions: 724
+// Method: Hybrid (pdfplumber structure + OCR text + Marathi corrections)
 
 const allMCQBatches = {
   "BATCH 1101": [
