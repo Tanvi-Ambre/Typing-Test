@@ -1,5 +1,5 @@
 // MCQ Questions - Auto-generated from PDFs with Marathi corrections
-// Generated: 2026-03-29T19:38:01.981Z
+// Generated: 2026-03-29T19:47:58.213Z
 // Total batches: 29
 // Total questions: 724
 
@@ -7,12 +7,12 @@ const allMCQBatches = {
   "BATCH 1101": [
     {
       "id": 1,
-      "question": "Delete कॅल्क्युलेटर mail काटे\nstored हहतह.",
+      "question": "Delete कॅल्क्युलेटर mail काटे\nstored होते.",
       "options": {
         "A": "Trash",
         "B": "Inbox",
         "C": "Spam",
-        "D": "यलपपकक नाही"
+        "D": "यापैकी नाही"
       },
       "correctAnswer": "A",
       "userAnswer": null
@@ -187,7 +187,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "PowerPoint चयल ________\ngroup मध्ये Line specing\ncommand उपलाध असत.क",
+      "question": "PowerPoint चयल ________\ngroup मध्ये Line specing\ncommand उपलबध असत.क",
       "options": {
         "A": "Clipboard",
         "B": "Slides",
@@ -223,7 +223,7 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "PowerPoint मध्ये जलसतहत\nजलसत दकतह zoom उपलाध\nअसतलत.",
+      "question": "PowerPoint मध्ये जलसतहत\nजलसत दकतह zoom उपलबध\nअसतलत.",
       "options": {
         "A": "100",
         "B": "200",
@@ -235,7 +235,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "Powerpoint मध्ये जलसतहत\nजलसत 400% झचम उपलाध आह.क",
+      "question": "Powerpoint मध्ये जलसतहत\nजलसत 400% झचम उपलबध आह.क",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -295,7 +295,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "HTML हल बहतलसश सर्व सलधलरण\nइसटरनकट पहटहककल आह.क",
+      "question": "HTML हल बहतलसश सवर सलधलरण\nइसटरनकट पहटहककल आह.क",
       "options": {
         "A": "बरोबर",
         "B": "चकक",
@@ -309,7 +309,7 @@ const allMCQBatches = {
   "BATCH 1102": [
     {
       "id": 1,
-      "question": "Email मधधध CC ममणजध\nCompose copy.",
+      "question": "Email मध्येध CC ममणजध\nCompose copy.",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -321,7 +321,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "__________ पककरचधक मधमरर\nमधधध लकईट सपलकध गधलक\nअसतकनक सरर मकहमतर नष मरत.ध",
+      "question": "__________ पककरचधक मधमरर\nमध्येध लकईट सपलकध गधलक\nअसतकनक सरर मकहमतर नष मरत.ध",
       "options": {
         "A": "PERMANEN\nT",
         "B": "VOLATILE",
@@ -333,7 +333,7 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "BINARY SYSTEM मधधध '0'\n__________ दररहरतर",
+      "question": "BINARY SYSTEM मध्येध '0'\n__________ दररहरतर",
       "options": {
         "A": "ON",
         "B": "OFF",
@@ -345,7 +345,7 @@ const allMCQBatches = {
     },
     {
       "id": 4,
-      "question": "BINARY SYSTEM मधधध '1'\n__________ दररहरतर.",
+      "question": "BINARY SYSTEM मध्येध '1'\n__________ दररहरतर.",
       "options": {
         "A": "ON",
         "B": "OFF",
@@ -357,7 +357,7 @@ const allMCQBatches = {
     },
     {
       "id": 5,
-      "question": "कॉम्प्युटरच्या IPO Cycle ममणजध\n… … … … …",
+      "question": "कामपधमटरचध IPO Cycle ममणजध\n… … … … …",
       "options": {
         "A": "Input-Proces\ns-Output",
         "B": "Input-Output-\nProcess",
@@ -369,7 +369,7 @@ const allMCQBatches = {
     },
     {
       "id": 6,
-      "question": "एमएस ररर मधध,ध करणतधक\nRibbon मधधध चकटर ककढतक धधतर.",
+      "question": "एमएस ररर मध्ये,ध करणतधक\nRibbon मध्येध चकटर ककढतक धधतर.",
       "options": {
         "A": "View",
         "B": "Reference",
@@ -381,7 +381,7 @@ const allMCQBatches = {
     },
     {
       "id": 7,
-      "question": "एमएस ररर मधधध करणतधक\nRibbon मधधध ददसत असत,ध\nकरण-करणतध fonts उपलाब\nआहेतध कक तध आपण रकपर\nरकतकत.",
+      "question": "एमएस ररर मध्येध करणतधक\nRibbon मध्येध ददसत असते\nकरण-करणतध fonts उपलबब\nआमतध कक तध आपण रकपर\nरकतकत.",
       "options": {
         "A": "View",
         "B": "Page Layout",
@@ -393,7 +393,7 @@ const allMCQBatches = {
     },
     {
       "id": 8,
-      "question": "MS-Word मधधध Page\nnumbers_____ View मधधध\nदररहरलध जकतकत.",
+      "question": "MS-Word मध्येध Page\nnumbers_____ View मध्येध\nदररहरलध जकतकत.",
       "options": {
         "A": "Normal",
         "B": "Web Layout",
@@ -405,7 +405,7 @@ const allMCQBatches = {
     },
     {
       "id": 9,
-      "question": "MS-Word 2019 मधधध दकतर\nchange case options आहेतध",
+      "question": "MS-Word 2019 मध्येध दकतर\nchange case options आमतध",
       "options": {
         "A": "2",
         "B": "3",
@@ -417,7 +417,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "MS-Word 2019 मधध,ध आपण\nDocument म ध१०% तध\n… … … … … … … … … % पधरत\nZoom कर रकतर.",
+      "question": "MS-Word 2019 मध्ये,ध आपण\nDocument म ध१०% तध\n… … … … … … … … … % पधरत\nZoom कर रकतर.",
       "options": {
         "A": "100",
         "B": "200",
@@ -429,7 +429,7 @@ const allMCQBatches = {
     },
     {
       "id": 11,
-      "question": "MS Excel 2019 मधधध bar\nchart करतक धधतर.",
+      "question": "MS Excel 2019 मध्येध bar\nchart करतक धधतर.",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -441,7 +441,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "MS Excel 2019 मधधध\n\"bubble chart\" मक एक chart\nचक पककर आहे.ध",
+      "question": "MS Excel 2019 मध्येध\n\"bubble chart\" मक एक chart\nचक पककर आम.ध",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -453,7 +453,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "MS Excel 2019 मधधध\n\"doughnut chart\" मक पककरचक\nchart बनरतक धधतर.",
+      "question": "MS Excel 2019 मध्येध\n\"doughnut chart\" मक पककरचक\nchart बनरतक धधतर.",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -465,7 +465,7 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "MS Excel 2019 मधधध\n\"Radar chart\" मक एक\nपककरचक chart आहे.ध",
+      "question": "MS Excel 2019 मध्येध\n\"Radar chart\" मक एक\nपककरचक chart आम.ध",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -477,7 +477,7 @@ const allMCQBatches = {
     },
     {
       "id": 15,
-      "question": "Excel मधधध cells चर\nalignment करणयासाठी\n________ करतकत.",
+      "question": "Excel मध्येध cells चर\nalignment करण्यासाठी\n________ करतात.",
       "options": {
         "A": "View\n-->Alignment",
         "B": "Home\n-->Alignment",
@@ -489,7 +489,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "Powerpoint मधधध कमरत कमर\n__________ झचम उपलाब आहे.ध",
+      "question": "Powerpoint मध्येध कमरत कमर\n__________ झचम उपलबब आम.ध",
       "options": {
         "A": "5",
         "B": "10",
@@ -501,7 +501,7 @@ const allMCQBatches = {
     },
     {
       "id": 17,
-      "question": "Powerpoint मधधध कमरत कमर\n10% झचम उपलाब आहे.ध",
+      "question": "Powerpoint मध्येध कमरत कमर\n10% झचम उपलबब आम.ध",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -513,7 +513,7 @@ const allMCQBatches = {
     },
     {
       "id": 18,
-      "question": "MS-PowerPoint म ध\n____________ पककर चध\nsoftware आहे.ध",
+      "question": "MS-PowerPoint म ध\n____________ पककर चध\nsoftware आम.ध",
       "options": {
         "A": "Word\nProcessor",
         "B": "Spreadsheet",
@@ -549,7 +549,7 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "HTTP चक रकपर _____\nबनविण्यासाठी करतकत.",
+      "question": "HTTP चक रकपर _____\nबनविण्यासाठी करतात.",
       "options": {
         "A": "Machine\nlanguage\nProgram",
         "B": "High level\nprogram",
@@ -561,7 +561,7 @@ const allMCQBatches = {
     },
     {
       "id": 22,
-      "question": "____________ format मधधध\ndata पाठविण्यासाठी HTTP\nprotocol रकपरलक जकतर.",
+      "question": "____________ format मध्येध\ndata पाठविण्यासाठी HTTP\nprotocol रकपरलक जकतर.",
       "options": {
         "A": "Text",
         "B": "Mail",
@@ -573,7 +573,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "HTTP चक अरर Hyper Text\nTransfer Protocol असक आहे.ध",
+      "question": "HTTP चक अरर Hyper Text\nTransfer Protocol असक आम.ध",
       "options": {
         "A": "सतध",
         "B": "असतध",
@@ -585,7 +585,7 @@ const allMCQBatches = {
     },
     {
       "id": 24,
-      "question": "HTTP चक उपयोग फकईल एकक\nककमपधमटरहाचन दसम ऱधक ककमपधमटर\nकरध पकठहरणध होय.",
+      "question": "HTTP चक उपधरग फकईल एकक\nकामपधमटरमबचन दसम ऱधक कामपधमटर\nकरध पकठहरणध मरध.",
       "options": {
         "A": "सतध",
         "B": "असतध",
@@ -597,7 +597,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "Hypertext ममणजध अकरकरबरोबर\nअनधक हचत ककरक धरनर होय.",
+      "question": "Hypertext ममणजध अकरकरबरोबर\nअनधक हचत ककरक धरनर मरध.",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -611,7 +611,7 @@ const allMCQBatches = {
   "BATCH 1103": [
     {
       "id": 1,
-      "question": "Computer System मधधध 0\nआणि 1 लल _________\nममणतलत.",
+      "question": "Computer System मध्येध 0\nआणि 1 लल _________\nममणतलत.",
       "options": {
         "A": "Data",
         "B": "Numbers",
@@ -623,7 +623,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "COMPUTERS मधधध CU\nममणजध _________ महध.",
+      "question": "COMPUTERS मध्येध CU\nममणजध _________ महध.",
       "options": {
         "A": "Common\nUnit",
         "B": "Cost Unit",
@@ -635,7 +635,7 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "Email account मधध पलठवलधलध\nमधल ककठध बघघ शकतह?",
+      "question": "Email account मध्ये पलठवलधलध\nमधल ककठध बघघ शकतह?",
       "options": {
         "A": "Spam",
         "B": "Trash",
@@ -647,7 +647,7 @@ const allMCQBatches = {
     },
     {
       "id": 4,
-      "question": "Email address ,\n\"gcc@gamil.com\" मधध gcc\nममणजध",
+      "question": "Email address ,\n\"gcc@gamil.com\" मध्ये gcc\nममणजध",
       "options": {
         "A": "username",
         "B": "domain\nname",
@@ -659,7 +659,7 @@ const allMCQBatches = {
     },
     {
       "id": 5,
-      "question": "Email address ,\n\"gcc@gamil.com\" मधध\n.com ममणजध",
+      "question": "Email address ,\n\"gcc@gamil.com\" मध्ये\n.com ममणजध",
       "options": {
         "A": "username",
         "B": "domain\nname",
@@ -671,7 +671,7 @@ const allMCQBatches = {
     },
     {
       "id": 6,
-      "question": "MS-Word 2019 मधध,ध\nChange Case Option मल\nHome Tab मधधल\n… … … … … … .. धल Group\nमधधध उपलाध आहे.ध",
+      "question": "MS-Word 2019 मध्ये,ध\nChange Case Option मल\nHome Tab मध्येल\n… … … … … … .. धल Group\nमध्येध उपलबध आम.ध",
       "options": {
         "A": "अररज",
         "B": "णकलपबहरर",
@@ -683,7 +683,7 @@ const allMCQBatches = {
     },
     {
       "id": 7,
-      "question": "एमएस वरर मधध,ध document\nबनवलधल ननतर तधलचध default\nextension म धअसतध :",
+      "question": "एमएस वरर मध्ये,ध document\nबनवलधल ननतर तधलाध default\nextension म धअसतध :",
       "options": {
         "A": ".dot",
         "B": ".docx",
@@ -707,7 +707,7 @@ const allMCQBatches = {
     },
     {
       "id": 9,
-      "question": "In Ms-Word मधधध Insert Tab\nचल उपधहग करन Picture\nInsert कर शकतह.",
+      "question": "In Ms-Word मध्येध Insert Tab\nचल उपधहग करन Picture\nInsert कर शकतह.",
       "options": {
         "A": "चघक",
         "B": "बरोबर",
@@ -719,7 +719,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "MS-Word मधधध cut option\n___Tab मधधध उपलाध आहेध",
+      "question": "MS-Word मध्येध cut option\n___Tab मध्येध उपलबध आमध",
       "options": {
         "A": "Home",
         "B": "Reference",
@@ -731,7 +731,7 @@ const allMCQBatches = {
     },
     {
       "id": 11,
-      "question": "Excel मधधध cells चध\nalignment करणधलसलठध\n… … … … करतलत.",
+      "question": "Excel मध्येध cells चध\nalignment करणधलसलठध\n… … … … करतलत.",
       "options": {
         "A": "View\n-->Alignment",
         "B": "Home\n-->Alignment",
@@ -743,7 +743,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "increase Font धल button चधल\nखललध … … … … … .. म ध button\nआहे.ध",
+      "question": "increase Font धल button चधल\nखललध … … … … … .. म ध button\nआम.ध",
       "options": {
         "A": "Decrease\nFont",
         "B": "Font Size",
@@ -755,12 +755,12 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "MS Excel 2019 मधधध home\ntab मधधल clear पधलरध मल\n___ कर शकतह .",
+      "question": "MS Excel 2019 मध्येध home\ntab मध्येल clear पधलरध मल\n___ कर शकतह .",
       "options": {
         "A": "clear\ncomments",
         "B": "clear formats",
         "C": "clear\nhyperlinks",
-        "D": "धलपपकक सर्व"
+        "D": "धलपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
@@ -791,7 +791,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "PowerPoint मधधध New Slide\nमल option ______ मधधध\nअसतह.",
+      "question": "PowerPoint मध्येध New Slide\nमल option ______ मध्येध\nअसतह.",
       "options": {
         "A": "Transition to\nthis slide",
         "B": "Slide",
@@ -827,19 +827,19 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "PowerPoint मधधध Notes\npage view म ध___________\nसलठध वलपरलध जलतलत.",
+      "question": "PowerPoint मध्येध Notes\npage view म ध___________\nसलठध वलपरलध जलतलत.",
       "options": {
         "A": "Footnote",
         "B": "speech notes",
         "C": "any note with\nslide",
-        "D": "धलपपकक सर्व"
+        "D": "धलपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
     },
     {
       "id": 20,
-      "question": "Fomat Tab मधधल कहणतधल\noptions मधधध Object Rotate\nकरतल धधतलत?",
+      "question": "Fomat Tab मध्येल कहणतधल\noptions मध्येध Object Rotate\nकरतल धधतलत?",
       "options": {
         "A": "Rotate",
         "B": "Auto Shapes",
@@ -899,7 +899,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "Computer Window मधधध\n___________मल णवणवध\nMenus दलखवतह.",
+      "question": "Computer Window मध्येध\n___________मल णवणवध\nMenus दलखवतह.",
       "options": {
         "A": "Title Bar",
         "B": "Tool Bar",
@@ -913,7 +913,7 @@ const allMCQBatches = {
   "BATCH 1104": [
     {
       "id": 1,
-      "question": "Email address ,\n\"gcc@gamil.com\" मधध\ngmail ममणजध",
+      "question": "Email address ,\n\"gcc@gamil.com\" मध्ये\ngmail ममणजध",
       "options": {
         "A": "username",
         "B": "domain\nname",
@@ -925,7 +925,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "Email मधध attachment ममणजध",
+      "question": "Email मध्ये attachment ममणजध",
       "options": {
         "A": "Documents",
         "B": "Audio files",
@@ -937,7 +937,7 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "In email मधयध attachment\nममणजध _______",
+      "question": "In email मध्ये attachment\nममणजध _______",
       "options": {
         "A": "audio files",
         "B": "video files",
@@ -949,7 +949,7 @@ const allMCQBatches = {
     },
     {
       "id": 4,
-      "question": "Email मधध BCC ममणजध",
+      "question": "Email मध्ये BCC ममणजध",
       "options": {
         "A": "Black copy\ncase",
         "B": "Black carbon\ncopy",
@@ -961,7 +961,7 @@ const allMCQBatches = {
     },
     {
       "id": 5,
-      "question": "Email मधयध CC ममणजध\nCourtesy Copy",
+      "question": "Email मध्ये CC ममणजध\nCourtesy Copy",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -973,7 +973,7 @@ const allMCQBatches = {
     },
     {
       "id": 6,
-      "question": "MS-Word document मधयध\n________ no. of पकयरचध\nmargins असतयत.",
+      "question": "MS-Word document मध्ये\n________ no. of पकयरचध\nmargins असतयत.",
       "options": {
         "A": "2",
         "B": "4",
@@ -997,7 +997,7 @@ const allMCQBatches = {
     },
     {
       "id": 8,
-      "question": "MS-Word मधयध Horizontal\nruler __________ मदतह\nसयठह रयपरतयत.",
+      "question": "MS-Word मध्ये Horizontal\nruler __________ मदतह\nसयठह रयपरतयत.",
       "options": {
         "A": "to set indents",
         "B": "to set tabs",
@@ -1009,7 +1009,7 @@ const allMCQBatches = {
     },
     {
       "id": 9,
-      "question": "MS-Word मधयध document चध\nनयर ____रर display मरत.ध",
+      "question": "MS-Word मध्ये document चध\nनयर ____रर display मरत.ध",
       "options": {
         "A": "status bar",
         "B": "formula bar",
@@ -1021,7 +1021,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "MS-Word 2019 मधयध\nprofessionally design कधलधलध\ndocuments चध readymade\nformats ददलध आहेतध तययतनय\n… … . ममणतयत.",
+      "question": "MS-Word 2019 मध्ये\nprofessionally design कधलधलध\ndocuments चध readymade\nformats ददलध आमतध तययतनय\n… … . ममणतयत.",
       "options": {
         "A": "Files",
         "B": "Chart",
@@ -1033,7 +1033,7 @@ const allMCQBatches = {
     },
     {
       "id": 11,
-      "question": "Data filter feature चय उपयरग\nकरतो, जजवमय ___________मधयध\ntable ready असतर.",
+      "question": "Data filter feature चय उपयरग\nकरतो, जजवमय ___________मध्ये\ntable ready असतर.",
       "options": {
         "A": "Worksheet",
         "B": "workbook",
@@ -1045,7 +1045,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "Column चह default width मह\n____ असत.ध",
+      "question": "Column चह default width मह\n____ असते",
       "options": {
         "A": "11",
         "B": "8.43",
@@ -1057,7 +1057,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "MS Excel 2019 मधयध default\ndate format dd/mm/yy आहे ध\n.",
+      "question": "MS Excel 2019 मध्ये default\ndate format dd/mm/yy आम ध\n.",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -1069,7 +1069,7 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "MS Excel 2019 मधयध\nspreadsheet file चध default\nextension .cell असतध",
+      "question": "MS Excel 2019 मध्ये\nspreadsheet file चध default\nextension .cell असतध",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -1081,7 +1081,7 @@ const allMCQBatches = {
     },
     {
       "id": 15,
-      "question": "MS Excel 2019 मधयध active\ncell चय address करठध दयखरलय\nजयतर ?",
+      "question": "MS Excel 2019 मध्ये active\ncell चय address करठध दयखरलय\nजयतर ?",
       "options": {
         "A": "Status box",
         "B": "name box",
@@ -1093,7 +1093,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "slide मधयध text hold\nकरणययसयठह ______________\nObject रयपरतयत.",
+      "question": "slide मध्ये text hold\nकरणययसयठह ______________\nObject रयपरतयत.",
       "options": {
         "A": "Place holder",
         "B": "Auto Layout",
@@ -1117,7 +1117,7 @@ const allMCQBatches = {
     },
     {
       "id": 18,
-      "question": "आपण पपररपपईटमधयध chart\ninsert कर शकतर.",
+      "question": "आपण पपररपपईटमध्ये chart\ninsert कर शकतर.",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -1141,7 +1141,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "PowerPoint मधयध Outline\nview म ध__________ सयठह\nरयपरलध जयतयत.",
+      "question": "PowerPoint मध्ये Outline\nview म ध__________ सयठह\nरयपरलध जयतयत.",
       "options": {
         "A": "Sort the\nslides",
         "B": "Arrange or\nadjust\nsequence of\nmatter",
@@ -1153,7 +1153,7 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "Binary Number System\nमधयध 0 आणह 1 ययतनय\n____________ असध ममणतयत.",
+      "question": "Binary Number System\nमध्ये 0 आणह 1 ययतनय\n____________ असध ममणतयत.",
       "options": {
         "A": "Bit",
         "B": "Byte",
@@ -1165,7 +1165,7 @@ const allMCQBatches = {
     },
     {
       "id": 22,
-      "question": "Internet चय रयपर कपलधज मधयध\n___ करतयत.",
+      "question": "Internet चय रयपर कपलधज मध्ये\n___ करतयत.",
       "options": {
         "A": "Online\nAdmission\nProcesses",
         "B": "Record",
@@ -1177,7 +1177,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "E-Mail address मधयध नयर\nआणि Domain म ध\"@\" चयय\nणचनमयनध णरभयगलध जयतयत.",
+      "question": "E-Mail address मध्ये नयर\nआणि Domain म ध\"@\" चयय\nणचनमयनध णरभयगलध जयतयत.",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -1201,7 +1201,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "E-Mail message मधयध\n____________ मय ममतरयचय\nभयग आहे.ध",
+      "question": "E-Mail message मध्ये\n____________ मय ममतरयचय\nभयग आम.ध",
       "options": {
         "A": "Subject",
         "B": "E-Mail\nAddress",
@@ -1215,7 +1215,7 @@ const allMCQBatches = {
   "BATCH 1105": [
     {
       "id": 1,
-      "question": "Email मधध CC means\nCourtesy Copy ममणजध",
+      "question": "Email मध्ये CC means\nCourtesy Copy ममणजध",
       "options": {
         "A": "Copy case",
         "B": "Cut copy",
@@ -1227,7 +1227,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "Email मधधध आपण executable\nfile attach कर शकतत.",
+      "question": "Email मध्येध आपण executable\nfile attach कर शकतत.",
       "options": {
         "A": "बरतबर",
         "B": "चूक",
@@ -1239,7 +1239,7 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "Gmail मधलधल Inbox मधध\nततममललल कलध सलपडत?ध",
+      "question": "Gmail मधलधल Inbox मध्ये\nततममललल कलध सलपडत?ध",
       "options": {
         "A": "deleted mail",
         "B": "read mail",
@@ -1251,7 +1251,7 @@ const allMCQBatches = {
     },
     {
       "id": 4,
-      "question": "Gmail मधधध नववन mail\nलललमणधलसलठव वलपरलल जलणलरल\noption ------- आहे ध.",
+      "question": "Gmail मध्येध नववन mail\nलललमणधलसलठव वलपरलल जलणलरल\noption ------- आम ध.",
       "options": {
         "A": "New mail",
         "B": "compose",
@@ -1275,7 +1275,7 @@ const allMCQBatches = {
     },
     {
       "id": 6,
-      "question": "MS-Word मधधध Header आलण\nFooter apply करणधलसलठव … ..\nTab चल उपधतग कधलल जलतत.",
+      "question": "MS-Word मध्येध Header आलण\nFooter apply करणधलसलठव … ..\nTab चल उपधतग कधलल जलतत.",
       "options": {
         "A": "Home",
         "B": "View",
@@ -1287,7 +1287,7 @@ const allMCQBatches = {
     },
     {
       "id": 7,
-      "question": "MS-WORD मधधध शब्द italic\nकरणधलस _________key\nवलपरतलत",
+      "question": "MS-WORD मध्येध शबद italic\nकरणधलस _________key\nवलपरतलत",
       "options": {
         "A": "CTRL+A",
         "B": "CTRL+Z",
@@ -1299,7 +1299,7 @@ const allMCQBatches = {
     },
     {
       "id": 8,
-      "question": "MS-Word मधधध new\ndocument open करणधलस\n___tab वलपरतलत",
+      "question": "MS-Word मध्येध new\ndocument open करणधलस\n___tab वलपरतलत",
       "options": {
         "A": "Edit",
         "B": "View",
@@ -1311,7 +1311,7 @@ const allMCQBatches = {
     },
     {
       "id": 9,
-      "question": "MS-Word मधधध आपण ctrl+r\nshortcut key … ... alignment\nसलठव वलपरतत",
+      "question": "MS-Word मध्येध आपण ctrl+r\nshortcut key … ... alignment\nसलठव वलपरतत",
       "options": {
         "A": "left",
         "B": "right",
@@ -1323,7 +1323,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "एम.एस.वडर मधधध 'Ctrl + R' धल\nShort cut key नध सर्व ममटर\nउजवल बलजतलल करतल धधत.ध",
+      "question": "एम.एस.वडर मध्येध 'Ctrl + R' धल\nShort cut key नध सवर ममटर\nउजवल बलजतलल करतल धधत.ध",
       "options": {
         "A": "बरतबर",
         "B": "चूक",
@@ -1335,7 +1335,7 @@ const allMCQBatches = {
     },
     {
       "id": 11,
-      "question": "MS Excel 2019 मधधध\nworkbook file चध default file\nname म धbook1 असत.ध",
+      "question": "MS Excel 2019 मध्येध\nworkbook file चध default file\nname म धbook1 असते",
       "options": {
         "A": "बरतबर",
         "B": "चूक",
@@ -1347,7 +1347,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "MS Excel 2019 मधधध\nformula bar , worksheet चध\nनलव दलखवतत .",
+      "question": "MS Excel 2019 मध्येध\nformula bar , worksheet चध\nनलव दलखवतत .",
       "options": {
         "A": "बरतबर",
         "B": "चूक",
@@ -1359,7 +1359,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "Active Cell Bar मधधध type\nकधलधलध formulas\n___________ मधधध display\nमततलत.",
+      "question": "Active Cell Bar मध्येध type\nकधलधलध formulas\n___________ मध्येध display\nमततलत.",
       "options": {
         "A": "Tool Bar",
         "B": "Status Bar",
@@ -1371,7 +1371,7 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "= max(56,65,78,38) धलचध\nआऊटपतट कलध धधईल?",
+      "question": "= max(56,65,78,38) धलाध\nआऊटपतट कलध धधईल?",
       "options": {
         "A": "130",
         "B": "65",
@@ -1383,7 +1383,7 @@ const allMCQBatches = {
     },
     {
       "id": 15,
-      "question": "MS Excel 2019 मधधध\ngridlines आधवपलसचनच\nआपतआप ददसतलत .",
+      "question": "MS Excel 2019 मध्येध\ngridlines आधवपलसचनच\nआपतआप ददसतलत .",
       "options": {
         "A": "बरतबर",
         "B": "चूक",
@@ -1395,7 +1395,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "Page Setup कमलमड\nPowerpoint मधवल\n___________ धल गतप मधधध\nउपलाध आहे.ध",
+      "question": "Page Setup कमलमड\nPowerpoint मधवल\n___________ धल गतप मध्येध\nउपलबध आम.ध",
       "options": {
         "A": "Home",
         "B": "Insert",
@@ -1431,7 +1431,7 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "PowerPoint मधधध\n__________ group मल Home\ntab वर असतत.",
+      "question": "PowerPoint मध्येध\n__________ group मल Home\ntab वर असतत.",
       "options": {
         "A": "Drawing",
         "B": "Images",
@@ -1448,14 +1448,14 @@ const allMCQBatches = {
         "A": "Teaching",
         "B": "Marketing",
         "C": "Animation",
-        "D": "धलपपकक सर्व"
+        "D": "धलपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
     },
     {
       "id": 21,
-      "question": "Email Program मधधध ___\nEmail Addresses store कर\nशकत.ध",
+      "question": "Email Program मध्येध ___\nEmail Addresses store कर\nशकत.ध",
       "options": {
         "A": "Address\nBook",
         "B": "Massage\nWindow",
@@ -1467,7 +1467,7 @@ const allMCQBatches = {
     },
     {
       "id": 22,
-      "question": "Gmail मधध,ध compose\nbutton म ध____________ सलठव\nवलपरतलत.",
+      "question": "Gmail मध्ये,ध compose\nbutton म ध____________ सलठव\nवलपरतलत.",
       "options": {
         "A": "नलवन E-Mail\nललमणधलसलठव",
         "B": "Reply to\nE-Mail",
@@ -1479,7 +1479,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "Gmail मधध,ध forward button\nम ध____________ सलठव\nवलपरतलत.",
+      "question": "Gmail मध्ये,ध forward button\nम ध____________ सलठव\nवलपरतलत.",
       "options": {
         "A": "Forward\nE-Mail",
         "B": "Delete E-Mail",
@@ -1491,7 +1491,7 @@ const allMCQBatches = {
     },
     {
       "id": 24,
-      "question": "Gmail मधध,ध reply button म ध\n____________ सलठव\nवलपरतलत.",
+      "question": "Gmail मध्ये,ध reply button म ध\n____________ सलठव\nवलपरतलत.",
       "options": {
         "A": "Delete E-Mail",
         "B": "नलवन E-Mail\nललमणधलसलठव",
@@ -1503,7 +1503,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "Internet Explorer मधधध\nrefresh सलठव __________ मव\nshortcut key वलपरतलत.",
+      "question": "Internet Explorer मध्येध\nrefresh सलठव __________ मव\nshortcut key वलपरतलत.",
       "options": {
         "A": "F1",
         "B": "F12",
@@ -1517,7 +1517,7 @@ const allMCQBatches = {
   "BATCH 1201": [
     {
       "id": 1,
-      "question": "Gmail मधध Trash चच उपययग\n… … … … … … … . पकचरचच\nmessage store करणयसचठठ\nकरतचत.",
+      "question": "Gmail मध्ये Trash चा उपयोग\n… … … … … … … . पूर्वीचे\nmessage store करण्यासाठी\nकरतात.",
       "options": {
         "A": "Deleated\nMessage",
         "B": "Written\nMessage",
@@ -1529,7 +1529,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "Gmail मधध unread\nmessages , ------- मधध\nअसतचत.",
+      "question": "Gmail मध्ये unread\nmessages , ------- मध्ये\nअसतात.",
       "options": {
         "A": "Inbox",
         "B": "spam",
@@ -1541,7 +1541,7 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "Gmail मधयध जधववच आपण\nकयणतयचवठ पकचरचठ file\nattached करणयचसचठठ कयणतध\nपकचरचध sign असत.ध",
+      "question": "Gmail मध्ये जधववच आपण\nकोणत्याही पूर्वी file\nattached करण्यासाठी कोणता\nपूर्वी sign असते",
       "options": {
         "A": "A star\nappears",
         "B": "U Pin\nSymbol",
@@ -1553,7 +1553,7 @@ const allMCQBatches = {
     },
     {
       "id": 4,
-      "question": "Gmail मधध delete कधलधलच\nmessage आपण कसच परत\nममळवतय?",
+      "question": "Gmail मध्ये delete कधलधला\nmessage आपण कसच परत\nममळवतय?",
       "options": {
         "A": "spam",
         "B": "Inbox",
@@ -1565,7 +1565,7 @@ const allMCQBatches = {
     },
     {
       "id": 5,
-      "question": "EMail मधध जधववच आपण\npassword type करतय तय\n--------- पकचरचत ददसतय",
+      "question": "EMail मध्ये जधववच आपण\npassword type करतय तय\n--------- पकचरचत ददसतय",
       "options": {
         "A": "star",
         "B": "black dots",
@@ -1577,7 +1577,7 @@ const allMCQBatches = {
     },
     {
       "id": 6,
-      "question": "MS -Word मधठल कयणतयच\nRibbon मधयध ततमवठ chart add\nकर शकतय ?",
+      "question": "MS -Word मधठल कयणतयच\nRibbon मध्ये ततमवठ chart add\nकर शकतय ?",
       "options": {
         "A": "Insert",
         "B": "view",
@@ -1589,7 +1589,7 @@ const allMCQBatches = {
     },
     {
       "id": 7,
-      "question": "In MS-Word मधयध कयणतठ\nRibbon नध आपण margin\nchange करचल",
+      "question": "In MS-Word मध्ये कयणतठ\nRibbon नध आपण margin\nchange करचल",
       "options": {
         "A": "Page Layout",
         "B": "View",
@@ -1601,7 +1601,7 @@ const allMCQBatches = {
     },
     {
       "id": 8,
-      "question": "Word मधयध\nखचलठलपपकक_______font\ngroup मधयध उपलाध नचवठ",
+      "question": "Word मध्ये\nखचलठलपपकक_______font\ngroup मध्ये उपलबध नचवठ",
       "options": {
         "A": "Font, Font\nStyle, Font\nSize",
         "B": "Underline",
@@ -1618,26 +1618,26 @@ const allMCQBatches = {
         "A": "Insert table",
         "B": "Create Table",
         "C": "Draw Table",
-        "D": "यचपपकक सर्व"
+        "D": "यचपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
     },
     {
       "id": 10,
-      "question": "MS-Word मधयध ततमवचलच\nready made pictures\n_________नध ममळतचत",
+      "question": "MS-Word मध्ये ततमवचला\nready made pictures\n_________नध ममळतचत",
       "options": {
         "A": "Motion clips",
         "B": "clip Art",
         "C": "sounds",
-        "D": "यचपपकक सर्व"
+        "D": "यचपपकक सवर"
       },
       "correctAnswer": "B",
       "userAnswer": null
     },
     {
       "id": 11,
-      "question": "row चठ height मयजणयचसचठठ\n… … … … … .. यच unit चच\nवचपर वयतय.",
+      "question": "row चठ height मयजणयचसचठठ\n… … … … … .. यच unit चा\nवचपर वयतय.",
       "options": {
         "A": "Point",
         "B": "cm",
@@ -1649,10 +1649,10 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "MS Excel 2019 मधयध if\nfunction चच result वच\ncondition वर अवललाबन असतय .",
+      "question": "MS Excel 2019 मध्ये if\nfunction चा result वच\ncondition वर अवललबबन असतय .",
       "options": {
         "A": "बरयबर",
-        "B": "चाक",
+        "B": "चबक",
         "C": "",
         "D": ""
       },
@@ -1661,10 +1661,10 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "Worksheet मधठल last cell\nवच XFD1048576 नध ओळखलच\nजचतय.",
+      "question": "Worksheet मधठल last cell\nवच XFD1048576 नध ओळखला\nजातोय.",
       "options": {
         "A": "बरयबर",
-        "B": "चाक",
+        "B": "चबक",
         "C": "",
         "D": ""
       },
@@ -1673,10 +1673,10 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "MS Excel 2019 मधयध name\nbox, worksheet चध नचव\nदचखवतध .",
+      "question": "MS Excel 2019 मध्ये name\nbox, worksheet चध नचव\nदचखवतध .",
       "options": {
         "A": "बरयबर",
-        "B": "चाक",
+        "B": "चबक",
         "C": "",
         "D": ""
       },
@@ -1688,7 +1688,7 @@ const allMCQBatches = {
       "question": "Workbook मधठल sheet चध\nनचव बदलतच यधत.ध",
       "options": {
         "A": "बरयबर",
-        "B": "चाक",
+        "B": "चबक",
         "C": "",
         "D": ""
       },
@@ -1697,19 +1697,19 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "PowerPoint presentation व ध\nसर्वसचधचरणतत _________\nमवणबन वचपरलध जचत.ध",
+      "question": "PowerPoint presentation व ध\nसवरसचधचरणतत _________\nमवणबन वचपरलध जातो.ध",
       "options": {
         "A": "Note outlines\nfor teachers",
         "B": "Project\npresentation\nby students",
         "C": "communicatio\nn of planning",
-        "D": "यचपपकक सर्व"
+        "D": "यचपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
     },
     {
       "id": 17,
-      "question": "__________________ यच\napplication महान आपलयचलच\nPPT तयचर करतच यधतय.",
+      "question": "__________________ यच\napplication मधबन आपलयचला\nPPT तयचर करतच यधतय.",
       "options": {
         "A": "MS-Word",
         "B": "MS-Excel",
@@ -1721,7 +1721,7 @@ const allMCQBatches = {
     },
     {
       "id": 18,
-      "question": "PPT files हच __________\nपकचरचध software आव.ध",
+      "question": "PPT files हच __________\nपूर्वी software आव.ध",
       "options": {
         "A": "MS-Word",
         "B": "MS-PowerPo\nint",
@@ -1745,7 +1745,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "Presentation file\n---------------- पकचरचयच\nsoftware मधयध तयचर वयत.ध",
+      "question": "Presentation file\n---------------- पकचरचयच\nsoftware मध्ये तयचर वयत.ध",
       "options": {
         "A": "Presentation\nGraphics\nPrograms",
         "B": "Word\nProcessor",
@@ -1757,7 +1757,7 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "Internet Explorer मधयध find\nयच Option सचठठ ___ वठ\nshortcut key वचपरतचत.",
+      "question": "Internet Explorer मध्ये find\nयच Option सचठठ ___ वठ\nshortcut key वचपरतचत.",
       "options": {
         "A": "Alt+F",
         "B": "Ctlr+F",
@@ -1769,7 +1769,7 @@ const allMCQBatches = {
     },
     {
       "id": 22,
-      "question": "Internet Explorer मधयध Find\nयच option सचठठ\n____________ वठ Shortcut\nkey वचपरतचत.",
+      "question": "Internet Explorer मध्ये Find\nयच option सचठठ\n____________ वठ Shortcut\nkey वचपरतचत.",
       "options": {
         "A": "Ctrl + F",
         "B": "Alt + F",
@@ -1781,7 +1781,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "Webpage मधयध Ctrl + F\nshortcut key चच वचपर\nWebpage मधठल _________\nव धoption वचपरणयचसचठठ वयतय.",
+      "question": "Webpage मध्ये Ctrl + F\nshortcut key चा वचपर\nWebpage मधठल _________\nव धoption वचपरणयचसचठठ वयतय.",
       "options": {
         "A": "Favorites",
         "B": "Find",
@@ -1793,7 +1793,7 @@ const allMCQBatches = {
     },
     {
       "id": 24,
-      "question": "Internet Explorer मधयध\nrecently open कधलधलयच web\nsites चठ list toolbar वरठल\n___ यच button मधयध पवचयलच\nममळतध.",
+      "question": "Internet Explorer मध्ये\nrecently open कधलधलयच web\nsites चठ list toolbar वरठल\n___ यच button मध्ये पवचयला\nममळतध.",
       "options": {
         "A": "History",
         "B": "Favorites",
@@ -1805,7 +1805,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "In Internet Explorer मधयध\nRecently open कधलधलयच सर्व\nWeb Site Addresses चठ list\nपचवणयचसचठठ ____________\nवच Option वचपरतचत.",
+      "question": "In Internet Explorer मध्ये\nRecently open कधलधलयच सवर\nWeb Site Addresses चठ list\nपचवणयचसचठठ ____________\nवच Option वचपरतचत.",
       "options": {
         "A": "History",
         "B": "Favorites",
@@ -1819,7 +1819,7 @@ const allMCQBatches = {
   "BATCH 1202": [
     {
       "id": 1,
-      "question": "In Gmail मधध ककणतत option\nअसत आह धकक जक received\nmessages दररववतक .",
+      "question": "In Gmail मध्ये ककणतत option\nअसत आह धकक जक received\nmessages दररववतक .",
       "options": {
         "A": "Inbox",
         "B": "spam",
@@ -1831,7 +1831,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "Internet चच ससरवतत ककणच\nकधलच?",
+      "question": "Internet चा ससरवतत ककणच\nकधला?",
       "options": {
         "A": "Yahoo",
         "B": "Google",
@@ -1843,7 +1843,7 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "Internet Explorer मधधध\nwebsite चत address\n---------- मधधध दतध तत.",
+      "question": "Internet Explorer मध्येध\nwebsite चत address\n---------- मध्येध दतध तत.",
       "options": {
         "A": "Address bar",
         "B": "Menu bar",
@@ -1855,7 +1855,7 @@ const allMCQBatches = {
     },
     {
       "id": 4,
-      "question": "एकत TAB मधधध ______ इतकध\nअअतर असत.ध",
+      "question": "एकत TAB मध्येध ______ इतकध\nअअतर असते",
       "options": {
         "A": "1 Inch",
         "B": "1.5 Inch",
@@ -1879,7 +1879,7 @@ const allMCQBatches = {
     },
     {
       "id": 6,
-      "question": "Ms-Word मधधध file सअबधच\ndetails save _____dialog\nbox मधधध specify करततत.",
+      "question": "Ms-Word मध्येध file सअबधच\ndetails save _____dialog\nbox मध्येध specify करततत.",
       "options": {
         "A": "save the file\nas",
         "B": "File save",
@@ -1891,7 +1891,7 @@ const allMCQBatches = {
     },
     {
       "id": 7,
-      "question": "एमएस वरर मधध,ध कलकज ऑपरन\n… … . मधनस मधधध आहहध",
+      "question": "एमएस वरर मध्ये,ध कलकज ऑपरन\n… … . मधनस मध्येध आहहध",
       "options": {
         "A": "File",
         "B": "View",
@@ -1903,19 +1903,19 @@ const allMCQBatches = {
     },
     {
       "id": 8,
-      "question": "एमएस वरर मधध,ध Ctrl+Home\nकक धत सतठच … … … … .\nवतपरततत.",
+      "question": "एमएस वरर मध्ये,ध Ctrl+Home\nकक धत सतठच … … … … .\nवतपरततत.",
       "options": {
         "A": "Move the\ncursor to the\nbeginning of\ndocument",
         "B": "Move the\ncursor to the\nleft of\ndocument",
         "C": "Move the\ncursor to the\nbegging to\nparagraph",
-        "D": "धतपपकक सर्व"
+        "D": "धतपपकक सवर"
       },
       "correctAnswer": "A",
       "userAnswer": null
     },
     {
       "id": 9,
-      "question": "एमएस वरर मधधध Ctrl+U धत कक\nनध रबद uppercase करतत\nधधततत",
+      "question": "एमएस वरर मध्येध Ctrl+U धत कक\nनध रबद uppercase करतत\nधधततत",
       "options": {
         "A": "बरकबर",
         "B": "चूक",
@@ -1927,7 +1927,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "MS-Word मधधध Cut\noption______________ Tab\nमधधध उपलाध आह.ध",
+      "question": "MS-Word मध्येध Cut\noption______________ Tab\nमध्येध उपलबध आह.ध",
       "options": {
         "A": "Edit",
         "B": "Home",
@@ -1951,7 +1951,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "Increase Font चत option\n… … … … .. मधधध उपलाध\nअसतक.",
+      "question": "Increase Font चत option\n… … … … .. मध्येध उपलबध\nअसतक.",
       "options": {
         "A": "Font size",
         "B": "View",
@@ -1963,7 +1963,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "MS Excel 2019 मधधध\nscrollbar ____ धधथध उपलाध\nआह?ध",
+      "question": "MS Excel 2019 मध्येध\nscrollbar ____ धधथध उपलबध\nआह?ध",
       "options": {
         "A": "no scroll bars\nin MS Excel\n2019",
         "B": "at left side",
@@ -1999,7 +1999,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "Presentation file\n________________ पकतरचधत\nsoftware मधधध तधतर हकत.ध",
+      "question": "Presentation file\n________________ पकतरचधत\nsoftware मध्येध तधतर हकत.ध",
       "options": {
         "A": "Presentation\nGraphics\nPrograms",
         "B": "Word\nProcessor",
@@ -2011,7 +2011,7 @@ const allMCQBatches = {
     },
     {
       "id": 17,
-      "question": "Notepad मधधध Presentation\nfiles बनववतत धधततत.",
+      "question": "Notepad मध्येध Presentation\nfiles बनववतत धधततत.",
       "options": {
         "A": "बरकबर",
         "B": "चूक",
@@ -2023,7 +2023,7 @@ const allMCQBatches = {
     },
     {
       "id": 18,
-      "question": "Presentation files लत\n________ह धextension असत.ध",
+      "question": "Presentation files लत\n________ह धextension असते",
       "options": {
         "A": ".txt",
         "B": ".xlxs",
@@ -2047,7 +2047,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "Presentation page मधधध जध\nकतहच वससन वर कदसतध तधतलत\n'Slide' असध महणततत.",
+      "question": "Presentation page मध्येध जध\nकतहच वससन वर कदसतध तधतलत\n'Slide' असध महणततत.",
       "options": {
         "A": "बरकबर",
         "B": "चूक",
@@ -2059,7 +2059,7 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "Internet explorer मधध मतगचल\nwebpage वर जतणधतसतठच\n______ हच key वतपरलच जततध.",
+      "question": "Internet explorer मध्ये मतगचल\nwebpage वर जतणधतसतठच\n______ हच key वतपरला जततध.",
       "options": {
         "A": "Esc",
         "B": "Home",
@@ -2071,7 +2071,7 @@ const allMCQBatches = {
     },
     {
       "id": 22,
-      "question": "Internet Explorer मधधध\nreading करतत Web page\nsave करणधतसतठच File Menu\nमधसन ___ धत Option वर click\nकरतव.ध",
+      "question": "Internet Explorer मध्येध\nreading करतत Web page\nsave करणधतसतठच File Menu\nमधसन ___ धत Option वर click\nकरतव.ध",
       "options": {
         "A": "Send",
         "B": "Print",
@@ -2083,7 +2083,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "इअटरनधटमधधध Terminology IP\nमहणजध..",
+      "question": "इअटरनधटमध्येध Terminology IP\nमहणजध..",
       "options": {
         "A": "Internet\nProvider",
         "B": "Internet\nProtocol",
@@ -2095,7 +2095,7 @@ const allMCQBatches = {
     },
     {
       "id": 24,
-      "question": "Internet मधधध Information\ntransfer करततनत तच लहतन\nलहतन तसकडतअमधधध पतठववलच\nजततध, तधतलत ____ असध महणततत.",
+      "question": "Internet मध्येध Information\ntransfer करततनत तच लहतन\nलहतन तसकडतअमध्येध पतठववला\nजततध, तधतलत ____ असध महणततत.",
       "options": {
         "A": "Packets",
         "B": "Pieces",
@@ -2107,7 +2107,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "Network मधधध ______नकर ह ध\nमधधवतर server लत जकरलध\nजतततत.",
+      "question": "Network मध्येध ______नकर ह ध\nमध्येवतर server लत जकरलध\nजतततत.",
       "options": {
         "A": "E-Mail\nClients",
         "B": "Clients",
@@ -2121,7 +2121,7 @@ const allMCQBatches = {
   "BATCH 1203": [
     {
       "id": 1,
-      "question": "ककणततत folder मधतध email\nreceived हकततत?",
+      "question": "ककणततत folder मध्ये email\nreceived हकततत?",
       "options": {
         "A": "Inbox",
         "B": "outbox",
@@ -2133,7 +2133,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "Windows 10 मधतध HELP चच\nSHORTCUT KEY\n____________ आह.ध",
+      "question": "Windows 10 मध्ये HELP चा\nSHORTCUT KEY\n____________ आह.ध",
       "options": {
         "A": "Esc",
         "B": "Help",
@@ -2145,12 +2145,12 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "ववडक डधसकटटप मधतध ककणततत\nगकषच असततत?",
+      "question": "ववडक डधसकटटप मध्ये ककणततत\nगकषच असततत?",
       "options": {
         "A": "Icons",
         "B": "Clock",
         "C": "Start Menu",
-        "D": "वरचल सर्व"
+        "D": "वरचल सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
@@ -2169,7 +2169,7 @@ const allMCQBatches = {
     },
     {
       "id": 5,
-      "question": "मतहहतच ससगणकतचतत\n___________ Device वर\nदतखहवलच जततध.",
+      "question": "मतहहतच ससगणकतचतत\n___________ Device वर\nदतखहवला जततध.",
       "options": {
         "A": "Speaker",
         "B": "Keyboard",
@@ -2181,7 +2181,7 @@ const allMCQBatches = {
     },
     {
       "id": 6,
-      "question": "एमएस वडर मधत,ध footnotes,\nendnotes & indexes ह धसर्व\n____ इनसटर कर शकतक",
+      "question": "एमएस वडर मधत,ध footnotes,\nendnotes & indexes ह धसवर\n____ इनसटर कर शकतक",
       "options": {
         "A": "Hyperlinks",
         "B": "Booksmarks",
@@ -2193,19 +2193,19 @@ const allMCQBatches = {
     },
     {
       "id": 7,
-      "question": "MS-Word मधतध ruler line चत\nउपतकग _____ सतठच कधलत जततक.",
+      "question": "MS-Word मध्ये ruler line चत\nउपतकग _____ सतठच कधलत जततक.",
       "options": {
         "A": "to set tabs",
         "B": "to set indents",
         "C": "to change\npage margins",
-        "D": "ततपपकक सर्व"
+        "D": "ततपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
     },
     {
       "id": 8,
-      "question": "आपण MS-Word मधतध\nexisting document बसद\nकरणततसतठच कशतचत वतपर\nकरतक?",
+      "question": "आपण MS-Word मध्ये\nexisting document बसद\nकरणततसतठच कशतचत वतपर\nकरतक?",
       "options": {
         "A": "Ctrl + F1",
         "B": "Ctrl + F2",
@@ -2217,7 +2217,7 @@ const allMCQBatches = {
     },
     {
       "id": 9,
-      "question": "MS-Word मधतध Document चध\nनतव __________________\nवर दशरहवलध जतत.ध",
+      "question": "MS-Word मध्ये Document चध\nनतव __________________\nवर दशरहवलध जतत.ध",
       "options": {
         "A": "टतईटल बतर",
         "B": "सटधटस बतर",
@@ -2229,7 +2229,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "Ms-Word मधतध शब्द लतल वहवध\nunderline नध दशरहवततत तततलत\n______ महणततत.",
+      "question": "Ms-Word मध्ये शबद लतल वहवध\nunderline नध दशरहवततत तततलत\n______ महणततत.",
       "options": {
         "A": "Grammatical\nMistake",
         "B": "A highlighted\nword",
@@ -2241,7 +2241,7 @@ const allMCQBatches = {
     },
     {
       "id": 11,
-      "question": "Row height चध unit\n… … … … ह धअसत.ध",
+      "question": "Row height चध unit\n… … … … ह धअसते",
       "options": {
         "A": "Meter",
         "B": "Points",
@@ -2265,7 +2265,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "एकत workbook मधतध\nmaximum 255 ______\nअसततत",
+      "question": "एकत workbook मध्ये\nmaximum 255 ______\nअसततत",
       "options": {
         "A": "Row",
         "B": "Column",
@@ -2277,7 +2277,7 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "Workbook मधतध जतसतचत जतसत\n______ sheets असततत.",
+      "question": "Workbook मध्ये जतसतचत जतसत\n______ sheets असततत.",
       "options": {
         "A": "250",
         "B": "255",
@@ -2289,7 +2289,7 @@ const allMCQBatches = {
     },
     {
       "id": 15,
-      "question": "MS Excel 2019 मधतध\nformula टतईप करततनत कतत\nवतपरततचध नसतध ?",
+      "question": "MS Excel 2019 मध्ये\nformula टतईप करततनत कतत\nवतपरततचध नसतध ?",
       "options": {
         "A": "spaces",
         "B": "numbers",
@@ -2301,7 +2301,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "Presentation Software ह ध\nMS-Office application मधतध\nअसत.ध",
+      "question": "Presentation Software ह ध\nMS-Office application मध्ये\nअसते",
       "options": {
         "A": "बरकबर",
         "B": "चूक",
@@ -2325,7 +2325,7 @@ const allMCQBatches = {
     },
     {
       "id": 18,
-      "question": "PowerPoint मधतध Pushहत\n______________ चत effect\nआह.ध",
+      "question": "PowerPoint मध्ये Pushहत\n______________ चत effect\nआह.ध",
       "options": {
         "A": "Image",
         "B": "Animation",
@@ -2337,7 +2337,7 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "PowerPoint मधचल ककणततत\ngroup मधतध Quick Style\ncommand उपलाध आह.ध",
+      "question": "PowerPoint मधचल ककणततत\ngroup मध्ये Quick Style\ncommand उपलबध आह.ध",
       "options": {
         "A": "Font",
         "B": "Paragraph",
@@ -2361,7 +2361,7 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "network मधतध Data Transfer\nहकत असततनतचत वधग Baud\nRate तत पररमतणतत मकजततत.",
+      "question": "network मध्ये Data Transfer\nहकत असततनतचत वधग Baud\nRate तत पररमतणतत मकजततत.",
       "options": {
         "A": "बरकबर",
         "B": "चपक",
@@ -2373,7 +2373,7 @@ const allMCQBatches = {
     },
     {
       "id": 22,
-      "question": "network मधतध Data Transfer\nहकत असततनतचत वधग Bond\nRate तत पररमतणतत मकजततत.",
+      "question": "network मध्ये Data Transfer\nहकत असततनतचत वधग Bond\nRate तत पररमतणतत मकजततत.",
       "options": {
         "A": "बरकबर",
         "B": "चूक",
@@ -2397,7 +2397,7 @@ const allMCQBatches = {
     },
     {
       "id": 24,
-      "question": "Internet Explorer मधतध\nwebsite चत Address Menu\nBar मधतध दतध तत.",
+      "question": "Internet Explorer मध्ये\nwebsite चत Address Menu\nBar मध्ये दतध तत.",
       "options": {
         "A": "बरकबर",
         "B": "चपक",
@@ -2409,7 +2409,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "Windows 10 मधतध\n____________key चतलच\nTask रद करत.ध",
+      "question": "Windows 10 मध्ये\n____________key चतला\nTask रद करत.ध",
       "options": {
         "A": "Delete",
         "B": "Alt",
@@ -2423,7 +2423,7 @@ const allMCQBatches = {
   "BATCH 1204": [
     {
       "id": 1,
-      "question": "HARD DISK मधधध ममहहतत\n_______________ पदततनध\nसमठहवलत जमतध",
+      "question": "HARD DISK मध्येध ममहहतत\n_______________ पदततनध\nसमठहवलत जमतध",
       "options": {
         "A": "LASER",
         "B": "ELECTRO-M\nAGNETIC\nFEATURE",
@@ -2435,7 +2435,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "OPTICAL DISK मधधध ममहहतत\n_______________ पदततनध\nसमठहवलत जमतध.",
+      "question": "OPTICAL DISK मध्येध ममहहतत\n_______________ पदततनध\nसमठहवलत जमतध.",
       "options": {
         "A": "Laser Ray",
         "B": "Electro-Magn\netic Feature",
@@ -2447,7 +2447,7 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "… … … … . Memory मधधध\nममहहतत कमधमसर्वपत समठवव\nशकतत.",
+      "question": "… … … … . Memory मध्येध\nममहहतत कमधमसवरपत समठवव\nशकतत.",
       "options": {
         "A": "ROM",
         "B": "RAM",
@@ -2459,7 +2459,7 @@ const allMCQBatches = {
     },
     {
       "id": 4,
-      "question": "INPUT UNIT नध ददलधलत\nममहहतत हह CPU मधतल\n__________ मधधध आधत\nसमठहवलत जमतध.",
+      "question": "INPUT UNIT नध ददलधलत\nममहहतत हह CPU मधतल\n__________ मध्येध आधत\nसमठहवलत जमतध.",
       "options": {
         "A": "MEMORY",
         "B": "CONTROL",
@@ -2471,7 +2471,7 @@ const allMCQBatches = {
     },
     {
       "id": 5,
-      "question": "Computer चधम ----- मधमरतमधधध\nसमठहवलधलत ममहहतत वतज पवमह\nचमलव असधपधरतच समठलधलत रमहत.ध",
+      "question": "Computer चधम ----- मधमरतमध्येध\nसमठहवलधलत ममहहतत वतज पवमह\nचमलव असधपधरतच समठलधलत रमहत.ध",
       "options": {
         "A": "ROM",
         "B": "RAM",
@@ -2495,7 +2495,7 @@ const allMCQBatches = {
     },
     {
       "id": 7,
-      "question": "एमएस वरर मधध,ध default page\nचध orientation_______ असत.ध",
+      "question": "एमएस वरर मध्ये,ध default page\nचध orientation_______ असते",
       "options": {
         "A": "Right\norientation",
         "B": "Left\norientation",
@@ -2507,7 +2507,7 @@ const allMCQBatches = {
     },
     {
       "id": 8,
-      "question": "एम.एस. वरर मधधध पतफधशनलत\nतधमर हरझमईन रडकधकममट लम\n… … … .. फडरममट टधमपलधट असध\nमहणतमत",
+      "question": "एम.एस. वरर मध्येध पतफधशनलत\nतधमर हरझमईन रडकधकममट लम\n… … … .. फडरममट टधमपलधट असध\nमहणतमत",
       "options": {
         "A": "Edit",
         "B": "Create",
@@ -2519,7 +2519,7 @@ const allMCQBatches = {
     },
     {
       "id": 9,
-      "question": "MS-Word मधधध\nalphabetically sort text,\nprocedure ___________ हत\nआह.ध",
+      "question": "MS-Word मध्येध\nalphabetically sort text,\nprocedure ___________ हत\nआह.ध",
       "options": {
         "A": "Insert - Table\n- Sort",
         "B": "Home -Font -\nSort",
@@ -2531,7 +2531,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "Word मधधध bookmarks,\nFootnote, Endnote आपणमस\nवमपरतम धधतमत.",
+      "question": "Word मध्येध bookmarks,\nFootnote, Endnote आपणमस\nवमपरतम धधतमत.",
       "options": {
         "A": "बरतबर",
         "B": "चकक",
@@ -2543,7 +2543,7 @@ const allMCQBatches = {
     },
     {
       "id": 11,
-      "question": "Workbook मधधध ३ ककवम जमसत\nworksheets असक शकतमत।",
+      "question": "Workbook मध्येध ३ ककवम जमसत\nworksheets असक शकतमत।",
       "options": {
         "A": "बरतबर",
         "B": "चवक",
@@ -2555,7 +2555,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "एकम workbook मधधध ततन ककवम\nतधमपधकम जमसत worksheets\nधम available नसतमत.",
+      "question": "एकम workbook मध्येध ततन ककवम\nतधमपधकम जमसत worksheets\nधम available नसतमत.",
       "options": {
         "A": "बरतबर",
         "B": "चवक",
@@ -2567,7 +2567,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "sheet मधध सकरवमततस\n________ हतणधमसमठत Ctrl +\nHome key वमपरतमत.",
+      "question": "sheet मध्ये सकरवमततस\n________ हतणधमसमठत Ctrl +\nHome key वमपरतमत.",
       "options": {
         "A": "move",
         "B": "split",
@@ -2579,7 +2579,7 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "Work Book मधधध नवतन Work\nSheet Add करणधमसमठत\n… … … … … Tab - Cells\ngroup मधतल Insert हत\nCommand वमपरतमत.",
+      "question": "Work Book मध्येध नवतन Work\nSheet Add करणधमसमठत\n… … … … … Tab - Cells\ngroup मधतल Insert हत\nCommand वमपरतमत.",
       "options": {
         "A": "हतम",
         "B": "ववधव",
@@ -2591,7 +2591,7 @@ const allMCQBatches = {
     },
     {
       "id": 15,
-      "question": "Currency Style Apply\nकरणधमसमठत Home Tab मधतल\nNumber Group … … … … … .\nधम Option मधधध असतत.",
+      "question": "Currency Style Apply\nकरणधमसमठत Home Tab मधतल\nNumber Group … … … … … .\nधम Option मध्येध असतत.",
       "options": {
         "A": "Comma\nFormat",
         "B": "Accounting\nNumber\nFormat",
@@ -2615,7 +2615,7 @@ const allMCQBatches = {
     },
     {
       "id": 17,
-      "question": "PowerPoint मधधध Reset हम\noption ______ मधधध असतत.",
+      "question": "PowerPoint मध्येध Reset हम\noption ______ मध्येध असतत.",
       "options": {
         "A": "Transition to\nthis slide",
         "B": "Slide",
@@ -2627,7 +2627,7 @@ const allMCQBatches = {
     },
     {
       "id": 18,
-      "question": "PowerPoint मधतल कतणतधम\ngroup मधधध Reset\nCommand उपलाध आह.ध",
+      "question": "PowerPoint मधतल कतणतधम\ngroup मध्येध Reset\nCommand उपलबध आह.ध",
       "options": {
         "A": "Slides",
         "B": "Clipboard",
@@ -2651,7 +2651,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "Screenshot कमममर\nPowerpoint मधतल\n___________ धम गकप मधधध\nउपलाध आह.ध",
+      "question": "Screenshot कमममर\nPowerpoint मधतल\n___________ धम गकप मध्येध\nउपलबध आह.ध",
       "options": {
         "A": "Home",
         "B": "Insert",
@@ -2663,7 +2663,7 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "Windows 10 मधधध F5 key\nHelp दमखवणधमसमठत वमपरतमत.",
+      "question": "Windows 10 मध्येध F5 key\nHelp दमखवणधमसमठत वमपरतमत.",
       "options": {
         "A": "बरतबर",
         "B": "चवक",
@@ -2675,7 +2675,7 @@ const allMCQBatches = {
     },
     {
       "id": 22,
-      "question": "Windows 10 मधधध ..............\nह धgeneral shortcut key\ncombination cursor लम\nपकढतल शब्दमचधम सकरवमततस\nनधणधमसमठत वमपरतमत.",
+      "question": "Windows 10 मध्येध ..............\nह धgeneral shortcut key\ncombination cursor लम\nपकढतल शबदमचधम सकरवमततस\nनधणधमसमठत वमपरतमत.",
       "options": {
         "A": "Ctrl + Left\nArrow",
         "B": "Ctrl + Right\nArrow",
@@ -2687,7 +2687,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "Windows 10 मधधध ..............\nह धgeneral shortcut key\ncombination block of text\nselect करणधमसमठत वमपरतमत.",
+      "question": "Windows 10 मध्येध ..............\nह धgeneral shortcut key\ncombination block of text\nselect करणधमसमठत वमपरतमत.",
       "options": {
         "A": "Ctrl + Shift\nwith an arrow\nkey",
         "B": "Ctrl + S",
@@ -2699,11 +2699,11 @@ const allMCQBatches = {
     },
     {
       "id": 24,
-      "question": "Windows 10 मधधध Ctrl + A\nह धkey combination\nदहालधमवर............",
+      "question": "Windows 10 मध्येध Ctrl + A\nह धkey combination\nदमबलधमवर............",
       "options": {
         "A": "Selected\nItem Cut कधलम\nजमतत",
         "B": "contents\ncopy हततमत",
-        "C": "Document\nककवम window\nमधतल सर्व items\nselect हततमत",
+        "C": "Document\nककवम window\nमधतल सवर items\nselect हततमत",
         "D": "selected item\npaste कधलम जमतत"
       },
       "correctAnswer": "C",
@@ -2711,7 +2711,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "Windows 10 मधधध Ctrl + C\nह धkey combination\nदहालधमवर............",
+      "question": "Windows 10 मध्येध Ctrl + C\nह धkey combination\nदमबलधमवर............",
       "options": {
         "A": "selected item\nCopy करतम\nधधईल",
         "B": "selected item\nCut करतम धधईल",
@@ -2725,7 +2725,7 @@ const allMCQBatches = {
   "BATCH 1205": [
     {
       "id": 1,
-      "question": "Input आणि Output device\nएकच ककम करतकत.",
+      "question": "Input आणि Output device\nएकाच काम करतात.",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -2737,12 +2737,12 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "Integratec Circuits ( I C )\nकरणततक णपढढ मधतध वकपरलध गधलध",
+      "question": "Integratec Circuits ( I C )\nकोणत्या पिढी मध्ये वापरला गेला",
       "options": {
-        "A": "पणहलढ",
-        "B": "दसद रढ",
-        "C": "णतसरढ",
-        "D": "चचथढ"
+        "A": "पहिली",
+        "B": "दुसरी",
+        "C": "तिसरी",
+        "D": "चौथी"
       },
       "correctAnswer": "C",
       "userAnswer": null
@@ -2778,14 +2778,14 @@ const allMCQBatches = {
         "A": "RAM",
         "B": "ROM",
         "C": "CACHE",
-        "D": "तकपपकक सर्व"
+        "D": "तकपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
     },
     {
       "id": 6,
-      "question": "Word मधतध bookmarks,\nfootnote आपणकस वकपरतक\nतधतकत.",
+      "question": "Word मध्ये bookmarks,\nfootnote आपणकस वकपरतक\nतधतकत.",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -2797,7 +2797,7 @@ const allMCQBatches = {
     },
     {
       "id": 7,
-      "question": "आपणकणस MS-Word मधतध\nInsert Tab चक वकपर सर्व सधटटग\ndetermine करणतकसकठढ हरतर.",
+      "question": "आपणकणस MS-Word मध्ये\nInsert Tab चक वकपर सवर सधटटग\ndetermine करणतकसकठढ हरतर.",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -2809,7 +2809,7 @@ const allMCQBatches = {
     },
     {
       "id": 8,
-      "question": "एमएस वरर मधत,ध drop down\nbar मधतध जकसतढत जकसत ककतढ\nटकध View उपलाब आह.ध",
+      "question": "एमएस वरर मधत,ध drop down\nbar मध्ये जकसतढत जकसत ककतढ\nटकध View उपलबब आह.ध",
       "options": {
         "A": "500",
         "B": "200",
@@ -2821,7 +2821,7 @@ const allMCQBatches = {
     },
     {
       "id": 9,
-      "question": "एमएस वरर मधत,ध खकलढल पपकक\nकरणतढ fonts spacing\nउपलाब नकहढ",
+      "question": "एमएस वरर मधत,ध खकलढल पपकक\nकरणतढ fonts spacing\nउपलबब नकहढ",
       "options": {
         "A": "Normal",
         "B": "Loosely",
@@ -2833,12 +2833,12 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "MS-Word मधतध\n______option highlight\nसकठढ उपतरग हरतर",
+      "question": "MS-Word मध्ये\n______option highlight\nसकठढ उपतरग हरतर",
       "options": {
         "A": "Text effect",
         "B": "Font Color",
         "C": "Text Hightlight\nColor",
-        "D": "तकपपकक सर्व"
+        "D": "तकपपकक सवर"
       },
       "correctAnswer": "C",
       "userAnswer": null
@@ -2869,7 +2869,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "Selected Cell Range हाचन\nफक Numeric Values असलधलध\nCell Count\nकरणतकसकठढ … … … … … ह ध\nफणककन वकपरतकत.",
+      "question": "Selected Cell Range मबचन\nफक Numeric Values असलधलध\nCell Count\nकरणतकसकठढ … … … … … ह ध\nफणककन वकपरतकत.",
       "options": {
         "A": "=Countno ()",
         "B": "=Counta()",
@@ -2881,7 +2881,7 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "कदलधलतक cell range हाढल\nमहतम अणक करबणतकसकठढ\n… … … … … . फणककन वकपरतकत.",
+      "question": "कदलधलतक cell range मबढल\nमहतम अणक करबणतकसकठढ\n… … … … … . फणककन वकपरतकत.",
       "options": {
         "A": "Count()",
         "B": "Max()",
@@ -2893,7 +2893,7 @@ const allMCQBatches = {
     },
     {
       "id": 15,
-      "question": "Column आणि row हाढल\nlowest number करबणतकसकठढ\n… … … … … … .. तक फणककनचक\nवकपर करतकत.",
+      "question": "Column आणि row मबढल\nlowest number करबणतकसकठढ\n… … … … … … .. तक फणककनचक\nवकपर करतात.",
       "options": {
         "A": "Max( )",
         "B": "Min( )",
@@ -2905,7 +2905,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "Text select करन Home Tab\n- Font Group हाढल\n------------ वर click कधलतकवर\nText लक shadow तधत.ध",
+      "question": "Text select करन Home Tab\n- Font Group मबढल\n------------ वर click कधलतकवर\nText लक shadow तधत.ध",
       "options": {
         "A": "Shadow",
         "B": "Bold",
@@ -2917,7 +2917,7 @@ const allMCQBatches = {
     },
     {
       "id": 17,
-      "question": "सर्व Objects चक णमळचन एकच\nObject करणतकसकठढ Format\nTab वरढल ॲररज गदप हाचन\n.............. कमकणरचक वकपर\nकरकवक.",
+      "question": "सवर Objects चक णमळचन एकाच\nObject करणतकसकठढ Format\nTab वरढल ॲररज गदप मबचन\n.............. कमकणरचक वकपर\nकरकवक.",
       "options": {
         "A": "आररर",
         "B": "गदप",
@@ -2929,7 +2929,7 @@ const allMCQBatches = {
     },
     {
       "id": 18,
-      "question": "Selected heading कलर\nकरणतकसकठढ Home Tab हाढल\nFont Group पपकक .................\nकमकणरचक वकपर हरतर.",
+      "question": "Selected heading कलर\nकरणतकसकठढ Home Tab मबढल\nFont Group पपकक .................\nकमकणरचक वकपर हरतर.",
       "options": {
         "A": "Font",
         "B": "Paragraph",
@@ -2941,7 +2941,7 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "Shadow effect दणध तकसकठढ\ntext shadow command हढ\n_________ tab हाचन\nवकपरतकत.",
+      "question": "Shadow effect दणध तकसकठढ\ntext shadow command हढ\n_________ tab मबचन\nवकपरतकत.",
       "options": {
         "A": "Insert",
         "B": "Home",
@@ -2965,7 +2965,7 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "Windows 10 मधतध Ctrl + V\nह धkey combination\nदकबलतकवर............",
+      "question": "Windows 10 मध्ये Ctrl + V\nह धkey combination\nदकबलतकवर............",
       "options": {
         "A": "selected item\nCopy करतक\nतधईल",
         "B": "selected item\nCut करतक तधईल",
@@ -2977,7 +2977,7 @@ const allMCQBatches = {
     },
     {
       "id": 22,
-      "question": "Windows 10 मधतध Ctrl + X\nह धkey combination\nदकबलतकवर............",
+      "question": "Windows 10 मध्ये Ctrl + X\nह धkey combination\nदकबलतकवर............",
       "options": {
         "A": "selected item\nCopy करतक\nतधईल",
         "B": "selected item\nCut करतक तधईल",
@@ -2989,7 +2989,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "Windows 10 मधतध Ctrl + Y\nह धkey combination\nदकबलतकवर............",
+      "question": "Windows 10 मध्ये Ctrl + Y\nह धkey combination\nदकबलतकवर............",
       "options": {
         "A": "एखकदढ action\nRedo करतक\nतधईल",
         "B": "Folder उघरतक\nतधईल",
@@ -3001,7 +3001,7 @@ const allMCQBatches = {
     },
     {
       "id": 24,
-      "question": "Windows 10 मधतध Ctrl + Z ह ध\nkey combination\nदकबलतकवर............",
+      "question": "Windows 10 मध्ये Ctrl + Z ह ध\nkey combination\nदकबलतकवर............",
       "options": {
         "A": "Delete\nselected item",
         "B": "Undo an\naction",
@@ -3013,7 +3013,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "Windows 10 मधतध Esc हढ\nkey दकबलतकवर\n_____________",
+      "question": "Windows 10 मध्ये Esc हढ\nkey दकबलतकवर\n_____________",
       "options": {
         "A": "ककतक Redo\nहरतध",
         "B": "ककतक Undo\nहरतध",
@@ -3039,7 +3039,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "Internet Explorer मय\nMicrosoft Corporation नज\nववकवसत कजलय आहे.ज",
+      "question": "Internet Explorer मय\nMicrosoft Corporation नज\nववकवसत कजलय आम.ज",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -3051,7 +3051,7 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "Internet Explorer मय\nGoogle Corporation नज\nववकवसत कजलय आहे.ज",
+      "question": "Internet Explorer मय\nGoogle Corporation नज\nववकवसत कजलय आम.ज",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -3075,7 +3075,7 @@ const allMCQBatches = {
     },
     {
       "id": 5,
-      "question": "Internet explorer म जएक\nपकयरचय ______ आहे.ज",
+      "question": "Internet explorer म जएक\nपकयरचय ______ आम.ज",
       "options": {
         "A": "Compiler",
         "B": "Web browser",
@@ -3207,7 +3207,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "Shape Effect कमयकड\nPowerpoint मधहल\n___________ यय गघप मधयज\nउपलाध आहे.ज",
+      "question": "Shape Effect कमयकड\nPowerpoint मधहल\n___________ यय गघप मधयज\nउपलबध आम.ज",
       "options": {
         "A": "Font",
         "B": "Paragraph",
@@ -3255,7 +3255,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "Powerpoint मधयज Cut कमयकड\nवयपरणययसयठह __________\nशशटरकट कक आहे.ज",
+      "question": "Powerpoint मधयज Cut कमयकड\nवयपरणययसयठह __________\nशशटरकट कक आम.ज",
       "options": {
         "A": "Ctrl + g",
         "B": "Ctrl + x",
@@ -3291,7 +3291,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "Inbox, Reply, Forward,\nDelete म जoptions _____ शह\nसकबकधहत आहे.ज",
+      "question": "Inbox, Reply, Forward,\nDelete म जoptions _____ शह\nसकबकधहत आम.ज",
       "options": {
         "A": "Email",
         "B": "Word\nDocument",
@@ -3303,7 +3303,7 @@ const allMCQBatches = {
     },
     {
       "id": 24,
-      "question": "Inbox, Sent Item, Draft,\nTrash etc. म जoption\n_________ System चे आहेतज .",
+      "question": "Inbox, Sent Item, Draft,\nTrash etc. म जoption\n_________ System चज आमतज .",
       "options": {
         "A": "WWW",
         "B": "E-Mail",
@@ -3341,7 +3341,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "Internet म जinterconnected\nNetwork आहे.ज",
+      "question": "Internet म जinterconnected\nNetwork आम.ज",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -3353,7 +3353,7 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "Internet म ज _________\nconnected network आहे.ज",
+      "question": "Internet म ज _________\nconnected network आम.ज",
       "options": {
         "A": "Information",
         "B": "browser",
@@ -3365,7 +3365,7 @@ const allMCQBatches = {
     },
     {
       "id": 4,
-      "question": "IPADS, TABLETS,\nSMARTPHONES\n___________ पककर चे ससगणक\nआहेतज .",
+      "question": "IPADS, TABLETS,\nSMARTPHONES\n___________ पककर चज ससगणक\nआमतज .",
       "options": {
         "A": "Micro\nComputer",
         "B": "Mini\nComputer",
@@ -3377,7 +3377,7 @@ const allMCQBatches = {
     },
     {
       "id": 5,
-      "question": "COMPUTERS मध्ये चूकक\nदरच सत करणज शकध नसत.ज",
+      "question": "COMPUTERS मध्येज चूकक\nदरच सत करणज शकध नसत.ज",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -3389,7 +3389,7 @@ const allMCQBatches = {
     },
     {
       "id": 6,
-      "question": "In Word document list\nमधधल tab remove करणधकस\n… … ..button click करकवज",
+      "question": "In Word document list\nमध्येल tab remove करणधकस\n… … ..button click करकवज",
       "options": {
         "A": "set",
         "B": "clear",
@@ -3401,7 +3401,7 @@ const allMCQBatches = {
     },
     {
       "id": 7,
-      "question": "word document मध्ये File\nlink करणधकस ___command\nवकपरतकत",
+      "question": "word document मध्येज File\nlink करणधकस ___command\nवकपरतकत",
       "options": {
         "A": "Embed",
         "B": "Copy",
@@ -3413,9 +3413,9 @@ const allMCQBatches = {
     },
     {
       "id": 8,
-      "question": "Word document मधधल text\nलक वजगळध document file link\nकरणधकसकठध … … option चक\nवकपर करकवक.",
+      "question": "Word document मध्येल text\nलक वजगळध document file link\nकरणधकसकठध … … option चक\nवकपर करकवक.",
       "options": {
-        "A": "एहाड",
+        "A": "एमबड",
         "B": "ककपध",
         "C": "पजसस",
         "D": "मकईपरललग"
@@ -3425,7 +3425,7 @@ const allMCQBatches = {
     },
     {
       "id": 9,
-      "question": "In Word doucment list\nमधधल tab remove करणधकस\n_____buttton click करकवज",
+      "question": "In Word doucment list\nमध्येल tab remove करणधकस\n_____buttton click करकवज",
       "options": {
         "A": "set",
         "B": "clear",
@@ -3437,7 +3437,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "Word मध्ये Left, Right,\nCenter, Justify म ज\n__________________ चे\nपककर आहेतज .",
+      "question": "Word मध्येज Left, Right,\nCenter, Justify म ज\n__________________ चज\nपककर आमतज .",
       "options": {
         "A": "Fonts",
         "B": "Line Spacing",
@@ -3461,7 +3461,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "cell pointer एकक सजलनज पचढज,\nमकग,ज वर, खकलध मलवणधकसकठध\nककबरडरवरधल → , ← , ↑ , ↓\nNavigation Keys चक अनचकमज\nवकपर करतकत.",
+      "question": "cell pointer एकक सजलनज पचढज,\nमकग,ज वर, खकलध मलवणधकसकठध\nककबरडरवरधल → , ← , ↑ , ↓\nNavigation Keys चक अनचकमज\nवकपर करतात.",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -3473,7 +3473,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "शशस मधधल सवकरत पशमलधक सजल\nवर जकणधकसकठध … … … … … ..\nशम key वकपरतकत.",
+      "question": "शशस मध्येल सवकरत पशमलधक सजल\nवर जकणधकसकठध … … … … … ..\nशम key वकपरतकत.",
       "options": {
         "A": "Ctrl + End",
         "B": "Ctrl + Home",
@@ -3509,7 +3509,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "PowerPoint मध्ये italic\ncommand सकठध shortcut\nkey करणतध असत?ज",
+      "question": "PowerPoint मध्येज italic\ncommand सकठध shortcut\nkey करणतध असत?ज",
       "options": {
         "A": "Ctrl + b",
         "B": "Ctrl + U",
@@ -3521,7 +3521,7 @@ const allMCQBatches = {
     },
     {
       "id": 17,
-      "question": "Powerpoint मध्ये Paste\nकमकसड वकपरणधकसकठध\n__________ शकसरकस कक आहे.ज",
+      "question": "Powerpoint मध्येज Paste\nकमकसड वकपरणधकसकठध\n__________ शकसरकस कक आम.ज",
       "options": {
         "A": "Ctrl + y",
         "B": "Ctrl + v",
@@ -3533,7 +3533,7 @@ const allMCQBatches = {
     },
     {
       "id": 18,
-      "question": "PowerPoint मध्ये Underline\nकरणधकसकठध ________\nshortcut command वकपरलध\nजकतज.",
+      "question": "PowerPoint मध्येज Underline\nकरणधकसकठध ________\nshortcut command वापरला\nजकतज.",
       "options": {
         "A": "Ctrl + b",
         "B": "Ctrl + U",
@@ -3545,7 +3545,7 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "Powerpoint मध्ये समरर कदसत\nअसलजलधक सलकईड पकसचन सलकईड\nशर सचर करणधकसकठध\n__________ शकसरकस कक आहे.ज",
+      "question": "Powerpoint मध्येज समरर कदसत\nअसलजलधक सलकईड पकसचन सलकईड\nशर सचर करणधकसकठध\n__________ शकसरकस कक आम.ज",
       "options": {
         "A": "F5",
         "B": "Shift + F5",
@@ -3557,7 +3557,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "Powerpoint मध्ये सलकईड शर\nकमकसड सचर करणधकसकठध\n__________ शकसरकस कक आहे.ज",
+      "question": "Powerpoint मध्येज सलकईड शर\nकमकसड सचर करणधकसकठध\n__________ शकसरकस कक आम.ज",
       "options": {
         "A": "F1",
         "B": "F5",
@@ -3569,7 +3569,7 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "Internet Explorer म जएक\nOutput Device चे उतम\nउदकमरण आहे.ज",
+      "question": "Internet Explorer म जएक\nOutput Device चज उतम\nउदकमरण आम.ज",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -3581,7 +3581,7 @@ const allMCQBatches = {
     },
     {
       "id": 22,
-      "question": "Internet explorer म ज\n________________ आहे.ज",
+      "question": "Internet explorer म ज\n________________ आम.ज",
       "options": {
         "A": "The Browser",
         "B": "The internet",
@@ -3593,7 +3593,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "__________________ नज\nInternet Explorer बनशवलक\nआहे.ज",
+      "question": "__________________ नज\nInternet Explorer बनशवलक\nआम.ज",
       "options": {
         "A": "Microsoft",
         "B": "Mozilla",
@@ -3605,7 +3605,7 @@ const allMCQBatches = {
     },
     {
       "id": 24,
-      "question": "Internet मक ____ नजसवकरचक\nपककर आहे.ज",
+      "question": "Internet मक ____ नजसवकरचक\nपककर आम.ज",
       "options": {
         "A": "MAN",
         "B": "WAN",
@@ -3617,7 +3617,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "Internet म ज _________ type\nof network आहे.ज",
+      "question": "Internet म ज _________ type\nof network आम.ज",
       "options": {
         "A": "LAN",
         "B": "WAN",
@@ -3636,7 +3636,7 @@ const allMCQBatches = {
         "A": "READ",
         "B": "WRITE",
         "C": "DELETE",
-        "D": "वररल पपकक सर्व"
+        "D": "वररल पपकक सवर"
       },
       "correctAnswer": "A",
       "userAnswer": null
@@ -3648,7 +3648,7 @@ const allMCQBatches = {
         "A": "READ",
         "B": "WRITE",
         "C": "DELETE",
-        "D": "यफपपकक सर्व"
+        "D": "यफपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
@@ -3660,7 +3660,7 @@ const allMCQBatches = {
         "A": "READ",
         "B": "WRITE",
         "C": "DELETE",
-        "D": "वररल पपकक सर्व"
+        "D": "वररल पपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
@@ -3672,7 +3672,7 @@ const allMCQBatches = {
         "A": "READ",
         "B": "WRITE",
         "C": "DELETE",
-        "D": "वररल पपकक सर्व"
+        "D": "वररल पपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
@@ -3804,7 +3804,7 @@ const allMCQBatches = {
         "A": "Press arrow\nkey",
         "B": "Press F1",
         "C": "Press F2",
-        "D": "वररल सर्व"
+        "D": "वररल सवर"
       },
       "correctAnswer": "A",
       "userAnswer": null
@@ -3924,7 +3924,7 @@ const allMCQBatches = {
         "A": "सवफरत मरठय\nnetwork",
         "B": "सवफरत छरटय\nnetwork",
         "C": "Local Network",
-        "D": "वररल पपकक सर्व"
+        "D": "वररल पपकक सवर"
       },
       "correctAnswer": "A",
       "userAnswer": null
@@ -3933,7 +3933,7 @@ const allMCQBatches = {
   "BATCH 1304": [
     {
       "id": 1,
-      "question": "ROM मधधध बदल करणध शकध\nआह.ध",
+      "question": "ROM मध्येध बदल करणध शकध\nआह.ध",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -3993,7 +3993,7 @@ const allMCQBatches = {
     },
     {
       "id": 6,
-      "question": "MS-Word 2019 मधधध ततमहह\ndocument मधधध text box\nकसल insert करलल",
+      "question": "MS-Word 2019 मध्येध ततमहह\ndocument मध्येध text box\nकसल insert करलल",
       "options": {
         "A": "Insert - Tools",
         "B": "Insert -\nObject",
@@ -4010,7 +4010,7 @@ const allMCQBatches = {
         "A": "वडर परसधसर",
         "B": "पधझझटधशन मधकर",
         "C": "सपधडशहट",
-        "D": "वहा बलउझर"
+        "D": "वधब बलउझर"
       },
       "correctAnswer": "D",
       "userAnswer": null
@@ -4022,14 +4022,14 @@ const allMCQBatches = {
         "A": "Create",
         "B": "Modify",
         "C": "Sort",
-        "D": "धलपपकक सर्व"
+        "D": "धलपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
     },
     {
       "id": 9,
-      "question": "insert Tab मधहल\n______option मधधध line tool\nआहध",
+      "question": "insert Tab मधहल\n______option मध्येध line tool\nआहध",
       "options": {
         "A": "Standard",
         "B": "Shape",
@@ -4041,7 +4041,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "Line Tool चध button insert\nTab मधहल\n__________________ धल\nOption मधधध आह.ध",
+      "question": "Line Tool चध button insert\nTab मधहल\n__________________ धल\nOption मध्येध आह.ध",
       "options": {
         "A": "Standard",
         "B": "Formatting",
@@ -4082,7 +4082,7 @@ const allMCQBatches = {
         "A": "column",
         "B": "row",
         "C": "row & column",
-        "D": "वरहल सर्व"
+        "D": "वरहल सवर"
       },
       "correctAnswer": "B",
       "userAnswer": null
@@ -4101,7 +4101,7 @@ const allMCQBatches = {
     },
     {
       "id": 15,
-      "question": "सइपचणर sheet लल select\nकरलवधलचध असलधलस\n… … … … … . डह Key\ncombination वलपरलव.ध",
+      "question": "सइपचणर sheet लल select\nकरलवधलाध असलधलस\n… … … … … . डह Key\ncombination वलपरलव.ध",
       "options": {
         "A": "Ctrl + A",
         "B": "Ctrl +D",
@@ -4113,7 +4113,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "Slide Show\n________Application मधधध\nतधलर करतल धधतर",
+      "question": "Slide Show\n________Application मध्येध\nतधलर करतल धधतर",
       "options": {
         "A": "Power Point",
         "B": "File",
@@ -4137,7 +4137,7 @@ const allMCQBatches = {
     },
     {
       "id": 18,
-      "question": "slide Transition option हल\n___________tab मधधध उपलाध\nअसतर.",
+      "question": "slide Transition option हल\n___________tab मध्येध उपलबध\nअसतर.",
       "options": {
         "A": "Transitions",
         "B": "Edit",
@@ -4149,7 +4149,7 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "Slide Views हल View Tab\nमधहल __________________\ngroup वर उपलाध आह.ध",
+      "question": "Slide Views हल View Tab\nमधहल __________________\ngroup वर उपलबध आह.ध",
       "options": {
         "A": "Slide Show",
         "B": "Presentation",
@@ -4161,7 +4161,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "Slide Views हल पधलरध View\ntab वरहल _______ group\nमधधध उपलाध असतर.",
+      "question": "Slide Views हल पधलरध View\ntab वरहल _______ group\nमध्येध उपलबध असतर.",
       "options": {
         "A": "slide show",
         "B": "Presentation",
@@ -4197,7 +4197,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "Internet वर ____________\nमधधध मरठल पमलणलत मलडहतह\nदशरडवलह जलतध.",
+      "question": "Internet वर ____________\nमध्येध मरठल पमलणलत मलडहतह\nदशरडवलह जलतध.",
       "options": {
         "A": "Search\nengine",
         "B": "Google",
@@ -4209,7 +4209,7 @@ const allMCQBatches = {
     },
     {
       "id": 24,
-      "question": "आपलल Computer\nजरडणधलकरहतल Internet ___\nउपयोग करतर.",
+      "question": "आपलल Computer\nजरडणधलकरहतल Internet ___\nउपधरग करतर.",
       "options": {
         "A": "Keyboard",
         "B": "Modem",
@@ -4221,7 +4221,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "आपलल Computer\nजरडणधलकरहतल Internet … ..\nउपयोग करतर.",
+      "question": "आपलल Computer\nजरडणधलकरहतल Internet … ..\nउपधरग करतर.",
       "options": {
         "A": "Keyboard",
         "B": "Modem",
@@ -4235,7 +4235,7 @@ const allMCQBatches = {
   "BATCH 1305": [
     {
       "id": 1,
-      "question": "Junk emails लल अससहह\nमहणतलत.",
+      "question": "Junk emails लल असाहह\nमहणतलत.",
       "options": {
         "A": "Deleted\nmails",
         "B": "New Mails",
@@ -4264,14 +4264,14 @@ const allMCQBatches = {
         "A": "Kilobyte",
         "B": "Kilobit",
         "C": "Kilobank",
-        "D": "यलपपकक नाही"
+        "D": "यापैकी नाही"
       },
       "correctAnswer": "A",
       "userAnswer": null
     },
     {
       "id": 4,
-      "question": "ककबररर आणि … … … … हह\nककममयमटरचह Common इनपमट\nसलधनस आहतस .",
+      "question": "ककबररर आणि … … … … हह\nकाममयमटरचह Common इनपमट\nसलधनस आहतस .",
       "options": {
         "A": "Mouse",
         "B": "Joystick",
@@ -4324,7 +4324,7 @@ const allMCQBatches = {
         "A": "Dotx",
         "B": "txt",
         "C": "docs",
-        "D": "यलपपकक नाही"
+        "D": "यापैकी नाही"
       },
       "correctAnswer": "A",
       "userAnswer": null
@@ -4348,7 +4348,7 @@ const allMCQBatches = {
         "A": "Alignment",
         "B": "Bullets",
         "C": "Numbering",
-        "D": "यलपपकक सर्व"
+        "D": "यापैकी सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
@@ -4379,7 +4379,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "Excel चललच करणयलसलठह पथम\nDesktop चयल Task bar वरहल\nStart यल button लल णकलक\nकरलव.स",
+      "question": "Excel चलला करणयलसलठह पथम\nDesktop चयल Task bar वरहल\nStart यल button लल णकलक\nकरलव.स",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -4391,7 +4391,7 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "Excel चललच करणयलसलठह पथम\nDesktop चयल Task bar वरहल\n… … … … … … यल button लल\nणकलक करलव.स",
+      "question": "Excel चलला करणयलसलठह पथम\nDesktop चयल Task bar वरहल\n… … … … … … यल button लल\nणकलक करलव.स",
       "options": {
         "A": "Start",
         "B": "Menu",
@@ -4451,7 +4451,7 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "Smartart कमलमर Powerpoint\nमधहल ___________ यल गमप\nमधयस उपलाध आह.स",
+      "question": "Smartart कमलमर Powerpoint\nमधहल ___________ यल गमप\nमधयस उपलबध आह.स",
       "options": {
         "A": "Home",
         "B": "Insert",
@@ -4549,7 +4549,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "ककबबरर, ममऊस आणि पपटर यमयनम\n… … … … महणतम यहईल.",
+      "question": "ककबबरर, ममऊस आणि पेपर यमयनम\n… … … … महणतम यहईल.",
       "options": {
         "A": "Software",
         "B": "Instructions",
@@ -4638,7 +4638,7 @@ const allMCQBatches = {
         "A": "Windows 10",
         "B": "Windows XP",
         "C": "Windows 8",
-        "D": "यमपपकक सर्व"
+        "D": "यमपपकक सवर"
       },
       "correctAnswer": "A",
       "userAnswer": null
@@ -4674,7 +4674,7 @@ const allMCQBatches = {
         "A": "Text",
         "B": "Numeric\nData",
         "C": "Text &\nNumeric Data",
-        "D": "वरहल सर्व"
+        "D": "वरहल सवर"
       },
       "correctAnswer": "B",
       "userAnswer": null
@@ -4717,7 +4717,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "चमलच slide, slide show चयम\nवहळह ससकनवर कशह appear\nवहमवह यमसयबयधहचयम Special\neffect लम ---------------------\nअसह महणतमत.",
+      "question": "चमला slide, slide show चयम\nवहळह ससकनवर कशह appear\nवहमवह यमसयबयधहचयम Special\neffect लम ---------------------\nअसह महणतमत.",
       "options": {
         "A": "Animation",
         "B": "Slide show",
@@ -4839,7 +4839,7 @@ const allMCQBatches = {
   "BATCH 1402": [
     {
       "id": 1,
-      "question": "Email Address चच Last\npart ककणतच?",
+      "question": "Email Address चा Last\npart ककणतच?",
       "options": {
         "A": "Domain\nName",
         "B": "Domain code",
@@ -4851,7 +4851,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "LCD चच फफलफफरर",
+      "question": "LCD चा फफलफफरर",
       "options": {
         "A": "Light Code\nDisplay",
         "B": "Light case\ndisplay",
@@ -4863,7 +4863,7 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "LED चच फफलफफरर",
+      "question": "LED चा फफलफफरर",
       "options": {
         "A": "Light Emitting\nDiode",
         "B": "Light\nEmotion\nDiode",
@@ -4875,7 +4875,7 @@ const allMCQBatches = {
     },
     {
       "id": 4,
-      "question": "Linux आणि MAC OS एकच\nआहतह .",
+      "question": "Linux आणि MAC OS एकाच\nआहतह .",
       "options": {
         "A": "बरकबर",
         "B": "चूक",
@@ -4911,7 +4911,7 @@ const allMCQBatches = {
     },
     {
       "id": 7,
-      "question": "Status bar, वर असलहलह\nViews उदच. Print Layout,\nFull Screen Reading View,\nWeb Layout, Outline Draft\nइ. यच सर्व buttons लच \"View\nButtons\". अस महणतचत.",
+      "question": "Status bar, वर असलहलह\nViews उदच. Print Layout,\nFull Screen Reading View,\nWeb Layout, Outline Draft\nइ. यच सवर buttons ला \"View\nButtons\". अस महणतचत.",
       "options": {
         "A": "बरकबर",
         "B": "चफक",
@@ -4935,7 +4935,7 @@ const allMCQBatches = {
     },
     {
       "id": 9,
-      "question": "Open option _____menu\nरधयह उपलाब आहह",
+      "question": "Open option _____menu\nरधयह उपलबब आहह",
       "options": {
         "A": "Status",
         "B": "File",
@@ -4947,7 +4947,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "Open, Save, Save As,\nPrint इ. standard\ncommands यच … … … .\nMenu रधयह उपलाब आहतह .",
+      "question": "Open, Save, Save As,\nPrint इ. standard\ncommands यच … … … .\nMenu रधयह उपलबब आहतह .",
       "options": {
         "A": "ववयच",
         "B": "इनसरर",
@@ -4959,7 +4959,7 @@ const allMCQBatches = {
     },
     {
       "id": 11,
-      "question": "Unfreeze Panes चच वचपर\nकरन Freeze चच Effect\n___________ करतच यहतक.",
+      "question": "Unfreeze Panes चा वचपर\nकरन Freeze चा Effect\n___________ करतच यहतक.",
       "options": {
         "A": "Add",
         "B": "Change",
@@ -4971,7 +4971,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "_____________ symbols\nचच वचपर करन Cell reference\nलच absolute बनणवतच यहत.ह",
+      "question": "_____________ symbols\nचा वचपर करन Cell reference\nला absolute बनणवतच यहत.ह",
       "options": {
         "A": "$",
         "B": "<",
@@ -4983,7 +4983,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "… … … … .. चयच सहच यचनह\nय\nआपण worksheet लच zoom\nकरन bigger/ smaller view\nबघफ शकतक.",
+      "question": "… … … … .. चयच सहच यचनह\nय\nआपण worksheet ला zoom\nकरन bigger/ smaller view\nबघफ शकतक.",
       "options": {
         "A": "Page\nPreview",
         "B": "Print Layout",
@@ -5007,7 +5007,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "Tables ह हपफढहलपपकक कशयच\nकररतच वचपरलह जचत.ह",
+      "question": "Tables ह हपफढहलपपकक कशयच\nकररतच वचपरलह जातो.ह",
       "options": {
         "A": "Creat Graphs",
         "B": "Set up\ndatabase",
@@ -5019,7 +5019,7 @@ const allMCQBatches = {
     },
     {
       "id": 17,
-      "question": "Tables करचमड Powerpoint\nरबहल ___________ यच गफप\nरधयह उपलाब आह.ह",
+      "question": "Tables करचमड Powerpoint\nरबहल ___________ यच गफप\nरधयह उपलबब आह.ह",
       "options": {
         "A": "Home",
         "B": "Insert",
@@ -5043,7 +5043,7 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "PowerPoint रधयह ककणतयच\ngroup रधयह Text shadow हच\nउपलाब असतक.",
+      "question": "PowerPoint रधयह ककणतयच\ngroup रधयह Text shadow हच\nउपलबब असतक.",
       "options": {
         "A": "Font",
         "B": "Clipboard",
@@ -5055,7 +5055,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "PowerPoint रधयह object,\ntext box, Picture ह हbasic\nelements __________ रधयह\ninsert कहलह जचतह.",
+      "question": "PowerPoint रधयह object,\ntext box, Picture ह हbasic\nelements __________ रधयह\ninsert कहलह जातोह.",
       "options": {
         "A": "Master",
         "B": "Sheet",
@@ -5067,7 +5067,7 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "Reply button वर णकलक करन\nआलहलच ईरहललच उतर पचठणवलह\nजचऊ शकत?ह",
+      "question": "Reply button वर णकलक करन\nआलहला ईरहलला उतर पचठणवलह\nजचऊ शकत?ह",
       "options": {
         "A": "ह हशकय नचहह",
         "B": "ह हशकय आहह",
@@ -5091,7 +5091,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "रहलच वदचरच Receive कहलहलह\nAttach कहलहलयच फचईलस कहलयच\nजचतह.",
+      "question": "रहला वदचरच Receive कहलहलह\nAttach कहलहलयच फचईलस कहलयच\nजातोह.",
       "options": {
         "A": "बरकबर",
         "B": "चूक",
@@ -5129,7 +5129,7 @@ const allMCQBatches = {
   "BATCH 1403": [
     {
       "id": 1,
-      "question": "ISP चच ललगफलरर ________हच\nआह.ह",
+      "question": "ISP चा ललगफलरर ________हच\nआह.ह",
       "options": {
         "A": "Internet\nService\nProtocol",
         "B": "Internet\nStandard\nProtocol",
@@ -5153,7 +5153,7 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "____________ हह\nKEYBOARD वरहल सवचरवधक\nलचला KEY आह.ह",
+      "question": "____________ हह\nKEYBOARD वरहल सवचरवधक\nलालब KEY आह.ह",
       "options": {
         "A": "Enter",
         "B": "Numeric\nEnter",
@@ -5177,7 +5177,7 @@ const allMCQBatches = {
     },
     {
       "id": 5,
-      "question": "____________ पपटर रधधह\nअनहक पबद द(DOT) पपट करन\nअकर (CHARACTER )\nबनववलह जचस.ह",
+      "question": "____________ पेपर रधधह\nअनहक पबद द(DOT) पपट करन\nअकर (CHARACTER )\nबनववलह जचस.ह",
       "options": {
         "A": "Dot Matrix",
         "B": "Plotter",
@@ -5189,7 +5189,7 @@ const allMCQBatches = {
     },
     {
       "id": 6,
-      "question": "Outline view हच … … … .set\nकरणधचसचठह current\ndocument लच रदस करसछ",
+      "question": "Outline view हच … … … .set\nकरणधचसचठह current\ndocument ला रदस करसछ",
       "options": {
         "A": "Layout",
         "B": "Outline",
@@ -5237,7 +5237,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "Page No's, Dates धचलसचरखह\nरचवहसह सचधचरणपणह ___ रधधह\nपचहचधलच वरळस.ह",
+      "question": "Page No's, Dates धचलसचरखह\nरचवहसह सचधचरणपणह ___ रधधह\nपचहचधला वरळस.ह",
       "options": {
         "A": "Margins",
         "B": "Header/Foot\ner",
@@ -5261,7 +5261,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "Excel रधधह list चधच ससरवचसहलच\nआपण bullets दऊह पकसछ.",
+      "question": "Excel रधधह list चधच ससरवचसहला\nआपण bullets दऊह पकसछ.",
       "options": {
         "A": "बरछबर",
         "B": "चदक",
@@ -5321,7 +5321,7 @@ const allMCQBatches = {
     },
     {
       "id": 17,
-      "question": "Slide चह components\nकछणकछणसह अससचस?",
+      "question": "Slide चह components\nकछणकछणसह असाचस?",
       "options": {
         "A": "Title",
         "B": "Content",
@@ -5369,7 +5369,7 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "आपलधचलच आलहलच E-Mail\nआपण forward कर पकसछ.",
+      "question": "आपलधचला आलहला E-Mail\nआपण forward कर पकसछ.",
       "options": {
         "A": "बरछबर",
         "B": "चदक",
@@ -5417,7 +5417,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "आपलधचलच आलहलधच E-Mail लच\nआपण reply कर पकसछ.",
+      "question": "आपलधचला आलहलधच E-Mail ला\nआपण reply कर पकसछ.",
       "options": {
         "A": "बरछबर",
         "B": "चदक",
@@ -5431,7 +5431,7 @@ const allMCQBatches = {
   "BATCH 1405": [
     {
       "id": 1,
-      "question": "Metallic platters चच वचपर\n__________ मधधध कधलच जचतत.",
+      "question": "Metallic platters चा वचपर\n__________ मध्येध कधला जातोत.",
       "options": {
         "A": "Hard Disk",
         "B": "Floppy Disk",
@@ -5443,19 +5443,19 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "MICROPROCESSOR\n______________ पपढढ मधधध\nससगणकचत वचपरलच गधलच.",
+      "question": "MICROPROCESSOR\n______________ पपढढ मध्येध\nससगणकचत वचपरला गधला.",
       "options": {
         "A": "पपहलढ पपढढ",
-        "B": "दसद रढ पपढढ",
+        "B": "दुसरी पपढढ",
         "C": "पतसरढ पपढढ",
-        "D": "चचथढ पपढढ"
+        "D": "चौथी पपढढ"
       },
       "correctAnswer": "D",
       "userAnswer": null
     },
     {
       "id": 3,
-      "question": "MIDI चच अथर कचध?",
+      "question": "MIDI चा अथर कचध?",
       "options": {
         "A": "Musical\nInstrument\nData\ninterface",
         "B": "Mouse\nInstrument\nDigital\nInterface",
@@ -5467,19 +5467,19 @@ const allMCQBatches = {
     },
     {
       "id": 4,
-      "question": "MINI COMPUTERS\n__________________\nकधतचसमधधध वचपरलच जचतत.",
+      "question": "MINI COMPUTERS\n__________________\nकधतचसमध्येध वचपरला जातोत.",
       "options": {
         "A": "Automobile\nCompanies",
         "B": "Manufacturin\ng Companies",
         "C": "Production\nPlant",
-        "D": "वरढल पपकक सर्व"
+        "D": "वरढल पपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
     },
     {
       "id": 5,
-      "question": "MEMORY CARD मधधध\nMMC महणजध _________ हतध.",
+      "question": "MEMORY CARD मध्येध\nMMC महणजध _________ हतध.",
       "options": {
         "A": "MULTIMEDI\nA CARD",
         "B": "MAGIC\nMEMORY\nCARD",
@@ -5508,14 +5508,14 @@ const allMCQBatches = {
         "A": "Page\nOrientation",
         "B": "Paper Size",
         "C": "Page Layout",
-        "D": "धचपपकक सर्व"
+        "D": "धचपपकक सवर"
       },
       "correctAnswer": "A",
       "userAnswer": null
     },
     {
       "id": 8,
-      "question": "वररमधधध Presentation Slides\nबनवतच धधतचत.",
+      "question": "वररमध्येध Presentation Slides\nबनवतच धधतचत.",
       "options": {
         "A": "बरतबर",
         "B": "चूक",
@@ -5527,7 +5527,7 @@ const allMCQBatches = {
     },
     {
       "id": 9,
-      "question": "चचलच Paragraph ससपवचन नवढन\nParagraph सदर करणधचसचठढ\n… … … … … … … … … हढ कक\nपधस करचवढ.",
+      "question": "चाला Paragraph ससपवचन नवढन\nParagraph सदर करणधचसचठढ\n… … … … … … … … … हढ कक\nपधस करचवढ.",
       "options": {
         "A": "Tab",
         "B": "Esc",
@@ -5539,7 +5539,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "एखचदच word ससपचणर select\nकरचवधचचच असलधचस Ctrl +\nShift + <-- धच keys press\nकरचवच.",
+      "question": "एखचदच word ससपचणर select\nकरचवधचा असलधचस Ctrl +\nShift + <-- धच keys press\nकरचवच.",
       "options": {
         "A": "बरतबर",
         "B": "चूक",
@@ -5551,7 +5551,7 @@ const allMCQBatches = {
     },
     {
       "id": 11,
-      "question": "Cell मधधध Formula टचइप\nकरतचनच आपलधचलच\n… … … … … … चच वचपर करतच\nधधत नचहढ.",
+      "question": "Cell मध्येध Formula टचइप\nकरतचनच आपलधचला\n… … … … … … चा वचपर करतच\nधधत नचहढ.",
       "options": {
         "A": "Numbers",
         "B": "Spaces",
@@ -5563,7 +5563,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "MS-Excel मधधध\n____________ हढ Alignment\nवचपर शकत नचहढ.",
+      "question": "MS-Excel मध्येध\n____________ हढ Alignment\nवचपर शकत नचहढ.",
       "options": {
         "A": "Left",
         "B": "Right",
@@ -5575,7 +5575,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "Cell मधधध Formula Type\nकरतचनच Formula मधधध\nSpaces वचपरतच धधत नचहढ.",
+      "question": "Cell मध्येध Formula Type\nकरतचनच Formula मध्येध\nSpaces वचपरतच धधत नचहढ.",
       "options": {
         "A": "बरतबर",
         "B": "चूक",
@@ -5587,7 +5587,7 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "कतणतधहढ फसकशन सधलमधधध टचइप\nकरणधचपचवर आपलधचलच\n… … … … … हच Symbol\nवचपरचवच लचगतत.",
+      "question": "कतणतधहढ फसकशन सधलमध्येध टचइप\nकरणधचपचवर आपलधचला\n… … … … … हच Symbol\nवचपरचवच लागतत.",
       "options": {
         "A": "=",
         "B": "*",
@@ -5599,7 +5599,7 @@ const allMCQBatches = {
     },
     {
       "id": 15,
-      "question": "Cell मधधध ___________ Type\nकरतचनच = धच पचनहचनध सदरवचत\nकरचवढ.",
+      "question": "Cell मध्येध ___________ Type\nकरतचनच = धच पचनहचनध सदरवचत\nकरचवढ.",
       "options": {
         "A": "Addition",
         "B": "Multiplication",
@@ -5611,7 +5611,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "slide show मधधध pen pointer\nचधच सहचयधचनध draw कधलधलढ line\nहढ __________.",
+      "question": "slide show मध्येध pen pointer\nचधच सहचयधचनध draw कधलधलढ line\nहढ __________.",
       "options": {
         "A": "temporary",
         "B": "permanent",
@@ -5623,7 +5623,7 @@ const allMCQBatches = {
     },
     {
       "id": 17,
-      "question": "PowerPoint मधधध normal\nview ह ध__________ सचठढ\nवचपरलध जचतचत.",
+      "question": "PowerPoint मध्येध normal\nview ह ध__________ सचठढ\nवचपरलध जातोचत.",
       "options": {
         "A": "to type\nmatter in\nslide",
         "B": "for slide\nshow",
@@ -5635,7 +5635,7 @@ const allMCQBatches = {
     },
     {
       "id": 18,
-      "question": "notes page view ह ध\n__________ सचठढ वचपरलध\nजचतध.",
+      "question": "notes page view ह ध\n__________ सचठढ वचपरलध\nजातोध.",
       "options": {
         "A": "Prepare\nspeaker\nnotes for the\naudience",
         "B": "View content\nof the\npresentation",
@@ -5647,7 +5647,7 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "slide show मधढल 'From\nbeginning' option हच current\nslide पचसचन slide show चचलच\nकरतत.",
+      "question": "slide show मधढल 'From\nbeginning' option हच current\nslide पचसचन slide show चाला\nकरतत.",
       "options": {
         "A": "बरतबर",
         "B": "चूक",
@@ -5659,7 +5659,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "slide showमधढल 'From\ncurrent slide' हच option\n__________ पचसचन slide\nshow चचलच करतत.",
+      "question": "slide showमधढल 'From\ncurrent slide' हच option\n__________ पचसचन slide\nshow चाला करतत.",
       "options": {
         "A": "current slide",
         "B": "beginning",
@@ -5671,7 +5671,7 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "E-commerce चच long form\n_________ हच आह.ध",
+      "question": "E-commerce चा long form\n_________ हच आह.ध",
       "options": {
         "A": "E-Mail\nCommerce",
         "B": "Electronic\nCommerce",
@@ -5683,7 +5683,7 @@ const allMCQBatches = {
     },
     {
       "id": 22,
-      "question": "TCP/IP चच long form ____\nहच आह.ध",
+      "question": "TCP/IP चा long form ____\nहच आह.ध",
       "options": {
         "A": "Transmission\ncontrol\nprotocol/Inter\nnet Protocol",
         "B": "Transfer\nControl\nProtocol/Inter\nnet Protocol",
@@ -5695,7 +5695,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "E-commerce चच long form\n____ हच आह.ध",
+      "question": "E-commerce चा long form\n____ हच आह.ध",
       "options": {
         "A": "Electronic\nCommerce",
         "B": "Email\nCommerce",
@@ -5707,7 +5707,7 @@ const allMCQBatches = {
     },
     {
       "id": 24,
-      "question": "Magnetic Disk चच उपधतग\n__________मधधध हततत.",
+      "question": "Magnetic Disk चा उपधतग\n__________मध्येध हततत.",
       "options": {
         "A": "CD",
         "B": "DVD",
@@ -5719,7 +5719,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "Network मधढल मदखध\nComputer लच _________\nमहणतचत",
+      "question": "Network मधढल मदखध\nComputer ला _________\nमहणतचत",
       "options": {
         "A": "Client",
         "B": "PC",
@@ -5745,7 +5745,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "Monitor आणि _________ म ज\nजजसस वजपरलज जजणजर Output\nDevices आहेसज",
+      "question": "Monitor आणि _________ म ज\nजजसस वजपरलज जजणजर Output\nDevices आमसज",
       "options": {
         "A": "Printer",
         "B": "Scanner",
@@ -5757,7 +5757,7 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "ममणनटर म ज------- णडवजईस आहे.ज",
+      "question": "ममणनटर म ज------- णडवजईस आम.ज",
       "options": {
         "A": "Output",
         "B": "Input",
@@ -5769,7 +5769,7 @@ const allMCQBatches = {
     },
     {
       "id": 4,
-      "question": "ममणनटरचे\nResolution____________\nमध्ये ममजसजस.",
+      "question": "ममणनटरचज\nResolution____________\nमध्येज ममजसजस.",
       "options": {
         "A": "DPI",
         "B": "System\nClock",
@@ -5781,7 +5781,7 @@ const allMCQBatches = {
     },
     {
       "id": 5,
-      "question": "Monitor Screen resolutions\n______ चे वजपर करन ममजलल\nजजसज.",
+      "question": "Monitor Screen resolutions\n______ चज वजपर करन ममजलल\nजजसज.",
       "options": {
         "A": "Inch",
         "B": "Pixel",
@@ -5793,7 +5793,7 @@ const allMCQBatches = {
     },
     {
       "id": 6,
-      "question": "चेलल paragraph बबद\nकरणधजसजठल_______key दजीज",
+      "question": "चजलल paragraph बबद\nकरणधजसजठल_______key दजबज",
       "options": {
         "A": "Tab",
         "B": "Esc",
@@ -5822,14 +5822,14 @@ const allMCQBatches = {
         "A": "rectangualar",
         "B": "plain",
         "C": "Vertical",
-        "D": "धजपपकक सर्व"
+        "D": "धजपपकक सवर"
       },
       "correctAnswer": "C",
       "userAnswer": null
     },
     {
       "id": 9,
-      "question": "print option _____ Menu\nमध्ये आहे",
+      "question": "print option _____ Menu\nमध्येज आमज",
       "options": {
         "A": "File Menu",
         "B": "view",
@@ -5841,7 +5841,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "Print मज Option\n__________________ धज\nMenu मध्ये आहे.ज",
+      "question": "Print मज Option\n__________________ धज\nMenu मध्येज आम.ज",
       "options": {
         "A": "View",
         "B": "Edit",
@@ -5853,7 +5853,7 @@ const allMCQBatches = {
     },
     {
       "id": 11,
-      "question": "Cell मध्ये Function Type\nकरसजनज … … … … … धज\nणचनमजनज ससरवजस करजवल लजगस.ज",
+      "question": "Cell मध्येज Function Type\nकरसजनज … … … … … धज\nणचनमजनज ससरवजस करजवल लजगस.ज",
       "options": {
         "A": "=",
         "B": "*",
@@ -5865,7 +5865,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "MS Excel 2019 मध्ये\ncolumn चे heading कजध\nअससज ?",
+      "question": "MS Excel 2019 मध्येज\ncolumn चज heading कजध\nअसाज ?",
       "options": {
         "A": "a,b,c, … ..",
         "B": "1,2,3, … ..",
@@ -5877,36 +5877,36 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "MS Excel 2019 मध्ये कमणसज\nपधजरध clipboard group मध्ये\nउपलाब आहेसज ?",
+      "question": "MS Excel 2019 मध्येज कमणसज\nपधजरध clipboard group मध्येज\nउपलबब आमसज ?",
       "options": {
         "A": "cut",
         "B": "copy",
         "C": "format painter",
-        "D": "धजपपकक सर्व"
+        "D": "धजपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
     },
     {
       "id": 14,
-      "question": "MS Excel 2019 मध्ये कमणसज\nपधजरध editing group मध्ये\nउपलाब आहेसज ?",
+      "question": "MS Excel 2019 मध्येज कमणसज\nपधजरध editing group मध्येज\nउपलबब आमसज ?",
       "options": {
         "A": "autosum",
         "B": "fill",
         "C": "clear",
-        "D": "धजपपकक सर्व"
+        "D": "धजपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
     },
     {
       "id": 15,
-      "question": "MS Excel 2019 मध्ये कमणसज\nपधजरध font group मध्ये उपलाब\nआहेसज ?",
+      "question": "MS Excel 2019 मध्येज कमणसज\nपधजरध font group मध्येज उपलबब\nआमसज ?",
       "options": {
         "A": "bold",
         "B": "italic",
         "C": "underline",
-        "D": "धजपपकक सर्व"
+        "D": "धजपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
@@ -5915,7 +5915,7 @@ const allMCQBatches = {
       "id": 16,
       "question": "Slides चल order change\nकरसज धजस नजमल.",
       "options": {
-        "A": "बरहार",
+        "A": "बरमबर",
         "B": "चलक",
         "C": "",
         "D": ""
@@ -5925,7 +5925,7 @@ const allMCQBatches = {
     },
     {
       "id": 17,
-      "question": "Slide चे orientation\nबदलणधजसजठल __________\noption मज Design Tab वर\nअससम.",
+      "question": "Slide चज orientation\nबदलणधजसजठल __________\noption मज Design Tab वर\nअसाम.",
       "options": {
         "A": "Page Setup",
         "B": "Slide\norientation",
@@ -5942,14 +5942,14 @@ const allMCQBatches = {
         "A": "Slide Pane",
         "B": "Notes Pane",
         "C": "Outline Pane",
-        "D": "धजपपकक सर्व"
+        "D": "धजपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
     },
     {
       "id": 19,
-      "question": "जधज ककसलमध्ये Presentation\nमध्ये एकजमजगलन एक slides\nपजमसज धजसजस तधजलज\n------------------- असे ममणसजस.",
+      "question": "जधज ककसलमध्येज Presentation\nमध्येज एकजमजगलन एक slides\nपजमसज धजसजस तधजलज\n------------------- असज ममणसजस.",
       "options": {
         "A": "Slide",
         "B": "Slide Master",
@@ -5966,14 +5966,14 @@ const allMCQBatches = {
         "A": "to all slides",
         "B": "to current\nslides",
         "C": "to all new\npresentation",
-        "D": "धजपपकक सर्व"
+        "D": "धजपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
     },
     {
       "id": 21,
-      "question": "Memory Management चे\nकजम __________ करस.ज",
+      "question": "Memory Management चज\nकजम __________ करस.ज",
       "options": {
         "A": "Compiler",
         "B": "Operating\nSystem",
@@ -5985,9 +5985,9 @@ const allMCQBatches = {
     },
     {
       "id": 22,
-      "question": "Computer चे Memory Unit\nदमनमल Input आणल output\nसजठवस.ज",
+      "question": "Computer चज Memory Unit\nदमनमल Input आणल output\nसजठवस.ज",
       "options": {
-        "A": "बरहार",
+        "A": "बरमबर",
         "B": "चलक",
         "C": "",
         "D": ""
@@ -5997,7 +5997,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "Message चल समडणल, पजठवणल\nव जमडणल मल ____ धज वदजरज\nणनहातलस कजलल जजसज.",
+      "question": "Message चल समडणल, पजठवणल\nव जमडणल मल ____ धज वदजरज\nणनधबतलस कजलल जजसज.",
       "options": {
         "A": "Servers",
         "B": "Clients",
@@ -6021,7 +6021,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "ममडजमवदजरज इनपसट व आऊटपलट\nअसे दमनमल पकजरचे डजटज वमन\nकरसम.",
+      "question": "ममडजमवदजरज इनपसट व आऊटपलट\nअसज दमनमल पकजरचज डजटज वमन\nकरसम.",
       "options": {
         "A": "सतध",
         "B": "असतध",
@@ -6035,7 +6035,7 @@ const allMCQBatches = {
   "BATCH 1502": [
     {
       "id": 1,
-      "question": "Monitorचच Size\n___________ मधधध ममजलच\nजजतध.",
+      "question": "Monitorचा Size\n___________ मध्येध ममजला\nजजतध.",
       "options": {
         "A": "Height",
         "B": "Width",
@@ -6059,7 +6059,7 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "सरजरधधक रजपरलच जजणजरच OS\n______________ हच आह.ध",
+      "question": "सरजरधधक रजपरला जजणजरच OS\n______________ हच आह.ध",
       "options": {
         "A": "Linux",
         "B": "Windows 10",
@@ -6071,7 +6071,7 @@ const allMCQBatches = {
     },
     {
       "id": 4,
-      "question": "Motherboard हज\n______________ चे पजरर\nआह.ध",
+      "question": "Motherboard हज\n______________ चज पजरर\nआह.ध",
       "options": {
         "A": "Input Device",
         "B": "Output\nDevice",
@@ -6083,7 +6083,7 @@ const allMCQBatches = {
     },
     {
       "id": 5,
-      "question": "मजउस हज ___________\nपकजरचे device आह.ध",
+      "question": "मजउस हज ___________\nपकजरचज device आह.ध",
       "options": {
         "A": "Scanning",
         "B": "Voice Input",
@@ -6095,7 +6095,7 @@ const allMCQBatches = {
     },
     {
       "id": 6,
-      "question": "एम.एस.ररर मधधध Save as हच\nकमजमर ____ मधनन मधधध आह.ध",
+      "question": "एम.एस.ररर मध्येध Save as हच\nकमजमर ____ मधनन मध्येध आह.ध",
       "options": {
         "A": "File",
         "B": "Formatting",
@@ -6107,9 +6107,9 @@ const allMCQBatches = {
     },
     {
       "id": 7,
-      "question": "Save option चे उपधमग file\nचच duplicate copy करणधजस\nहमतम",
+      "question": "Save option चज उपधमग file\nचा duplicate copy करणधजस\nहमतम",
       "options": {
-        "A": "बरहार",
+        "A": "बरमबर",
         "B": "चूक",
         "C": "",
         "D": ""
@@ -6119,7 +6119,7 @@ const allMCQBatches = {
     },
     {
       "id": 8,
-      "question": "MSWord 2019 मधधध\nscreenshot पधजरध ____ tab\nमधधध असतम .",
+      "question": "MSWord 2019 मध्येध\nscreenshot पधजरध ____ tab\nमध्येध असतम .",
       "options": {
         "A": "home tab",
         "B": "view tab",
@@ -6131,7 +6131,7 @@ const allMCQBatches = {
     },
     {
       "id": 9,
-      "question": "MSWord 2019 मधधध sort\noption ____ tab मधधध\nसजपरतम.",
+      "question": "MSWord 2019 मध्येध sort\noption ____ tab मध्येध\nसजपरतम.",
       "options": {
         "A": "page layout",
         "B": "home",
@@ -6155,7 +6155,7 @@ const allMCQBatches = {
     },
     {
       "id": 11,
-      "question": "MS Excel 2019 मधधध कमणतध\nपधजरध freeze panes चधज\nview tabमधधध असतेत ?",
+      "question": "MS Excel 2019 मध्येध कमणतध\nपधजरध freeze panes चधज\nview tabमध्येध असतजत ?",
       "options": {
         "A": "unfreeze\npanes",
         "B": "defreeze",
@@ -6167,7 +6167,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "MS Excel 2019 मधधध कमणतध\nपधजरध number group मधधध\nउपलाध आहतध ?",
+      "question": "MS Excel 2019 मध्येध कमणतध\nपधजरध number group मध्येध\nउपलबध आहतध ?",
       "options": {
         "A": "accounting\nnumber\nformat",
         "B": "percent style",
@@ -6179,7 +6179,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "MS Excel 2019 मधधध कमणतध\nपधजरध style group मधधध\nउपलाध आहतध ?",
+      "question": "MS Excel 2019 मध्येध कमणतध\nपधजरध style group मध्येध\nउपलबध आहतध ?",
       "options": {
         "A": "sort",
         "B": "filter",
@@ -6191,7 +6191,7 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "MS Excel 2019 मधधध\nmathematical calculations\nसजठच कजध रजपरतजत ?",
+      "question": "MS Excel 2019 मध्येध\nmathematical calculations\nसजठच कजध रजपरतजत ?",
       "options": {
         "A": "autofill",
         "B": "filter",
@@ -6203,7 +6203,7 @@ const allMCQBatches = {
     },
     {
       "id": 15,
-      "question": "MS Excel 2019 मधधध\ndefault दकतच zoom %\nअसत?ध",
+      "question": "MS Excel 2019 मध्येध\ndefault दकतच zoom %\nअसते",
       "options": {
         "A": "1",
         "B": "80",
@@ -6215,7 +6215,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "Presentation मधधध shapes\ntool _____________ insert\nकरणधजसजठच allow करत.ध",
+      "question": "Presentation मध्येध shapes\ntool _____________ insert\nकरणधजसजठच allow करत.ध",
       "options": {
         "A": "Text",
         "B": "Clip art",
@@ -6239,7 +6239,7 @@ const allMCQBatches = {
     },
     {
       "id": 18,
-      "question": "सरर transition effects चे\nspeed by default\n---------------- हज असतम.",
+      "question": "सरर transition effects चज\nspeed by default\n---------------- हज असतम.",
       "options": {
         "A": "Slow",
         "B": "Medium",
@@ -6251,9 +6251,9 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "Transition effects चे\nspeed हज बदलतज धधतम.",
+      "question": "Transition effects चज\nspeed हज बदलतज धधतम.",
       "options": {
-        "A": "बरहार",
+        "A": "बरमबर",
         "B": "चूक",
         "C": "",
         "D": ""
@@ -6263,7 +6263,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "slide transition लज लजगणजरच\nरधळ ______ मधधध दजखधरतजत.",
+      "question": "slide transition लज लजगणजरच\nरधळ ______ मध्येध दजखधरतजत.",
       "options": {
         "A": "minutes",
         "B": "seconds",
@@ -6275,7 +6275,7 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "Modem _______________\nsignals आधण __________\nSignal एकमधकजममधधध convert\nकरत.ध",
+      "question": "Modem _______________\nsignals आधण __________\nSignal एकमधकजममध्येध convert\nकरत.ध",
       "options": {
         "A": "Telephonic\nSignals to\nAnalog\nSignals",
         "B": "Analog\nSignal To\nTelephonic\nSignals",
@@ -6287,7 +6287,7 @@ const allMCQBatches = {
     },
     {
       "id": 22,
-      "question": "महोयमवदजरध रधरज एकज ठठकजणजहन\nदसन ऱधज ठठकजणच रधलचफमन\nलजईनचधज मजधधमजतचन पजठधरलध\nजजतध.",
+      "question": "ममरधमवदजरध रधरज एकज ठठकजणजहन\nदसन ऱधज ठठकजणच रधलाफमन\nलजईनचधज मजधधमजतचन पजठधरलध\nजजतध.",
       "options": {
         "A": "सतध",
         "B": "असतध",
@@ -6299,7 +6299,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "रधरज आधण पमगजम हज तजतपनरतधज\nसररपजत महोयम धज उपकरणजत\nसजठधरलज जजतम.",
+      "question": "रधरज आधण पमगजम हज तजतपनरतधज\nसररपजत ममरधम धज उपकरणजत\nसजठधरलज जजतम.",
       "options": {
         "A": "सतध",
         "B": "असतध",
@@ -6311,7 +6311,7 @@ const allMCQBatches = {
     },
     {
       "id": 24,
-      "question": "आपलधज computer लज\ninternet शच जमरणधजसजठच\nMODEM ____________ चे\nरजपर करत.ध",
+      "question": "आपलधज computer लज\ninternet शच जमरणधजसजठच\nMODEM ____________ चज\nरजपर करत.ध",
       "options": {
         "A": "Strings",
         "B": "Telephone\nlines",
@@ -6390,7 +6390,7 @@ const allMCQBatches = {
         "A": "Scanning",
         "B": "Printing",
         "C": "Copying",
-        "D": "वरनल सर्व"
+        "D": "वरनल सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
@@ -6493,7 +6493,7 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "MS Excel 2019 मधरह करणतह\nपरवरर font group मधरह उपलाध\nनवहनत ?",
+      "question": "MS Excel 2019 मधरह करणतह\nपरवरर font group मधरह उपलबध\nनवहनत ?",
       "options": {
         "A": "bold",
         "B": "italic",
@@ -6517,7 +6517,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "Word मधनल outline view चव\nउपररग व PowerPoint मधनल\noutline view चव उपररग\nसर्वखरव सर्वपवनह कहलव जवतर.",
+      "question": "Word मधनल outline view चव\nउपररग व PowerPoint मधनल\noutline view चव उपररग\nसवरखरव सवरपवनह कहलव जवतर.",
       "options": {
         "A": "चूक",
         "B": "बरोबर",
@@ -6553,7 +6553,7 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "Themes कमवमड Powerpoint\nमधनल ___________ रव गगप\nमधरह उपलाध आह.ह",
+      "question": "Themes कमवमड Powerpoint\nमधनल ___________ रव गगप\nमधरह उपलबध आह.ह",
       "options": {
         "A": "Design",
         "B": "Insert",
@@ -6565,7 +6565,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "PowerPoint मधरह\n__________ Text\nAllignment उपलाध असतवत",
+      "question": "PowerPoint मधरह\n__________ Text\nAllignment उपलबध असतवत",
       "options": {
         "A": "4",
         "B": "6",
@@ -6577,7 +6577,7 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "सर्वच ललन हन शकरतर … … …\nवर रन हरतवत.",
+      "question": "सवरच ललन हन शकरतर … … …\nवर रन हरतवत.",
       "options": {
         "A": "इथरनहट नहटवकर",
         "B": "TCP नहटवकर",
@@ -6639,7 +6639,7 @@ const allMCQBatches = {
   "BATCH 1504": [
     {
       "id": 1,
-      "question": "Mylar Plastic चचच Plat\n_______ मधचध वचपरलल जचत.ध",
+      "question": "Mylar Plastic चा Plat\n_______ मधचध वचपरलल जातो.ध",
       "options": {
         "A": "Floppy Disk",
         "B": "Hard disk",
@@ -6651,7 +6651,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "Internet चच अगधसर ककण ?",
+      "question": "Internet चा अगधसर ककण ?",
       "options": {
         "A": "Microsoft",
         "B": "Google",
@@ -6663,7 +6663,7 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "Netscape navigator ह धएक\nपकचरचध ________ आह.ध",
+      "question": "Netscape navigator ह धएक\nपूर्वी ________ आह.ध",
       "options": {
         "A": "website",
         "B": "Internet",
@@ -6687,7 +6687,7 @@ const allMCQBatches = {
     },
     {
       "id": 5,
-      "question": "Pen Drive चल Generally\nसचठवण कमतच ------ इतकक\nअसत.ध",
+      "question": "Pen Drive चल Generally\nसचठवण कमतच ------ इतकक\nअसते",
       "options": {
         "A": "२० GB",
         "B": "१० GB",
@@ -6699,7 +6699,7 @@ const allMCQBatches = {
     },
     {
       "id": 6,
-      "question": "… … .option नध colour of the\nborder घधतलच जचतक",
+      "question": "… … .option नध colour of the\nborder घधतला जातोक",
       "options": {
         "A": "font style",
         "B": "font",
@@ -6723,7 +6723,7 @@ const allMCQBatches = {
     },
     {
       "id": 8,
-      "question": "… … … … … … ककवच\nTypeface ह धAppearance,\nShape of Letter, Numbers\nआणि Special Characters लच\nDefine करतचत.",
+      "question": "… … … … … … ककवच\nTypeface ह धAppearance,\nShape of Letter, Numbers\nआणि Special Characters ला\nDefine करतात.",
       "options": {
         "A": "फफनन",
         "B": "फफनन सचईज",
@@ -6747,7 +6747,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "MSWord 2019 मधचध border\nthickness हल option_____ नध\nददलल जचतध",
+      "question": "MSWord 2019 मधचध border\nthickness हल option_____ नध\nददलल जातोध",
       "options": {
         "A": "size",
         "B": "Width",
@@ -6759,7 +6759,7 @@ const allMCQBatches = {
     },
     {
       "id": 11,
-      "question": "MS Excel 2019 मधचध active\ncell ककणतचच cell सचठल ससबकधलध\nजचतध ?",
+      "question": "MS Excel 2019 मधचध active\ncell ककणतचा cell सचठल ससबकधलध\nजातोध ?",
       "options": {
         "A": "A cell having\nlight border",
         "B": "A cell with\nno border",
@@ -6771,7 +6771,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "MS Excel 2019 मधचध\nselected cells चचच group\nलच कचच महणतचत ?",
+      "question": "MS Excel 2019 मधचध\nselected cells चा group\nला कचा महणतचत ?",
       "options": {
         "A": "table",
         "B": "rows",
@@ -6783,7 +6783,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "MS Excel 2019 मधचध active\ncell चचच thick border लच कचच\nससबकधतचत ?",
+      "question": "MS Excel 2019 मधचध active\ncell चा thick border ला कचा\nससबकधतचत ?",
       "options": {
         "A": "pointer cell",
         "B": "selection",
@@ -6795,7 +6795,7 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "MS Excel 2019 मधचध row चध\nheading कचच असतध ?",
+      "question": "MS Excel 2019 मधचध row चध\nheading कचा असतध ?",
       "options": {
         "A": "a,b,c, … ..",
         "B": "1,2,3, … ..",
@@ -6819,7 +6819,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "Master चध PowePoint मधचध\n__________ पकचर उपलाध\nआहतध",
+      "question": "Master चध PowePoint मधचध\n__________ पकचर उपलबध\nआहतध",
       "options": {
         "A": "1",
         "B": "2",
@@ -6843,7 +6843,7 @@ const allMCQBatches = {
     },
     {
       "id": 18,
-      "question": "Title and Content, Blank,\nTitle Slide ह धसर्व _______ चध\nपकचर आहतध .",
+      "question": "Title and Content, Blank,\nTitle Slide ह धसवर _______ चध\nपकचर आहतध .",
       "options": {
         "A": "Slide Show",
         "B": "Layout",
@@ -6891,7 +6891,7 @@ const allMCQBatches = {
     },
     {
       "id": 22,
-      "question": "नधनलकधन महणजधच इसनरनधन\nवापरण्यासाठीच्या णनचम व अनल.",
+      "question": "नधनलकधन महणजधच इसनरनधन\nवचपरणचचसचठलाध णनचम व अनल.",
       "options": {
         "A": "सतच",
         "B": "असतच",
@@ -6903,7 +6903,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "अनधक कफममचमनरचचच जकडणललच\nनधनवकर महणतचत.",
+      "question": "अनधक कफममचमनरचा जकडणलला\nनधनवकर महणतचत.",
       "options": {
         "A": "सतच",
         "B": "असतच",
@@ -6920,14 +6920,14 @@ const allMCQBatches = {
         "A": "Fiber optic\ncables",
         "B": "Satellite",
         "C": "Wi-Fi",
-        "D": "वरलल पपकक सर्व"
+        "D": "वरलल पपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
     },
     {
       "id": 25,
-      "question": "सर्वसचधचरणपणध Internet\nExplorer चच Icon desktop\nवर असतक",
+      "question": "सवरसचधचरणपणध Internet\nExplorer चा Icon desktop\nवर असतक",
       "options": {
         "A": "बरकबर",
         "B": "चूक",
@@ -6941,7 +6941,7 @@ const allMCQBatches = {
   "BATCH 1505": [
     {
       "id": 1,
-      "question": "OFFICE AUTOMATION\nमधधध __________ असत.ध",
+      "question": "OFFICE AUTOMATION\nमध्येध __________ असते",
       "options": {
         "A": "DRAWING",
         "B": "REPORT\nWRITING",
@@ -6992,8 +6992,8 @@ const allMCQBatches = {
       "question": "Ctrl + Home एकततत पधस\nकधलधयननतर … … … … … मतईल.",
       "options": {
         "A": "कसरस ओळतचधय\nशधरटत जयतत",
-        "B": "कसरस फयईलचधय\nससररयततस जयतत",
-        "C": "कसरस फयईलचधय\nशधरटत जयतत",
+        "B": "कसरस फयईलाधय\nससररयततस जयतत",
+        "C": "कसरस फयईलाधय\nशधरटत जयतत",
         "D": "कसरस ओळतचधय\nससररयततस जयतत"
       },
       "correctAnswer": "B",
@@ -7025,7 +7025,7 @@ const allMCQBatches = {
     },
     {
       "id": 8,
-      "question": "word 2019 मधधध default left\nmargin ________ असत.ध",
+      "question": "word 2019 मध्येध default left\nmargin ________ असते",
       "options": {
         "A": "1",
         "B": "1.25",
@@ -7049,7 +7049,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "MS-Word 2019 मधधध तधयर\nकधलधलधय file चध extension ___\nआहे.ध",
+      "question": "MS-Word 2019 मध्येध तधयर\nकधलधलधय file चध extension ___\nआम.ध",
       "options": {
         "A": ".dot",
         "B": ".docx",
@@ -7061,7 +7061,7 @@ const allMCQBatches = {
     },
     {
       "id": 11,
-      "question": "MS Excel 2019 मधधध page\nlayout tab चय उपधतग कयध\nआहे?ध",
+      "question": "MS Excel 2019 मध्येध page\nlayout tab चय उपधतग कयध\nआम?ध",
       "options": {
         "A": "to insert rows\nand columns",
         "B": "to specify\nsorting\nmethod",
@@ -7073,7 +7073,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "MS Excel 2019 मधधध cell\nचधय आत text चत default\nalignment कतठध असतध ?",
+      "question": "MS Excel 2019 मध्येध cell\nचधय आत text चत default\nalignment कतठध असतध ?",
       "options": {
         "A": "justify",
         "B": "center",
@@ -7085,7 +7085,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "MS Excel 2019 मधधध default\ndate format कयध असतत ?",
+      "question": "MS Excel 2019 मध्येध default\ndate format कयध असतत ?",
       "options": {
         "A": "mm-dd-yy",
         "B": "dd-mm-yy",
@@ -7097,7 +7097,7 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "Number आणि Text सयठत\ngraphic Presentation\nखयलतलपपकक असत.ध",
+      "question": "Number आणि Text सयठत\ngraphic Presentation\nखयलतलपपकक असते",
       "options": {
         "A": "Chart",
         "B": "Word Art",
@@ -7109,7 +7109,7 @@ const allMCQBatches = {
     },
     {
       "id": 15,
-      "question": "MS Excel 2019 मधधध\nintersection of rows and\ncolumns लय कयध ममणतयत ?",
+      "question": "MS Excel 2019 मध्येध\nintersection of rows and\ncolumns लय कयध ममणतयत ?",
       "options": {
         "A": "address",
         "B": "value",
@@ -7121,7 +7121,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "slide मधधध mathematical\nequation घधणधयसयठत Insert\nTab - Text Group मधतल\n------------------ command\nरयपरयरत.",
+      "question": "slide मध्येध mathematical\nequation घधणधयसयठत Insert\nTab - Text Group मधतल\n------------------ command\nरयपरयरत.",
       "options": {
         "A": "Page\nNumbers",
         "B": "Date & Time",
@@ -7133,7 +7133,7 @@ const allMCQBatches = {
     },
     {
       "id": 17,
-      "question": "PowerPoint presentation\nमधधध सरर objects animate\nकरणधयसयठत ________ effect\nचय रयपर मततत.",
+      "question": "PowerPoint presentation\nमध्येध सरर objects animate\nकरणधयसयठत ________ effect\nचय रयपर मततत.",
       "options": {
         "A": "Shadow",
         "B": "Animation",
@@ -7229,7 +7229,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "Operating System मय एक\nprogram आहे.ध",
+      "question": "Operating System मय एक\nprogram आम.ध",
       "options": {
         "A": "बरतबर",
         "B": "चूक",
@@ -7255,7 +7255,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "PDF फाईल मध्ये सहज बदल\nकरतब येऊ शकतात.",
+      "question": "PDF फबईल मध्येज समज बदल\nकरतब धजऊ शकतबत.",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -7267,7 +7267,7 @@ const allMCQBatches = {
     },
     {
       "id": 3,
-      "question": "भारतीय भबषजमध्ये टाईप\nकरणहासाठी ___________ चा\nवापर करतो.",
+      "question": "भबरतबध भबषजमध्येज टबईप\nकरणधबसाठी ___________ चब\nवापर करतो.",
       "options": {
         "A": "Unicode",
         "B": "ASCII",
@@ -7279,7 +7279,7 @@ const allMCQBatches = {
     },
     {
       "id": 4,
-      "question": "compressed files वापरबपचवर\nextract करणज गरजेचे असत.ज",
+      "question": "compressed files वापरबपचवर\nextract करणज गरजजचज असत.ज",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -7291,7 +7291,7 @@ const allMCQBatches = {
     },
     {
       "id": 5,
-      "question": "OPERATING SYSTEM म ज\n___________ SOFTWARE\nचे उदाहरण आहे.ज",
+      "question": "OPERATING SYSTEM म ज\n___________ SOFTWARE\nचज उदबमरण आम.ज",
       "options": {
         "A": "System",
         "B": "Application",
@@ -7303,7 +7303,7 @@ const allMCQBatches = {
     },
     {
       "id": 6,
-      "question": "Text Content च्या मागील\nGhosted Text ला\n_____________ असे म्हणतात.",
+      "question": "Text Content चधब मबगबल\nGhosted Text लब\n_____________ असज ममणतबत.",
       "options": {
         "A": "Marktext",
         "B": "Watertext",
@@ -7315,7 +7315,7 @@ const allMCQBatches = {
     },
     {
       "id": 7,
-      "question": "Page Nos., Dated यासारख्या\nमाहिती सामान्यपणे _______\nमध्ये पबहाधला णमळत.ज",
+      "question": "Page Nos., Dated धबयसबरखब\nमबणमतब सबधबरणपणज _______\nमध्येज पबमबधलब णमळत.ज",
       "options": {
         "A": "Header/Foot\ner",
         "B": "Page breaks",
@@ -7327,7 +7327,7 @@ const allMCQBatches = {
     },
     {
       "id": 8,
-      "question": "Page च्या खबला जी माहिती\nददला जीतज णतला ____ असे\nम्हणतात.",
+      "question": "Page चधब खबलब जब मबणमतब\nददलब जबतज णतलब ____ असज\nममणतबत.",
       "options": {
         "A": "End Note",
         "B": "Footnote",
@@ -7339,7 +7339,7 @@ const allMCQBatches = {
     },
     {
       "id": 9,
-      "question": "F12 Key हा\n_________________ साठी\nOpen मरत.ज",
+      "question": "F12 Key मब\n_________________ साठी\nOpen मरत.ज",
       "options": {
         "A": "Save\nAs dialog box",
         "B": "Open dialog\nbox",
@@ -7351,7 +7351,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "...............key cursor च्या\nमागील letter remove\nकरणहास वापरतबत",
+      "question": "...............key cursor चधब\nमबगबल letter remove\nकरणधबस वापरतबत",
       "options": {
         "A": "Arrow Key",
         "B": "Backspace",
@@ -7363,7 +7363,7 @@ const allMCQBatches = {
     },
     {
       "id": 11,
-      "question": "MS Excel 2019 मध्ये\nworksheet print करणहासाठी\nकोणता keyboard shortcut\nवापरतबत?",
+      "question": "MS Excel 2019 मध्येज\nworksheet print करणधबसाठी\nकरणतब keyboard shortcut\nवापरतबत?",
       "options": {
         "A": "Ctrl+ t",
         "B": "Ctrl+ l",
@@ -7375,7 +7375,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "MS Excel 2019 मध्ये शब्द\nशरधणहासाठी कोणता\nkeyboard shortcut\nवापरतबत?",
+      "question": "MS Excel 2019 मध्येज शबद\nशरधणधबसाठी करणतब\nkeyboard shortcut\nवापरतबत?",
       "options": {
         "A": "Ctrl+ s",
         "B": "Ctrl+ f",
@@ -7387,7 +7387,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "MS Excel 2019 मध्ये\nselect all साठी कोणता\nkeyboard shortcut\nवापरतबत?",
+      "question": "MS Excel 2019 मध्येज\nselect all साठी करणतब\nkeyboard shortcut\nवापरतबत?",
       "options": {
         "A": "Ctrl+ a",
         "B": "Ctrl+ l",
@@ -7399,7 +7399,7 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "MS Excel 2019 मध्ये कहात\nकहा zoom % किती असते ?",
+      "question": "MS Excel 2019 मध्येज कमबत\nकमब zoom % दकतब असतज ?",
       "options": {
         "A": "1",
         "B": "5",
@@ -7411,7 +7411,7 @@ const allMCQBatches = {
     },
     {
       "id": 15,
-      "question": "MS Excel 2019 मध्ये =now()\nfunction काय result देते ज ?",
+      "question": "MS Excel 2019 मध्येज =now()\nfunction कबध result दतज ज ?",
       "options": {
         "A": "system date\nand time",
         "B": "spelling of\nthe day e.g\nMonday",
@@ -7423,7 +7423,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "slide वरील सर्व objects चा\nanimation order\nबदलणहासाठी animation tab\nवरील ____ command चा\nउपयोग करतो.",
+      "question": "slide वरबल सवर objects चब\nanimation order\nबदलणधबसाठी animation tab\nवरबल ____ command चब\nउपधरग करतो.",
       "options": {
         "A": "Preset\nanimation",
         "B": "Slide\nTransition",
@@ -7435,7 +7435,7 @@ const allMCQBatches = {
     },
     {
       "id": 17,
-      "question": "Slide चे transition change\nकरणहासाठी transition tab\nमधील _________ group मध्ये\nजीवज लागत.ज",
+      "question": "Slide चज transition change\nकरणधबसाठी transition tab\nमधबल _________ group मध्येज\nजबवज लबगत.ज",
       "options": {
         "A": "transition to\nthis slide",
         "B": "transition to\nnext slide",
@@ -7447,7 +7447,7 @@ const allMCQBatches = {
     },
     {
       "id": 18,
-      "question": "उपलाध presentation मधील\nSpelling Check करणहासाठी\nपुढीलपैकी कोणत्या key चा\nवापर करावा लागतर",
+      "question": "उपलबध presentation मधबल\nSpelling Check करणधबसाठी\nपपढबलपपकक करणतधब key चब\nवापर करबवब लबगतर",
       "options": {
         "A": "F5",
         "B": "F7",
@@ -7459,7 +7459,7 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "full screen slide show साठी\nscreen resolution सिलेक्ट\nकरणहासाठी __________\noption हा slide show\nउपयोगब येतो.",
+      "question": "full screen slide show साठी\nscreen resolution णसलजकट\nकरणधबसाठी __________\noption मब slide show\nउपधरगब धजतर.",
       "options": {
         "A": "Resolution",
         "B": "Setup",
@@ -7471,7 +7471,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "नवीन Presentation तयार\nकरणहासाठी आपण\n--------------- हा shortcut key\nवापरतर.",
+      "question": "नवबन Presentation तधबर\nकरणधबसाठी आपण\n--------------- मब shortcut key\nवापरतर.",
       "options": {
         "A": "Ctrl + O",
         "B": "Ctrl + M",
@@ -7483,7 +7483,7 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "Operating system हा file\nmanagement चे कायर करत.ज",
+      "question": "Operating system मब file\nmanagement चज कबधर करत.ज",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -7495,7 +7495,7 @@ const allMCQBatches = {
     },
     {
       "id": 22,
-      "question": "Optical Disk हा Magnetic\nDisk असतात.",
+      "question": "Optical Disk धब Magnetic\nDisk असतबत.",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -7519,7 +7519,7 @@ const allMCQBatches = {
     },
     {
       "id": 24,
-      "question": "Outlook express म ईमेल\nप्रोग्राम आहे.ज",
+      "question": "Outlook express म जईमजल\nपरगबम आम.ज",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -7531,7 +7531,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "Outlook हा Email Client\nहोय.",
+      "question": "Outlook मब Email Client\nमरध.",
       "options": {
         "A": "बरोबर",
         "B": "चूक",
@@ -7689,7 +7689,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "MS Excel 2019 मधयह करणतयय\nपकयरचे file बनवतय यहतह ?",
+      "question": "MS Excel 2019 मधयह करणतयय\nपकयरचज file बनवतय यहतह ?",
       "options": {
         "A": "document",
         "B": "presentation",
@@ -7701,12 +7701,12 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "MS Excel 2019 मधयह करणतयय\nपकयरचयय vertical alignments\nउपलाध आहतह ?",
+      "question": "MS Excel 2019 मधयह करणतयय\nपकयरचयय vertical alignments\nउपलबध आहतह ?",
       "options": {
         "A": "top align",
         "B": "middle align",
         "C": "bottom align",
-        "D": "ययपपकक सर्व"
+        "D": "ययपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
@@ -7833,7 +7833,7 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "Password type करत असतयनय\nतर __________ सर्वपयत\nकबसतर.",
+      "question": "Password type करत असतयनय\nतर __________ सवरपयत\nकबसतर.",
       "options": {
         "A": "Black dots",
         "B": "Dot(.)",
@@ -7847,7 +7847,7 @@ const allMCQBatches = {
   "BATCH 1603": [
     {
       "id": 1,
-      "question": "पपटर चचच Output लच\n__________ असस ससदच\nससबबधलस जचत.स",
+      "question": "पेपर चा Output ला\n__________ असा ससदच\nसंबंधलस जातो.स",
       "options": {
         "A": "Soft Copy",
         "B": "Hard Copy",
@@ -7859,7 +7859,7 @@ const allMCQBatches = {
     },
     {
       "id": 2,
-      "question": "MONITOR वरहल OUTPUT\nलच _____________ असस\nमहणतचत.",
+      "question": "MONITOR वरहल OUTPUT\nला _____________ असा\nमहणतचत.",
       "options": {
         "A": "Soft Copy",
         "B": "Hard Copy",
@@ -7883,7 +7883,7 @@ const allMCQBatches = {
     },
     {
       "id": 4,
-      "question": "PC हच -------- पकचरचच\nComputer आह.स",
+      "question": "PC हच -------- पूर्वीचे\nComputer आह.स",
       "options": {
         "A": "Mini",
         "B": "Micro",
@@ -7907,7 +7907,7 @@ const allMCQBatches = {
     },
     {
       "id": 6,
-      "question": "Formatting toolbar मधचस\nसवचरत लहचन आणि हाठह font\nsize … … … णह उपलाध असत.स",
+      "question": "Formatting toolbar मधचस\nसवचरत लहचन आणि मबठह font\nsize … … … णह उपलबध असत.स",
       "options": {
         "A": "8 and 68",
         "B": "8 and 72",
@@ -7919,7 +7919,7 @@ const allMCQBatches = {
     },
     {
       "id": 7,
-      "question": "_________ ह सSoftware\nDocument बनवणचचसचठह\nवचपरलस जचत.स",
+      "question": "_________ ह सSoftware\nDocument बनवणचचसचठह\nवचपरलस जातो.स",
       "options": {
         "A": "Excel\nProcessor",
         "B": "PowerPoint",
@@ -7931,7 +7931,7 @@ const allMCQBatches = {
     },
     {
       "id": 8,
-      "question": "… … … … . ह सSoftware\nDocument बनवणचचसचठह\nवचपरलस जचत.स",
+      "question": "… … … … . ह सSoftware\nDocument बनवणचचसचठह\nवचपरलस जातो.स",
       "options": {
         "A": "Excel\nProcessor",
         "B": "PowerPoint",
@@ -7943,7 +7943,7 @@ const allMCQBatches = {
     },
     {
       "id": 9,
-      "question": "_________ ह सSoftware\nWord processing सचठह\nवचपरलस जचत.स",
+      "question": "_________ ह सSoftware\nWord processing सचठह\nवचपरलस जातो.स",
       "options": {
         "A": "Excel\nProcessor",
         "B": "PowerPoint",
@@ -7955,7 +7955,7 @@ const allMCQBatches = {
     },
     {
       "id": 10,
-      "question": "spelling mistakes ह स\n_______ Color lines नस\nदररणवलस जचत.स",
+      "question": "spelling mistakes ह स\n_______ Color lines नस\nदररणवलस जातो.स",
       "options": {
         "A": "Yellow",
         "B": "Blue",
@@ -7967,7 +7967,7 @@ const allMCQBatches = {
     },
     {
       "id": 11,
-      "question": "MS Excel 2019 मधचस जर\nफक गचफचचच sheet अससल तर\nतचचलच कचच महणतचत ?",
+      "question": "MS Excel 2019 मधचस जर\nफक गचफचा sheet असाल तर\nतचाला कचा महणतचत ?",
       "options": {
         "A": "graph sheet",
         "B": "chart sheet",
@@ -7979,7 +7979,7 @@ const allMCQBatches = {
     },
     {
       "id": 12,
-      "question": "MS Excel 2019 मधचस आपण\ninbuilt formula लच कचच\nससबबधतब ?",
+      "question": "MS Excel 2019 मधचस आपण\ninbuilt formula ला कचा\nसंबंधतब ?",
       "options": {
         "A": "program",
         "B": "value",
@@ -7991,7 +7991,7 @@ const allMCQBatches = {
     },
     {
       "id": 13,
-      "question": "MS Excel 2019 मधचस\nMinimize / Maximize ,\nclose बटन कसठस असतचत ?",
+      "question": "MS Excel 2019 मधचस\nMinimize / Maximize ,\nclose बटन कसठस असतात ?",
       "options": {
         "A": "Left-top\ncorner",
         "B": "right - top\ncorner",
@@ -8003,7 +8003,7 @@ const allMCQBatches = {
     },
     {
       "id": 14,
-      "question": "MS Excel 2019 मधचस Fill\ncolor पचचरच कबठस उपलाध असतब\n?",
+      "question": "MS Excel 2019 मधचस Fill\ncolor पचचरच कबठस उपलबध असतब\n?",
       "options": {
         "A": "home tab",
         "B": "data tab",
@@ -8015,7 +8015,7 @@ const allMCQBatches = {
     },
     {
       "id": 15,
-      "question": "MS Excel 2019 मधचस फचईल\nपपट कसलचचस footer कबठस ददसतस\n?",
+      "question": "MS Excel 2019 मधचस फचईल\nपपट कसलाचस footer कबठस ददसतस\n?",
       "options": {
         "A": "only bottom\nof every\npage",
         "B": "only bottom\nof every\nworksheet",
@@ -8027,7 +8027,7 @@ const allMCQBatches = {
     },
     {
       "id": 16,
-      "question": "पतचसक slide लच Number\nदणस चचसचठह insert menu मधहल\n....................... command\nचच वचपर कसलच जचतब.",
+      "question": "पतचसक slide ला Number\nदणस चचसचठह insert menu मधहल\n....................... command\nचा वचपर कसला जातोब.",
       "options": {
         "A": "Slide\nNumber",
         "B": "Page\nNumber",
@@ -8039,7 +8039,7 @@ const allMCQBatches = {
     },
     {
       "id": 17,
-      "question": "slide लच number दणस चचसचठह\n_______ command चच\nउपचाग हबतब.",
+      "question": "slide ला number दणस चचसचठह\n_______ command चा\nउपचबग हबतब.",
       "options": {
         "A": "Home=>Text\ngroup =>\nslide number",
         "B": "Design=>\nTable =>\nslide number",
@@ -8051,7 +8051,7 @@ const allMCQBatches = {
     },
     {
       "id": 18,
-      "question": "slide लच orientation\nदणस चचसचठह ____________\nकरचव.स",
+      "question": "slide ला orientation\nदणस चचसचठह ____________\nकरचव.स",
       "options": {
         "A": "Home=>Orie\nntation=>Port\nrait",
         "B": "Design=>Slid\ne\nOrientation=\n>Portrait",
@@ -8063,7 +8063,7 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "मचगहल slide लच जचणचचसचठह\n_______ key press करचवह.",
+      "question": "मचगहल slide ला जचणचचसचठह\n_______ key press करचवह.",
       "options": {
         "A": "Slide No +\nEnter",
         "B": "Pg. Up",
@@ -8075,7 +8075,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "Presentation मधचस नवहन\nslide add करणचचसचठह\n_________ चच वचपर कसलच\nजचतब.",
+      "question": "Presentation मधचस नवहन\nslide add करणचचसचठह\n_________ चा वचपर कसला\nजातोब.",
       "options": {
         "A": "Insert >>\nSlide",
         "B": "Home >>\nSlides >>\nNew Slides",
@@ -8087,7 +8087,7 @@ const allMCQBatches = {
     },
     {
       "id": 21,
-      "question": "PDF file format\n___________ नस invented\nकसलचच जचतचत .",
+      "question": "PDF file format\n___________ नस invented\nकसलाच जातोचत .",
       "options": {
         "A": "Microsoft",
         "B": "Adobe",
@@ -8111,7 +8111,7 @@ const allMCQBatches = {
     },
     {
       "id": 23,
-      "question": "PDF format हच\n__________________सचठह\nतचचर कसलसलच असतब.",
+      "question": "PDF format हच\n__________________सचठह\nतचचर कसलसला असतब.",
       "options": {
         "A": "Document\nDownload",
         "B": "Document\nScanning",
@@ -8123,7 +8123,7 @@ const allMCQBatches = {
     },
     {
       "id": 24,
-      "question": "Pen Drive लच\n_____________ अससहह\nमहणतचत.",
+      "question": "Pen Drive ला\n_____________ असाहह\nमहणतचत.",
       "options": {
         "A": "Compact\nDrive",
         "B": "Input Drive",
@@ -8135,12 +8135,12 @@ const allMCQBatches = {
     },
     {
       "id": 25,
-      "question": "Windows 10 मधचस Shift+F10\nह सkey combination\nदचालचचवर .............",
+      "question": "Windows 10 मधचस Shift+F10\nह सkey combination\nदचबलाचवर .............",
       "options": {
         "A": "Current Task\nरद हबतब",
-        "B": "selected item\nचच shortcut\nमसनच दचखवलच\nजचतब",
-        "C": "Start Menu\nदचखवलच जचतब",
-        "D": "folder Rename\nकसलस जचतस"
+        "B": "selected item\nचा shortcut\nमसनच दचखवला\nजातोब",
+        "C": "Start Menu\nदचखवला जातोब",
+        "D": "folder Rename\nकसलस जातोस"
       },
       "correctAnswer": "B",
       "userAnswer": null
@@ -8245,7 +8245,7 @@ const allMCQBatches = {
     },
     {
       "id": 9,
-      "question": "Header आवण Footer मधयह\ntype कहलहलह मजककर हह\n_______ Pages वरतर print\nहहतह.",
+      "question": "Header आवण Footer मधयह\ntype कहलहलह मजककर हह\n_______ Pages वरतर print\nहोते.",
       "options": {
         "A": "First Page",
         "B": "All Pages",
@@ -8259,8 +8259,8 @@ const allMCQBatches = {
       "id": 10,
       "question": "इइटरनहट एकसपलहरर मधयह\nवहबसहईटचह ॲडहस … … … . मधयह\nदतह हत.",
       "options": {
-        "A": "सटसनननर बटन\nटकलाहर",
-        "B": "ललकस टकलाहर",
+        "A": "सटसनननर बटन\nटकलबहर",
+        "B": "ललकस टकलबहर",
         "C": "ॲडहस बहर",
         "D": "महनक बहर"
       },
@@ -8286,7 +8286,7 @@ const allMCQBatches = {
         "A": "file menu",
         "B": "format menu",
         "C": "review tab",
-        "D": "MS Excel\n2019 मधयह पयहरय\nउपलाब नहहर"
+        "D": "MS Excel\n2019 मधयह पयहरय\nउपलबब नहहर"
       },
       "correctAnswer": "A",
       "userAnswer": null
@@ -8365,7 +8365,7 @@ const allMCQBatches = {
     },
     {
       "id": 19,
-      "question": "slide वर chart insert\nकरणयहसहठर Insert Tab वररल\n______ command चह उपयहग\nहहतह.",
+      "question": "slide वर chart insert\nकरणयहसहठर Insert Tab वररल\n______ command चह उपयहग\nहोते.",
       "options": {
         "A": "Chart",
         "B": "Picture",
@@ -8377,7 +8377,7 @@ const allMCQBatches = {
     },
     {
       "id": 20,
-      "question": "Slide वर Chart Insert\nकरणयहसहठर ---------- यह Tab\nहारल Chart कमहइन चह वहपर\nकरहवह.",
+      "question": "Slide वर Chart Insert\nकरणयहसहठर ---------- यह Tab\nमबरल Chart कमहइन चह वहपर\nकरहवह.",
       "options": {
         "A": "Home",
         "B": "Insert",
@@ -8403,8 +8403,8 @@ const allMCQBatches = {
       "id": 22,
       "question": "Windows 10 मधयह F10 हर\nkey दहबलयहवर\n_____________",
       "options": {
-        "A": "Menu bar\nकहयहरवनवत हहतह",
-        "B": "Current Task\nरद हहतह",
+        "A": "Menu bar\nकहयहरवनवत होते",
+        "B": "Current Task\nरद होते",
         "C": "Task Manager\nदहखवलह जहतह",
         "D": "Folder रहबलह\nजहतह"
       },
@@ -8535,19 +8535,19 @@ const allMCQBatches = {
     },
     {
       "id": 8,
-      "question": "Title bar वर सवहरत शनवकर\nउजवह हहतहस _______ हर\nबकनस असतहत.",
+      "question": "Title bar वर सवहरत शनवकर\nउजवह होतेस _______ हर\nबकनस असतहत.",
       "options": {
         "A": "Minimize",
         "B": "Maximize/\nRestore",
         "C": "Close",
-        "D": "यहपपकक सर्व"
+        "D": "यहपपकक सवर"
       },
       "correctAnswer": "D",
       "userAnswer": null
     },
     {
       "id": 9,
-      "question": "Title bar वर सवहरत शनवकर\nउजवह हहतहस … … … .. हर\nबकनस असतहत.",
+      "question": "Title bar वर सवहरत शनवकर\nउजवह होतेस … … … .. हर\nबकनस असतहत.",
       "options": {
         "A": "Minimize",
         "B": "Maximize/\nRestore",
@@ -8636,7 +8636,7 @@ const allMCQBatches = {
         "A": "Ctrl + N",
         "B": "Ctrl + S",
         "C": "Ctrl + M",
-        "D": "यहपपकक सर्व"
+        "D": "यहपपकक सवर"
       },
       "correctAnswer": "C",
       "userAnswer": null
