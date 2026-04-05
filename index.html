@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css?v=3.7">
     <link rel="stylesheet" href="mcq-style.css?v=3.7">
     <!-- Extracted passages from exam files -->
-    <script src="passages-data.js"></script>
+    <script src="passages-data.js?v=4.0"></script>
     <script src="script.js?v=3.7"></script>
 </head>
 <body>
@@ -62,11 +62,19 @@
                 <div class="upload-card">
                     <h2>⌨️ Speed Passage Practice</h2>
                     
+                    <!-- Month Selection -->
+                    <div class="question-set-selection">
+                        <label for="monthSelect"><strong>Select Month:</strong></label>
+                        <select id="monthSelect" class="set-select">
+                            <option value="">Loading...</option>
+                        </select>
+                    </div>
+                    
                     <!-- Passage Selection -->
                     <div class="question-set-selection">
                         <label for="passageSelect"><strong>Select Passage:</strong></label>
-                        <select id="passageSelect" class="set-select">
-                            <option value="">Loading...</option>
+                        <select id="passageSelect" class="set-select" disabled>
+                            <option value="">Select a month first</option>
                         </select>
                         
                         <!-- Mode Selection -->

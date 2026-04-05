@@ -280,6 +280,7 @@ let previewModeIndicator;
 // Initialize
 function init() {
     console.log('🔧 Initializing Speed Passage...');
+    populateMonthDropdown();
     populatePassageDropdown();
     
     // Show selection section
@@ -311,21 +312,43 @@ function populatePassageDropdown() {
     
     if (!passageSelect) return;
     
+    const monthSelect = document.getElementById('monthSelect');
+    const selectedMonth = monthSelect ? monthSelect.value : '';
+    
+    if (!selectedMonth) {
+        passageSelect.innerHTML = '<option value="">Select a month first</option>';
+        passageSelect.disabled = true;
+        return;
+    }
+    
+    if (typeof passagesByMonth === 'undefined') {
+        console.error('❌ passagesByMonth is not defined');
+        passageSelect.innerHTML = '<option value="">Error: Data not loaded</option>';
+        return;
+    }
+    
+    passageSelect.disabled = false;
     passageSelect.innerHTML = '';
     
-    // Add pre-loaded passages
-    const preloadedGroup = document.createElement('optgroup');
-    preloadedGroup.label = `Pre-loaded Passages (${passages.length})`;
+    // Get passages for selected month
+    const monthData = passagesByMonth[selectedMonth];
+    if (!monthData) {
+        passageSelect.innerHTML = '<option value="">No passages available</option>';
+        return;
+    }
     
-    passages.forEach((passage, index) => {
+    // Add passages from selected month
+    const monthGroup = document.createElement('optgroup');
+    monthGroup.label = `${monthData.displayName} (${monthData.passages.length})`;
+    
+    monthData.passages.forEach((passage, index) => {
         const option = document.createElement('option');
-        option.value = `preloaded-${index}`;
-        const wordCount = passage.trim().split(/\s+/).length;
-        option.textContent = `Pre-loaded Passage ${index + 1} (${wordCount} words)`;
-        preloadedGroup.appendChild(option);
+        option.value = `${selectedMonth}-${index}`;
+        option.textContent = `${passage.filename.replace('.docx', '')} (${passage.wordCount} words)`;
+        monthGroup.appendChild(option);
     });
     
-    passageSelect.appendChild(preloadedGroup);
+    passageSelect.appendChild(monthGroup);
     
     // Add uploaded passages
     if (customPassages.length > 0) {
@@ -354,7 +377,38 @@ function populatePassageDropdown() {
         }
     }
     
-    console.log(`✓ Dropdown populated: ${passages.length} pre-loaded, ${customPassages.length} uploaded`);
+    console.log(`✓ Dropdown populated for ${monthData.displayName}: ${monthData.passages.length} passages`);
+}
+
+// Populate month dropdown
+function populateMonthDropdown() {
+    const monthSelect = document.getElementById('monthSelect');
+    if (!monthSelect) {
+        console.error('❌ monthSelect element not found');
+        return;
+    }
+    
+    if (typeof availableMonths === 'undefined') {
+        console.error('❌ availableMonths is not defined');
+        return;
+    }
+    
+    monthSelect.innerHTML = '<option value="">Select a month...</option>';
+    
+    availableMonths.forEach(month => {
+        const option = document.createElement('option');
+        option.value = month.key;
+        option.textContent = `${month.display} (${month.count} passages)`;
+        monthSelect.appendChild(option);
+    });
+    
+    // Auto-select first month
+    if (availableMonths.length > 0) {
+        monthSelect.value = availableMonths[0].key;
+        populatePassageDropdown();
+    }
+    
+    console.log(`✓ Month dropdown populated: ${availableMonths.length} months`);
 }
 
 // Update passage count display (no longer used in UI, but kept for compatibility)
@@ -376,16 +430,28 @@ function loadPassageForPreview() {
     const feedbackMode = document.querySelector('input[name="feedbackMode"]:checked').value;
     realtimeMode = (feedbackMode === 'realtime');
     
-    // Parse selection
-    const [source, indexStr] = selectedValue.split('-');
-    const index = parseInt(indexStr);
+    // Parse selection - format: "month-index" or "uploaded-index"
+    const parts = selectedValue.split('-');
     
     // Get passage text
-    if (source === 'preloaded') {
-        currentPassage = passages[index];
-    } else if (source === 'uploaded') {
+    if (parts[0] === 'uploaded') {
+        // Uploaded passage
+        const index = parseInt(parts[1]);
         const customPassages = loadCustomPassages();
         currentPassage = customPassages[index].text;
+    } else {
+        // Month-based passage: "jan-2026-0" or "oct-2025-1"
+        // Reconstruct month key (could be "jan-2026" or "oct-2025")
+        const monthKey = parts.slice(0, -1).join('-');
+        const index = parseInt(parts[parts.length - 1]);
+        
+        const monthData = passagesByMonth[monthKey];
+        if (monthData && monthData.passages[index]) {
+            currentPassage = monthData.passages[index].text;
+        } else {
+            showUploadFeedback('Passage not found', 'error');
+            return;
+        }
     }
     
     // Show preview
@@ -1032,6 +1098,15 @@ document.addEventListener('DOMContentLoaded', () => {
         loadPassageBtn: !!loadPassageBtn,
         uploadPassageBtn: !!document.getElementById('uploadPassageBtn')
     });
+    
+    // Month selection event listener
+    const monthSelect = document.getElementById('monthSelect');
+    if (monthSelect) {
+        monthSelect.addEventListener('change', () => {
+            console.log(`📅 Month changed to: ${monthSelect.value}`);
+            populatePassageDropdown();
+        });
+    }
     
     // Typing area event listeners
     if (typingArea) {
