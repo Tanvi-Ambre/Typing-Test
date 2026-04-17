@@ -1,0 +1,1512 @@
+{
+  "BATCH 1104": [
+    {
+      "id": 1,
+      "question": "Data filter feature चा उपयोग\nहोतो, जेंव्हा मध्ये\ntable ready असतो.",
+      "options": {
+        "A": "Worksheet",
+        "B": "workbook",
+        "C": "mo",
+        "D": "Column"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 2,
+      "question": "Email मधे 9801161 म्हणजे",
+      "options": {
+        "A": "Documents",
+        "B": "Audio files",
+        "C": "Video files",
+        "D": "यापैकी सर्व"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 3,
+      "question": "MS Excel 2019 मध्ये default\ndate format dd/mm/yy आहे",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 4,
+      "question": "MS Excel 2019 मध्ये\nspreadsheet file चे default\nextension .cell असते",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 5,
+      "question": "Email मध्ये CC म्हणजे\nCourtesy Copy",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 6,
+      "question": "MS-Word document मध्ये\n________ no. of पेजचे\nmargins असतात.",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "3",
+        "D": "5"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 7,
+      "question": "MS-Word मधील ___ना आपण\nruler ररहल option show\nकीरय Hide कधला जातात",
+      "options": {
+        "A": "Insert",
+        "B": "Home",
+        "C": "Help",
+        "D": "View"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 8,
+      "question": "MS-Word मध्ये Horizontal\nruler __________ मदत\nसाठी वापुन्हाात.",
+      "options": {
+        "A": "to set indents",
+        "B": "to set tabs",
+        "C": "to change\npage margins",
+        "D": "यापैकी सर्व"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 9,
+      "question": "MS-Word मध्ये document चे\nनयर ____रर display मरत.ध",
+      "options": {
+        "A": "status bar",
+        "B": "formula bar",
+        "C": "scroll bar",
+        "D": "title bar"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 10,
+      "question": "MS-Word 2019 मध्ये\nprofessionally design केलेला\ndocuments चे readymade\nformats दिला आहेत तययतनय\n… … . म्हणतात.",
+      "options": {
+        "A": "Files",
+        "B": "Chart",
+        "C": "Templates",
+        "D": "Graphs"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 11,
+      "question": "Data filter feature चय उपयोग\nमरतर, जेव्हा ___________मध्ये\ntable ready असतो.",
+      "options": {
+        "A": "Worksheet",
+        "B": "workbook",
+        "C": "Row",
+        "D": "Column"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 12,
+      "question": "Column चह default width मे\n____ असत.ध",
+      "options": {
+        "A": "11",
+        "B": "8.43",
+        "C": "9",
+        "D": "10"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 13,
+      "question": "MS Excel 2019 मध्ये default\ndate format dd/mm/yy आहे",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 14,
+      "question": "MS Excel 2019 मध्ये\nspreadsheet file चे default\nextension .cell असते",
+      "options": {
+        "A": "बरोबर",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 15,
+      "question": "MS Excel 2019 मध्ये active\ncell चय address करठध दयखरलय\nजातो ?",
+      "options": {
+        "A": "Status box",
+        "B": "name box",
+        "C": "formula bar",
+        "D": "formula box"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 16,
+      "question": "slide मध्ये text hold\nकरणययसाठी ______________\nObject वापुन्हाात.",
+      "options": {
+        "A": "Place holder",
+        "B": "Auto Layout",
+        "C": "object holder",
+        "D": "text holder"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 17,
+      "question": "quick access tool bar वर\nकोणते buttons present\nअसतात?",
+      "options": {
+        "A": "Save",
+        "B": "Undo",
+        "C": "Redo",
+        "D": "यापैकी सर्व"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 18,
+      "question": "आपण पॉवरपॉईंटमध्ये chart\ninsert करु शकतो.",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 19,
+      "question": "slide numbers insert\nकरण्यासाठीचा पर्याय?",
+      "options": {
+        "A": "Insert=>Page\nNo",
+        "B": "Insert=>Slide\nNo",
+        "C": "Insert=>Text\nGroup",
+        "D": "Insert=>Table"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 20,
+      "question": "PowerPoint मध्ये Outline\nview म ध__________ साठी\nरयपरला जातात.",
+      "options": {
+        "A": "Sort the\nslides",
+        "B": "Arrange or\nadjust\nsequence of\nmatter",
+        "C": "Type matter",
+        "D": "to type\nfootnotes"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 21,
+      "question": "Binary Number System\nमध्ये 0 आणी 1 यांना\nअसे म्हणतात.",
+      "options": {
+        "A": "",
+        "B": "Byte",
+        "C": "Digit",
+        "D": "Number"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 22,
+      "question": "Internet चा वापर कॉलेज मध्ये\n___ करतात.",
+      "options": {
+        "A": "Online\nAdmission\nProcesses",
+        "B": "Record",
+        "C": "Attendance",
+        "D": "Sport"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 23,
+      "question": "E-Mail address मध्ये नाव\nआणि Domain हे \"@\" च्या\nचिन्हाने विभागले जातात.",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 24,
+      "question": "E-Mail में BCC म्हणजेच",
+      "options": {
+        "A": "Brown\ncarbon copy",
+        "B": "Black carbon\ncopy",
+        "C": "Blind carbon\ncopy",
+        "D": "Blind copy to\ncopy"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 25,
+      "question": "E-Mail message मध्ये\nहा मेत्वाचा\nभाग आहे.",
+      "options": {
+        "A": "Subject",
+        "B": "E-Mail\nAddress",
+        "C": "Attachment",
+        "D": "Signature"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    }
+  ],
+  "BATCH 1105": [
+    {
+      "id": 1,
+      "question": "'एम.एस.वर्ड Wey 'Ctrl + ₹' या\nShort cut key 4 सर्व मॅटर\nउजव्या बाजुला करता येते.",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 2,
+      "question": "MS Excel 2019 मध्ये\nformula bar , worksheet\nनाव दाखवतो .",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 3,
+      "question": "Gmail मधलाल Inbox मधध\nतुमचाला कला सापडते?ध",
+      "options": {
+        "A": "deleted mail",
+        "B": "read mail",
+        "C": "new mail",
+        "D": "sent mail"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 4,
+      "question": "Gmail मध्ये नवीन mail\nलिहिण्यासाठी वापरला जलणलरल\noption ------- आहे.",
+      "options": {
+        "A": "New mail",
+        "B": "compose",
+        "C": "create",
+        "D": "Sent mail"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 5,
+      "question": "Gmail password ________\nना दाखवला जातो.",
+      "options": {
+        "A": "Characters",
+        "B": "Numbers",
+        "C": "Black dots",
+        "D": "यापैकी नाही"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 6,
+      "question": "MS-Word मध्ये Header आणि\nFooter apply करण्यासलठव … ..\nTab चल उपयोग केला जातो.",
+      "options": {
+        "A": "Home",
+        "B": "View",
+        "C": "Insert",
+        "D": "Page Layout"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 7,
+      "question": "MS-WORD मध्ये शबद italic\nकरण्यास _________key\nवापुन्हाात",
+      "options": {
+        "A": "CTRL+A",
+        "B": "CTRL+Z",
+        "C": "CTRL+Y",
+        "D": "CTRL+I"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 8,
+      "question": "MS-Word मध्ये new\ndocument open करण्यास\n___tab वापुन्हाात",
+      "options": {
+        "A": "Edit",
+        "B": "View",
+        "C": "file",
+        "D": "Format"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 9,
+      "question": "MS-Word मध्ये आपण ctrl+r\nshortcut key … ... alignment\nसलठव वलपुन्हात",
+      "options": {
+        "A": "left",
+        "B": "right",
+        "C": "center",
+        "D": "यापैकी नाही"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 10,
+      "question": "'एम.एस.वर्ड Wey 'Ctrl + ₹' या\nShort cut key 4 सर्व मॅटर\nउजव्या बाजुला करता येते.",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 11,
+      "question": "MS Excel 2019 मध्ये\nworkbook file चे default file\nname हे book1 असते.",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 12,
+      "question": "MS Excel 2019 मध्ये\nformula bar , worksheet चे\nनाव दाखवतो .",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 13,
+      "question": "Active Cell Bar मध्ये type\nकेलेला formulas\n___________ मध्ये display\nमततलत.",
+      "options": {
+        "A": "Tool Bar",
+        "B": "Status Bar",
+        "C": "Formula Bar",
+        "D": "Title Bar"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 14,
+      "question": "= max(56,65,78,38) धलचे\nआऊटपतट कला धधईल?",
+      "options": {
+        "A": "130",
+        "B": "65",
+        "C": "78",
+        "D": "0"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 15,
+      "question": "MS Excel 2019 मध्ये\ngridlines आधवपलसचनच\nआपतआप दिसतेलत .",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 16,
+      "question": "Page Setup कमांड\nPowerpoint मधवल\n___________ धल ग्रुप मध्ये\nउपलब्ध आहे",
+      "options": {
+        "A": "Home",
+        "B": "Insert",
+        "C": "Design",
+        "D": "View"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 17,
+      "question": "Placeholder हे\nboxes चा उपयोग object\ninserting होतो.",
+      "options": {
+        "A": "Colored",
+        "B": "black",
+        "C": "dotted",
+        "D": "यापैकी नाही"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 18,
+      "question": "slide मधून Placeholder\ndelete करू शकतो.",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 19,
+      "question": "PowerPoint मध्ये\ngroup हा Home\ntab वर असतो.",
+      "options": {
+        "A": "Drawing",
+        "B": "णा mages",
+        "C": "Symbols",
+        "D": "“४ ledia"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 20,
+      "question": "PowerPoint हे कशासाठी\nवापरले जाते.",
+      "options": {
+        "A": "Teaching",
+        "B": "Marketing",
+        "C": "Animation",
+        "D": "यापैकी सर्व"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 21,
+      "question": "Email Program मध्ये ___\nEmail Addresses store करु\nशकते.",
+      "options": {
+        "A": "Address\nBook",
+        "B": "Massage\nWindow",
+        "C": "Folder List",
+        "D": "Massage List"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 22,
+      "question": "Gmail मध्ये, compose\nbutton = साठी\nवापुन्हाात.",
+      "options": {
+        "A": "नविन E-Mail\nलिहण्यासाठी",
+        "B": "Reply to\nE-Mail",
+        "C": "Delete E-Mail",
+        "D": "Forward\nE-Mail"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 23,
+      "question": "Gmail 4%, forward button\n= साठी\nवापुन्हाात.",
+      "options": {
+        "A": "Forward\nE-Mail",
+        "B": "Delete E-Mail",
+        "C": "Write a new\nE-Mail",
+        "D": "Reply to\nE-Mail"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 24,
+      "question": "Gmail मध्ये, reply button हे\nसाठी\nवापुन्हाात.",
+      "options": {
+        "A": "Delete E-Mail",
+        "B": "नविन E-Mail\nलिहण्यासाठी",
+        "C": "Forward\nE-Mail",
+        "D": "Reply to\nE-Mail"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 25,
+      "question": "Internet Explorer 42%\nrefresh साठी at\nshortcut key वापुन्हाात.",
+      "options": {
+        "A": "",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    }
+  ],
+  "BATCH 1201": [
+    {
+      "id": 1,
+      "question": "MS-Word मध्ये तुम्हाला\nready made pictures\nने मिळतात",
+      "options": {
+        "A": "Motion clips",
+        "B": "clip Art",
+        "C": "sounds",
+        "D": "यापैकी सर्व"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 2,
+      "question": "MS Excel 2019 मध्ये if\nfunction चा result हा\ncondition वर अवलंबून असतो .",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 3,
+      "question": "Worksheet मधील last cell\nहा XFD1048576 ने ओळखला\nजातो.",
+      "options": {
+        "A": "बरोबर",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 4,
+      "question": "Gmail मधध delete केलेले\nmessage आपण कसे पुन्हा\nमिळवतो?",
+      "options": {
+        "A": "spam",
+        "B": "Inbox",
+        "C": "Sent mail",
+        "D": "Trash"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 5,
+      "question": "EMail मधध जधववा आपण\npassword type करतय तय\n--------- पॅटर्नमध्ये दिसतेय",
+      "options": {
+        "A": "star",
+        "B": "black dots",
+        "C": "Underline",
+        "D": "bold"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 6,
+      "question": "MS -Word मधील कोणत्या\nRibbon मध्ये तुम्ही chart add\nकर शकतो ?",
+      "options": {
+        "A": "Insert",
+        "B": "view",
+        "C": "page layout",
+        "D": "home"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 7,
+      "question": "In MS-Word मध्ये कोणत्या\nRibbon ना आपण margin\nchange करचल",
+      "options": {
+        "A": "Page Layout",
+        "B": "View",
+        "C": "Insert",
+        "D": "Home"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 8,
+      "question": "Word मध्ये\nखालीलपैकी_______font\ngroup मध्ये उपलब्ध नाही",
+      "options": {
+        "A": "Font, Font\nStyle, Font\nSize",
+        "B": "Underline",
+        "C": "Color",
+        "D": "Aligement"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 9,
+      "question": "MS-Word मधय.ध......चया\nमदतीना टेबल कर शकतो",
+      "options": {
+        "A": "Insert table",
+        "B": "Create Table",
+        "C": "Draw Table",
+        "D": "यापैकी सर्व"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 10,
+      "question": "MS-Word मध्ये तुम्हाला\nready made pictures\nने मिळतात",
+      "options": {
+        "A": "Motion clips",
+        "B": "clip Art",
+        "C": "sounds",
+        "D": "यापैकी सर्व"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 11,
+      "question": "row ची height मोजण्यासाठी\n:: : : :. atunit चा\nवापर होतो.",
+      "options": {
+        "A": "Point",
+        "B": "cm",
+        "C": "mm",
+        "D": "Inch"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 12,
+      "question": "MS Excel 2019 मध्ये if\nfunction चा result वा\ncondition वर अवलंबून असतय .",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 13,
+      "question": "Worksheet मधील last cell\nहा XFD1048576 ने ओळखला\nजातो.",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 14,
+      "question": "MS Excel 2019 मध्ये name\nbox, worksheet चे नाव\nदाखवतो .",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 15,
+      "question": "Workbook मधील sheet चे\nनाव बदलता यधत.ध",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 16,
+      "question": "PowerPoint presentation हे\nसर्वसाधारणतः\nम्हणून वापरले जाते.",
+      "options": {
+        "A": "Note outlines\nfor teachers",
+        "B": "Project\npresentation\nby students",
+        "C": "communicatio\nn of planning",
+        "D": "यापैकी सर्व"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 17,
+      "question": "या\napplication मधून आपल्याला\nPPT तयार करता येतो.",
+      "options": {
+        "A": "MS-Word",
+        "B": "MS-Excel",
+        "C": "MS-PowerPoi\nnt",
+        "D": "MS-Access"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 18,
+      "question": "PPT files gt\nप्रकारचे 59५88 आहे.",
+      "options": {
+        "A": "MS-Word",
+        "B": "MS-PowerPo\nint",
+        "C": "MS-Excel",
+        "D": "MS-Access"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 19,
+      "question": "PPT म्हणजे",
+      "options": {
+        "A": "PowerPoint",
+        "B": "picture",
+        "C": "Bitmap Image",
+        "D": "Bitwise Image"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 20,
+      "question": "Presentation file\n-7श प्रकारच्या\nsoftware मध्ये तयार होते.",
+      "options": {
+        "A": "Presentation\nGraphics\nPrograms",
+        "B": "Word\nProcessor",
+        "C": "Browser",
+        "D": "Database"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 21,
+      "question": "Internet Explorer 42 find\nया Option साठी __ ही\nshortcut key वापुन्हाात.",
+      "options": {
+        "A": "Alt+F",
+        "B": "Ctlr+F",
+        "C": "Shift+F",
+        "D": "Tab+F"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 22,
+      "question": "Internet Explorer मध्ये Find\nया option साठी\n____________ वी Shortcut\nkey वापुन्हाात.",
+      "options": {
+        "A": "Ctrl + F",
+        "B": "Alt + F",
+        "C": "Shift + F",
+        "D": "Tab + F"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 23,
+      "question": "Webpage मध्ये Ctrl + F\nshortcut key चा वापर\nWebpage मधील _________\nव धoption वापरणयासाठी वयतय.",
+      "options": {
+        "A": "Favorites",
+        "B": "Find",
+        "C": "History",
+        "D": "Downloads"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 24,
+      "question": "Internet Explorer मध्ये\nrecently open केलेल्या web\nsites ची list toolbar वरठल\n___ या button मध्ये पाहायला\nमिळतो.",
+      "options": {
+        "A": "History",
+        "B": "Favorites",
+        "C": "Search",
+        "D": "Back"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 25,
+      "question": "In Internet Explorer मध्ये\nRecently open केलेल्या सर्व\nWeb Site Addresses ची list\nपचवणयासाठी ____________\nवा Option वापुन्हाात.",
+      "options": {
+        "A": "History",
+        "B": "Favorites",
+        "C": "Search",
+        "D": "Back"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    }
+  ],
+  "BATCH 1202": [
+    {
+      "id": 1,
+      "question": "MS-Word मध्ये Cut\noption Tab\nमध्ये उपलब्ध आहे.",
+      "options": {
+        "A": "Edit",
+        "B": "Home",
+        "C": "Reference",
+        "D": "Review"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 2,
+      "question": "Increase Font चा option\n: : : :.. मध्ये उपलब्ध\nअसतो.",
+      "options": {
+        "A": "Font size",
+        "B": "View",
+        "C": "Page Layout",
+        "D": "Home"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 3,
+      "question": "MS Excel 2019 मध्ये\nscrollbar येथे उपलब्ध\nआहे?",
+      "options": {
+        "A": "no scroll bars\nin MS Excel\n2019",
+        "B": "at left side",
+        "C": "at right side\nand bottom\nside",
+        "D": "at top side"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 4,
+      "question": "Active Cell च्या भोवती जी\nजाड बॉर्डर दिसते त्याला\nम्हणतात.",
+      "options": {
+        "A": "Cell Pointer",
+        "B": "cursor",
+        "C": "Border",
+        "D": "Outline"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 5,
+      "question": "जगभरतताल biggest network\nकोणता ?",
+      "options": {
+        "A": "LAN",
+        "B": "MAN",
+        "C": "Internet",
+        "D": "यापैकी नतहच"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 6,
+      "question": "Ms-Word मध्ये file संबंधी\ndetails save _____dialog\nbox मध्ये specify करतात.",
+      "options": {
+        "A": "save the file\nas",
+        "B": "File save",
+        "C": "Save As",
+        "D": "यापैकी नतहच"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 7,
+      "question": "एमएस वर्ड मध्ये, CtrltHome\nकीयासाठी : : : :.\nवापुन्हाात.",
+      "options": {
+        "A": "Move the\ncursor to the\nbeginning of\ndocument",
+        "B": "Move the\ncursor to the\nleft of\ndocument",
+        "C": "Move the\ncursor to the\nbegging to\nparagraph",
+        "D": "यापैकी सर्व"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 8,
+      "question": "एमएस वर्ड मधध,ध Ctrl+Home\nकी धत सतीच … … … … .\nवतपुन्हातत.",
+      "options": {
+        "A": "Move the\ncursor to the\nbeginning of\ndocument",
+        "B": "Move the\ncursor to the\nleft of\ndocument",
+        "C": "Move the\ncursor to the\nbegging to\nparagraph",
+        "D": "यापैकी सर्व"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 9,
+      "question": "एमएस वर्ड मध्ये Ctrl+U धत की\nना रबद uppercase करतत\nधधततत",
+      "options": {
+        "A": "बरकबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 10,
+      "question": "MS-Word मध्ये Cut\noption Tab\nमध्ये उपलब्ध आहे.",
+      "options": {
+        "A": "Edit",
+        "B": "Home",
+        "C": "Reference",
+        "D": "Review"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 11,
+      "question": "Workbook मधचल sheet चे\nनतव बदलना अरकध आह.ध",
+      "options": {
+        "A": "बरकबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 12,
+      "question": "Increase Font चत option\n… … … … .. मध्ये उपलब्ध\nअसतक.",
+      "options": {
+        "A": "Font size",
+        "B": "View",
+        "C": "Page Layout",
+        "D": "Home"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 13,
+      "question": "MS Excel 2019 मध्ये\nscrollbar येथे उपलब्ध\nआहे?",
+      "options": {
+        "A": "no scroll bars\nin MS Excel\n2019",
+        "B": "at left side",
+        "C": "at right side\nand bottom\nside",
+        "D": "at top side"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 14,
+      "question": "Active Cell च्या भोवती जी\nजाड बॉर्डर दिसते त्याला\nम्हणतात.",
+      "options": {
+        "A": "Cell Pointer",
+        "B": "cursor",
+        "C": "Border",
+        "D": "Outline"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 15,
+      "question": "TODAY() धत फअकरनना कते\nदररववला जतत?ध",
+      "options": {
+        "A": "System Date\nand Time",
+        "B": "System Time",
+        "C": "System Date",
+        "D": "System Day"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 16,
+      "question": "Presentation file\n________________ पकतरचेत\nsoftware मध्ये तेतर हकत.ध",
+      "options": {
+        "A": "Presentation\nGraphics\nPrograms",
+        "B": "Word\nProcessor",
+        "C": "Browser",
+        "D": "Database"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 17,
+      "question": "Notepad मध्ये Presentation\nfiles बनविता येतात.",
+      "options": {
+        "A": "बरोबर",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 18,
+      "question": "Presentation files लत\n________ह धextension असत.ध",
+      "options": {
+        "A": ".txt",
+        "B": ".xlxs",
+        "C": ".docx",
+        "D": ".pptx"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 19,
+      "question": "स्क्रीनवर पाहण्यासाठी तयार\nकेलेल्या Presentation ला",
+      "options": {
+        "A": "Worksheet",
+        "B": "Document",
+        "C": "Slide",
+        "D": "Database\nsheet"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 20,
+      "question": "Presentation page मध्ये जे\nकाही स्क्रिन वर दिसते त्याला\n‘Slide’ असे म्हणतात.",
+      "options": {
+        "A": "बरोबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 21,
+      "question": "Internet explorer मधे मागील\nwebpage वर जाण्यासाठी\nही key वापरली जाते.",
+      "options": {
+        "A": "Esc",
+        "B": "Home",
+        "C": "Page up",
+        "D": "Backspace"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 22,
+      "question": "Internet Explorer मध्ये\nreading करतत Web page\nsave करणधतसतीच File Menu\nमधसन ___ धत Option वर click\nकरतव.ध",
+      "options": {
+        "A": "Send",
+        "B": "Print",
+        "C": "Save as",
+        "D": "Properties"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 23,
+      "question": "इंटरनेटमध्ये 186111101099/ IP\nम्हणजे..",
+      "options": {
+        "A": "Internet\nProvider",
+        "B": "Internet\nProtocol",
+        "C": "Internet\nProcedure",
+        "D": "Internet\nProcessor"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 24,
+      "question": "Internet मध्ये Information\ntransfer करततनत ता लहतन\nलहतन तसकडतअमध्ये पतीववलच\nजतते, तेतलत ____ असध मेणततत.",
+      "options": {
+        "A": "Packets",
+        "B": "Pieces",
+        "C": "Programs",
+        "D": "Functions"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 25,
+      "question": "Network मध्ये नोड हे\nमध्यवर्ती 589४७ ला जोडले\nजातात.",
+      "options": {
+        "A": "E-Mail\nClients",
+        "B": "Clients",
+        "C": "क्व jodem",
+        "D": "Baud Rate"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    }
+  ],
+  "BATCH 1203": [
+    {
+      "id": 1,
+      "question": "Ms-Word मध्ये शब्द लाल व्हेव\nunderline ने दर्शवितात त्याला\nम्हणतात.",
+      "options": {
+        "A": "Grammatical\nMistake",
+        "B": "A highlighted\nword",
+        "C": "spelling\nmistake",
+        "D": "An underkined\nword"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 2,
+      "question": ": : :081 च्या उजव्या side\nला Zoom slider strip बघता\naa.",
+      "options": {
+        "A": "Scroll bar",
+        "B": "Title Bar",
+        "C": "Status Bar",
+        "D": "वरीलपैकी एकही\nनाही"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 3,
+      "question": "एका workbook मध्ये\nmaximum 255\nअसतात",
+      "options": {
+        "A": "शि",
+        "B": "Column",
+        "C": "Pages",
+        "D": "Sheets"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 4,
+      "question": "Computer चतत --------- मधमरच\nमधचल मतहहता फक वतातत तेते\nतततत बदल करतत तेत नतहच.",
+      "options": {
+        "A": "ROM",
+        "B": "RAM",
+        "C": "DRAM",
+        "D": "RDRAM"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 5,
+      "question": "मतहहता ससगणकतातत\n___________ Device वर\nदतखहवलच जतते.",
+      "options": {
+        "A": "Speaker",
+        "B": "Keyboard",
+        "C": "Monitor",
+        "D": "Printer"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 6,
+      "question": "एमएस वडर मधत,ध footnotes,\nendnotes & indexes ह धसर्व\n____ इनसटर कर शकतक",
+      "options": {
+        "A": "Hyperlinks",
+        "B": "Booksmarks",
+        "C": "Word fields",
+        "D": "Cross-Refenc\ne"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 7,
+      "question": "आपण MS-Word मध्ये\nexisting document बंद\nकरण्यासाठी कशाचा वापर\nकरतो?",
+      "options": {
+        "A": "Ctrl + F1",
+        "B": "Ctrl + F2",
+        "C": "Alt+F4",
+        "D": "Ctrl + F4"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 8,
+      "question": "आपण MS-Word मधते\nexisting document बसद\nकरणततसतीच कशतात वतपर\nकरतक?",
+      "options": {
+        "A": "Ctrl + F1",
+        "B": "Ctrl + F2",
+        "C": "Alt+F4",
+        "D": "Ctrl + F4"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 9,
+      "question": "MS-Word मधते Document चे\nनतव __________________\nवर दशरहवला जतत.ध",
+      "options": {
+        "A": "टतईटल बतर",
+        "B": "सटधटस बतर",
+        "C": "रलर",
+        "D": "इसडडट"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 10,
+      "question": "Ms-Word मध्ये शब्द लाल व्हेव\nunderline ने दर्शवितात त्याला\nम्हणतात.",
+      "options": {
+        "A": "Grammatical\nMistake",
+        "B": "A highlighted\nword",
+        "C": "spelling\nmistake",
+        "D": "An underkined\nword"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 11,
+      "question": "Row height चे unit\n… … … … ह धअसत.ध",
+      "options": {
+        "A": "Meter",
+        "B": "Points",
+        "C": "Cent Meter",
+        "D": "Mile Meter"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 12,
+      "question": "… … … bar चतत उजवत side\nलत Zoom slider strip बघतत\nतेत.ध",
+      "options": {
+        "A": "Scroll bar",
+        "B": "Title Bar",
+        "C": "Status Bar",
+        "D": "वरचलपैकी एकहच\nनतहच"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 13,
+      "question": "एका workbook मध्ये\nmaximum 255\nअसतात",
+      "options": {
+        "A": "शि",
+        "B": "Column",
+        "C": "Pages",
+        "D": "Sheets"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 14,
+      "question": "Workbook मधते जतसतात जतसत\n______ sheets असततत.",
+      "options": {
+        "A": "250",
+        "B": "255",
+        "C": "13",
+        "D": "205"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 15,
+      "question": "MS Excel 2019 मधते\nformula टतईप करततनत कतत\nवतपुन्हाताे नसते ?",
+      "options": {
+        "A": "spaces",
+        "B": "numbers",
+        "C": "special\ncharacters",
+        "D": "characters"
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 16,
+      "question": "Presentation Software ह ध\nMS-Office application मधते\nअसत.ध",
+      "options": {
+        "A": "बरकबर",
+        "B": "चूक",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 17,
+      "question": "Slide show करततसनत शकतततसनत\nससकनवर ददसणतऱतत slides व\nतततसतीचातत कतहच नकटसस\nपपरहवलतत जतततत तततसनत\n--------------- असध मेणततत.",
+      "options": {
+        "A": "Reference\nMaterial",
+        "B": "Hand bills",
+        "C": "Handouts",
+        "D": "Notes"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 18,
+      "question": "PowerPoint मधते Pushहत\n______________ चत effect\nआह.ध",
+      "options": {
+        "A": "Image",
+        "B": "Animation",
+        "C": "Audio",
+        "D": "Video"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 19,
+      "question": "PowerPoint मधील कोणत्या\ngroup मध्ये Quick Style\ncommand उपलब्ध आहे.",
+      "options": {
+        "A": "Font",
+        "B": "Paragraph",
+        "C": "Drawing",
+        "D": "Editing"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    },
+    {
+      "id": 20,
+      "question": "Reading view कोणत्या tab\nमधून वापुन्हाा येतो?",
+      "options": {
+        "A": "Insert",
+        "B": "",
+        "C": "Edit",
+        "D": "View"
+      },
+      "correctAnswer": "D",
+      "userAnswer": null
+    },
+    {
+      "id": 21,
+      "question": "network मध्ये Data Transfer\nहोत असतानाचा वेग Baud\nRate या परिमाणात मोजतात.",
+      "options": {
+        "A": "बरोबर",
+        "B": "=",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "A",
+      "userAnswer": null
+    },
+    {
+      "id": 22,
+      "question": "network मध्ये Data Transfer\nहोत असतानाचा वेग Bond\nRate या परिमाणात मोजतात.",
+      "options": {
+        "A": "बरोबर",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 23,
+      "question": "पहहलतत हपढचमधचल\nComputers\nमधत_ध ______________\nवतपरला हकत.ध",
+      "options": {
+        "A": "Transistors",
+        "B": "Vacuum\nTubes",
+        "C": "Integrated\nCircuits",
+        "D": "Microprocesso\nrs"
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 24,
+      "question": "Internet Explorer 42%\nwebsite चा Address Menu\nBar मध्ये देतात.",
+      "options": {
+        "A": "बरोबर",
+        "B": "7",
+        "C": "",
+        "D": ""
+      },
+      "correctAnswer": "B",
+      "userAnswer": null
+    },
+    {
+      "id": 25,
+      "question": "Windows 10 मध्ये\nkey चालू\nTask रह करते.",
+      "options": {
+        "A": "Delete",
+        "B": "",
+        "C": "Esc",
+        "D": "Shift"
+      },
+      "correctAnswer": "C",
+      "userAnswer": null
+    }
+  ]
+}
