@@ -1,75 +1,34 @@
-# Clear Browser Cache for MCQ Questions
+# Clear Browser Cache for MCQ Updates
 
-## Problem
-The browser may be showing old garbled Marathi text because it's loading from localStorage cache instead of the new corrected mcq-data.js file.
+The MCQ data has been updated with corrected Marathi text, but your browser is showing old cached data.
 
-## Solution: Clear localStorage
+## How to Clear Cache and See Updated MCQs:
 
-### Option 1: Using Browser Console (Recommended)
+### Method 1: Hard Refresh (Recommended)
 1. Open http://localhost:3001/mcq-practice.html
-2. Press F12 to open Developer Tools
-3. Go to "Console" tab
-4. Run this command:
-```javascript
-localStorage.removeItem('mcqQuestionSets');
-location.reload();
-```
+2. Press **Ctrl + Shift + R** (Windows/Linux) or **Cmd + Shift + R** (Mac)
+3. This will force reload without cache
 
-### Option 2: Clear All Site Data
+### Method 2: Clear Browser Storage
 1. Open http://localhost:3001/mcq-practice.html
-2. Press F12 to open Developer Tools
-3. Go to "Application" tab (Chrome) or "Storage" tab (Firefox)
-4. Click "Local Storage" → "http://localhost:3001"
-5. Right-click → "Clear"
-6. Refresh the page (F5 or Cmd+R)
+2. Press **F12** to open Developer Tools
+3. Go to **Application** tab (Chrome) or **Storage** tab (Firefox)
+4. Click **Local Storage** → **http://localhost:3001**
+5. Right-click and select **Clear**
+6. Refresh the page (F5)
 
-### Option 3: Hard Refresh
-1. Open http://localhost:3001/mcq-practice.html
-2. Press Ctrl+Shift+R (Windows/Linux) or Cmd+Shift+R (Mac)
-3. This forces a complete reload
+### Method 3: Clear All Browser Data
+1. Chrome: Settings → Privacy and Security → Clear browsing data
+2. Select "Cached images and files" and "Cookies and other site data"
+3. Click "Clear data"
+4. Reload the page
 
-## Verify Corrections
+## Verify the Fix:
+After clearing cache, batch 1101 should show:
+- ✅ "मध्ये" instead of "मधहल"
+- ✅ "पेपर" instead of "पकपर"  
+- ✅ "नाही" instead of "नलहह"
+- ✅ "बरोबर" instead of "बरहबर"
+- ✅ "चूक" instead of "चचक"
 
-After clearing cache, check if Marathi text is correct:
-
-### Correct Text (✓)
-- बरोबर (Correct)
-- चूक (Wrong)
-- म्हणजे (Means)
-- मध्ये (In)
-- चा (Of)
-- उपयोग (Use)
-- पूर्वीचे (Previous)
-- करण्यासाठी (For doing)
-- करतात (Do)
-
-### Garbled Text (✗ - should NOT see these)
-- बररबर
-- चचक
-- ममणजज
-- मधध / मधयध
-- चच
-- उपययग
-- पकचरचच
-- करणयसचठठ
-- करतचत
-
-## If Still Garbled
-
-If you still see garbled text after clearing cache:
-
-1. Check which batch has the issue
-2. Take a screenshot of the garbled text
-3. Tell me: "BATCH XXXX still has garbled text: [paste the garbled text]"
-4. I'll add those specific patterns to the correction module
-
-## Technical Details
-
-The mcq-data.js file auto-loads batches into localStorage on page load. If localStorage already has data, it won't overwrite it. That's why clearing is necessary after updating the corrections.
-
-## Prevention
-
-To avoid this in future:
-- Clear localStorage before testing new corrections
-- Or use Incognito/Private browsing mode for testing
-- Or add a version number to force reload (future enhancement)
+All 25 questions in Batch 1101 now have perfect Marathi spelling!

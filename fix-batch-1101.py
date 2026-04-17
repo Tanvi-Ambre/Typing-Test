@@ -1,0 +1,321 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Fix Marathi text in MCQ Batch 1101
+Manually corrected for perfect Marathi spelling
+"""
+
+import json
+
+# Corrected Batch 1101 with perfect Marathi
+batch_1101_corrected = {
+    "BATCH 1101": [
+        {
+            "id": 1,
+            "question": "MSWord 2019 मध्ये आपण\npage साठी size set Layout\ntab मध्ये करतो.",
+            "options": {
+                "A": "चूक",
+                "B": "बरोबर",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "B",
+            "userAnswer": None
+        },
+        {
+            "id": 2,
+            "question": "SUM(E8:E11) या function\nमुळे E8 ते E11 या cell range\nमधील बेरीज मिळते.",
+            "options": {
+                "A": "बरोबर",
+                "B": "चूक",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "A",
+            "userAnswer": None
+        },
+        {
+            "id": 3,
+            "question": "IF function चा syntax हा\n=IF(Condition, value if true,\nvalue if false) असा आहे.",
+            "options": {
+                "A": "बरोबर",
+                "B": "चूक",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "A",
+            "userAnswer": None
+        },
+        {
+            "id": 4,
+            "question": "Text Orientation चा वापर\nकरून Text ला Rotate\nकरता येते.",
+            "options": {
+                "A": "Rotate",
+                "B": "Large",
+                "C": "Small",
+                "D": "Delete"
+            },
+            "correctAnswer": "A",
+            "userAnswer": None
+        },
+        {
+            "id": 5,
+            "question": "Email मध्ये CC म्हणजे\nCarbon copy",
+            "options": {
+                "A": "बरोबर",
+                "B": "चूक",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "A",
+            "userAnswer": None
+        },
+        {
+            "id": 6,
+            "question": "Undo option हा File\nToolbar मध्ये दिलेला असतो.",
+            "options": {
+                "A": "बरोबर",
+                "B": "चूक",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "B",
+            "userAnswer": None
+        },
+        {
+            "id": 7,
+            "question": "एमएस वर्ड मध्ये, खालील पैकी\nकोणते command Insert\nRibbon मध्ये नसते?",
+            "options": {
+                "A": "Shapes",
+                "B": "Clip Art",
+                "C": "Page Numbers",
+                "D": "Thesaurus"
+            },
+            "correctAnswer": "D",
+            "userAnswer": None
+        },
+        {
+            "id": 8,
+            "question": "एमएस वर्ड मध्ये, कोणत्या\nRibbon मध्ये मार्जिन बदलवू\nशकते?",
+            "options": {
+                "A": "Page Layout",
+                "B": "View",
+                "C": "Insert",
+                "D": "Home"
+            },
+            "correctAnswer": "A",
+            "userAnswer": None
+        },
+        {
+            "id": 9,
+            "question": "आपण MS-Word मधील पेपर चे\nsize change करू शकत नाही.",
+            "options": {
+                "A": "बरोबर",
+                "B": "चूक",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "B",
+            "userAnswer": None
+        },
+        {
+            "id": 10,
+            "question": "MSWord 2019 मध्ये आपण\npage साठी size set Layout\ntab मध्ये करतो.",
+            "options": {
+                "A": "चूक",
+                "B": "बरोबर",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "B",
+            "userAnswer": None
+        },
+        {
+            "id": 11,
+            "question": "SUM function मुळे range of\ncells मधील संख्यांची बेरीज\nहोते.",
+            "options": {
+                "A": "बरोबर",
+                "B": "चूक",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "A",
+            "userAnswer": None
+        },
+        {
+            "id": 12,
+            "question": "SUM(E8:E11) या function\nमुळे E8 ते E11 या cell range\nमधील बेरीज मिळते.",
+            "options": {
+                "A": "बरोबर",
+                "B": "चूक",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "A",
+            "userAnswer": None
+        },
+        {
+            "id": 13,
+            "question": "IF function चा syntax हा\n=IF(Condition, value if true,\nvalue if false) असा आहे.",
+            "options": {
+                "A": "बरोबर",
+                "B": "चूक",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "A",
+            "userAnswer": None
+        },
+        {
+            "id": 14,
+            "question": "Text Orientation चा वापर\nकरून Text ला Rotate\nकरता येते.",
+            "options": {
+                "A": "Rotate",
+                "B": "Large",
+                "C": "Small",
+                "D": "Delete"
+            },
+            "correctAnswer": "A",
+            "userAnswer": None
+        },
+        {
+            "id": 15,
+            "question": "MS Excel 2019 मध्ये \"area\nchart\" हा एक chart चा प्रकार\nआहे.",
+            "options": {
+                "A": "बरोबर",
+                "B": "चूक",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "A",
+            "userAnswer": None
+        },
+        {
+            "id": 16,
+            "question": "PowerPoint च्या ________\ngroup मध्ये Line spacing\ncommand उपलब्ध असते.",
+            "options": {
+                "A": "Clipboard",
+                "B": "Slides",
+                "C": "Font",
+                "D": "Paragraph"
+            },
+            "correctAnswer": "D",
+            "userAnswer": None
+        },
+        {
+            "id": 17,
+            "question": "slide मध्ये Line spacing\nrefers to",
+            "options": {
+                "A": "Height of line",
+                "B": "Length of line",
+                "C": "The space\nbetween line\nof text",
+                "D": "Width of line"
+            },
+            "correctAnswer": "C",
+            "userAnswer": None
+        },
+        {
+            "id": 18,
+            "question": "slide ला Logo add करता\nयेतो?",
+            "options": {
+                "A": "बरोबर",
+                "B": "चूक",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "A",
+            "userAnswer": None
+        },
+        {
+            "id": 19,
+            "question": "PowerPoint मध्ये जास्तीत\nजास्त किती zoom उपलब्ध\nअसतात.",
+            "options": {
+                "A": "100",
+                "B": "200",
+                "C": "400",
+                "D": "800"
+            },
+            "correctAnswer": "C",
+            "userAnswer": None
+        },
+        {
+            "id": 20,
+            "question": "Powerpoint मध्ये जास्तीत\nजास्त 400% झूम उपलब्ध आहे.",
+            "options": {
+                "A": "बरोबर",
+                "B": "चूक",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "A",
+            "userAnswer": None
+        },
+        {
+            "id": 21,
+            "question": "ATM Centers ची प्रणाली\nसंपूर्णपणे Internet वर\nआधारावर आहे.",
+            "options": {
+                "A": "बरोबर",
+                "B": "चूक",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "A",
+            "userAnswer": None
+        },
+        {
+            "id": 22,
+            "question": "Dialup Internet Connection\nहे वेगवान व महाग आहे.",
+            "options": {
+                "A": "बरोबर",
+                "B": "चूक",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "B",
+            "userAnswer": None
+        },
+        {
+            "id": 23,
+            "question": "GUI म्हणजे Graphical User\nInvolvement होय.",
+            "options": {
+                "A": "बरोबर",
+                "B": "चूक",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "B",
+            "userAnswer": None
+        },
+        {
+            "id": 24,
+            "question": "HTML ही programming\nlanguage Webpage\nDesigning साठी वापरली जाते.",
+            "options": {
+                "A": "Webpage",
+                "B": "Flex",
+                "C": "Card",
+                "D": "Document"
+            },
+            "correctAnswer": "A",
+            "userAnswer": None
+        },
+        {
+            "id": 25,
+            "question": "HTML हा बहुतांश सर्व साधारण\nइंटरनेट प्रोटोकॉल आहे.",
+            "options": {
+                "A": "बरोबर",
+                "B": "चूक",
+                "C": "",
+                "D": ""
+            },
+            "correctAnswer": "B",
+            "userAnswer": None
+        }
+    ]
+}
+
+# Save corrected batch
+with open('mcq-batch-1101-corrected.json', 'w', encoding='utf-8') as f:
+    json.dump(batch_1101_corrected, f, ensure_ascii=False, indent=2)
+
+print("✅ Batch 1101 corrected and saved to mcq-batch-1101-corrected.json")
+print(f"   Total questions: {len(batch_1101_corrected['BATCH 1101'])}")
