@@ -310,608 +310,608 @@ const allMCQBatches = {
 ],
   "BATCH 1102": [
     {
-      "id": 1,
-      "question": "MS Excel 2019 मध्ये bar\nchart करता येतो.",
-      "options": {
-        "A": "बरोबर",
-        "B": "शा",
-        "C": "पन",
-        "D": "पिना."
-      },
-      "correctAnswer": "B",
-      "userAnswer": null
+        "id": 1,
+        "question": "MS Excel 2019 मध्ये bar\nchart करता येतो.",
+        "options": {
+            "A": "बरोबर",
+            "B": "चूक",
+            "C": "",
+            "D": ""
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 2,
-      "question": "MS Excel 2019 मध्ये\n\"bubble chart\" हा एक chart\nचा प्रकार आहे.",
-      "options": {
-        "A": "बरोबर",
-        "B": "x",
-        "C": "",
-        "D": "|"
-      },
-      "correctAnswer": "B",
-      "userAnswer": null
+        "id": 2,
+        "question": "MS Excel 2019 मध्ये\n\"bubble chart\" हा एक chart\nचा प्रकार आहे.",
+        "options": {
+            "A": "बरोबर",
+            "B": "चूक",
+            "C": "",
+            "D": ""
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 3,
-      "question": "MS Excel 2019 मध्ये\n\"doughnut chart\" हा प्रकारचा\nchart बनवता येतो.",
-      "options": {
-        "A": "बरोबर",
-        "B": "x",
-        "C": "",
-        "D": "|"
-      },
-      "correctAnswer": "B",
-      "userAnswer": null
+        "id": 3,
+        "question": "MS Excel 2019 मध्ये\n\"doughnut chart\" हा प्रकारचा\nchart बनवता येतो.",
+        "options": {
+            "A": "बरोबर",
+            "B": "चूक",
+            "C": "",
+            "D": ""
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 4,
-      "question": "MS Excel 2019 मध्ये\n\"Radar chart\" हा एक\nप्रकारचा 981 आहे.",
-      "options": {
-        "A": "बरोबर",
-        "B": "x",
-        "C": "",
-        "D": "|"
-      },
-      "correctAnswer": "A",
-      "userAnswer": null
+        "id": 4,
+        "question": "MS Excel 2019 मध्ये\n\"Radar chart\" हा एक\nप्रकारचा chart आहे.",
+        "options": {
+            "A": "बरोबर",
+            "B": "चूक",
+            "C": "",
+            "D": ""
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 5,
-      "question": "ककमपधमटरचध IPO Cycle ममणजध\n… … … … …",
-      "options": {
-        "A": "Input-Proces\ns-Output",
-        "B": "Input-Output-\nProcess",
-        "C": "A आहण B दरनमर",
-        "D": "रररल पपकक एकमर\nनकमर"
-      },
-      "correctAnswer": "A",
-      "userAnswer": null
+        "id": 5,
+        "question": "कॉम्प्युटरचे IPO Cycle म्हणजे\nInput-Process-Output",
+        "options": {
+            "A": "Input-Process-Output",
+            "B": "Input-Output-Process",
+            "C": "A आणि B दोन्ही",
+            "D": "वरील पैकी एकही नाही"
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 6,
-      "question": "एमएस वर्ड मध्ये, कोणत्या\nRibbon मध्ये चार्ट काढता येतो.",
-      "options": {
-        "A": "View",
-        "B": "Reference",
-        "C": "Insert",
-        "D": "Page Layout"
-      },
-      "correctAnswer": "C",
-      "userAnswer": null
+        "id": 6,
+        "question": "एमएस वर्ड मध्ये, कोणत्या\nRibbon मध्ये चार्ट काढता येतो.",
+        "options": {
+            "A": "View",
+            "B": "Reference",
+            "C": "Insert",
+            "D": "Page Layout"
+        },
+        "correctAnswer": "C",
+        "userAnswer": null
     },
     {
-      "id": 7,
-      "question": "एमएस ररर मधधध करणतधक\nRibbon मधधध ददसत असत,ध\nकरण-करणतध fonts उपलबब\nआमतध कक तध आपण रकपर\nरकतकत.",
-      "options": {
-        "A": "View",
-        "B": "Page Layout",
-        "C": "Reference",
-        "D": "Home"
-      },
-      "correctAnswer": "D",
-      "userAnswer": null
+        "id": 7,
+        "question": "एमएस वर्ड मध्ये, कोणत्या\nRibbon मध्ये दिसते असते,\nकोण-कोणते fonts उपलब्ध\nआहेत की ते आपण वापर\nशकतात.",
+        "options": {
+            "A": "View",
+            "B": "Page Layout",
+            "C": "Reference",
+            "D": "Home"
+        },
+        "correctAnswer": "D",
+        "userAnswer": null
     },
     {
-      "id": 8,
-      "question": "MS-Word मधधध Page\nnumbers_____ View मधधध\nदररहरलध जकतकत.",
-      "options": {
-        "A": "Normal",
-        "B": "Web Layout",
-        "C": "Print Layout",
-        "D": "Home"
-      },
-      "correctAnswer": "C",
-      "userAnswer": null
+        "id": 8,
+        "question": "MS-Word मध्ये Page\nnumbers कोणत्या View मध्ये\nदिसतात जातात.",
+        "options": {
+            "A": "Normal",
+            "B": "Web Layout",
+            "C": "Print Layout",
+            "D": "Home"
+        },
+        "correctAnswer": "C",
+        "userAnswer": null
     },
     {
-      "id": 9,
-      "question": "MS-Word 2019 मधधध दकतर\nchange case options आमतध",
-      "options": {
-        "A": "2",
-        "B": "3",
-        "C": "4",
-        "D": "5"
-      },
-      "correctAnswer": "D",
-      "userAnswer": null
+        "id": 9,
+        "question": "MS-Word 2019 मध्ये किती\nchange case options आहेत",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+        },
+        "correctAnswer": "D",
+        "userAnswer": null
     },
     {
-      "id": 10,
-      "question": "MS-Word 2019 मधध,ध आपण\nDocument म ध१०% तध\n… … … … … … … … … % पधरत\nZoom कर रकतर.",
-      "options": {
-        "A": "100",
-        "B": "200",
-        "C": "300",
-        "D": "500"
-      },
-      "correctAnswer": "D",
-      "userAnswer": null
+        "id": 10,
+        "question": "MS-Word 2019 मध्ये, आपण\nDocument मध्ये 10% ते\n500% पर्यंत\nZoom करू शकतो.",
+        "options": {
+            "A": "100",
+            "B": "200",
+            "C": "300",
+            "D": "500"
+        },
+        "correctAnswer": "D",
+        "userAnswer": null
     },
     {
-      "id": 11,
-      "question": "MS Excel 2019 मधधध bar\nchart करतक धधतर.",
-      "options": {
-        "A": "बररबर",
-        "B": "चचक",
-        "C": "",
-        "D": ""
-      },
-      "correctAnswer": "A",
-      "userAnswer": null
+        "id": 11,
+        "question": "MS Excel 2019 मध्ये bar\nchart करता येतो.",
+        "options": {
+            "A": "बरोबर",
+            "B": "चूक",
+            "C": "",
+            "D": ""
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 12,
-      "question": "MS Excel 2019 मधधध\n\"bubble chart\" मक एक chart\nचक पककर आम.ध",
-      "options": {
-        "A": "बररबर",
-        "B": "चचक",
-        "C": "",
-        "D": ""
-      },
-      "correctAnswer": "A",
-      "userAnswer": null
+        "id": 12,
+        "question": "MS Excel 2019 मध्ये\n\"bubble chart\" हा एक chart\nचा प्रकार आहे.",
+        "options": {
+            "A": "बरोबर",
+            "B": "चूक",
+            "C": "",
+            "D": ""
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 13,
-      "question": "MS Excel 2019 मध्ये\n\"doughnut chart\" हा प्रकारचा\nchart बनवता येतो.",
-      "options": {
-        "A": "बरोबर",
-        "B": "x",
-        "C": "",
-        "D": "|"
-      },
-      "correctAnswer": "A",
-      "userAnswer": null
+        "id": 13,
+        "question": "MS Excel 2019 मध्ये\n\"doughnut chart\" हा प्रकारचा\nchart बनवता येतो.",
+        "options": {
+            "A": "बरोबर",
+            "B": "चूक",
+            "C": "",
+            "D": ""
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 14,
-      "question": "MS Excel 2019 मध्ये\n\"Radar chart\" हा एक\nप्रकारचा 981 आहे.",
-      "options": {
-        "A": "बरोबर",
-        "B": "x",
-        "C": "",
-        "D": "|"
-      },
-      "correctAnswer": "A",
-      "userAnswer": null
+        "id": 14,
+        "question": "MS Excel 2019 मध्ये\n\"Radar chart\" हा एक\nप्रकारचा chart आहे.",
+        "options": {
+            "A": "बरोबर",
+            "B": "चूक",
+            "C": "",
+            "D": ""
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 15,
-      "question": "Excel मधधध cells चर\nalignment करणधकसकठर\n________ करतकत.",
-      "options": {
-        "A": "View\n-->Alignment",
-        "B": "Home\n-->Alignment",
-        "C": "Home--> align",
-        "D": "धकपपकक नकमर"
-      },
-      "correctAnswer": "B",
-      "userAnswer": null
+        "id": 15,
+        "question": "Excel मध्ये cells चे\nalignment करण्यासाठी\nHome-->Alignment करतात.",
+        "options": {
+            "A": "View-->Alignment",
+            "B": "Home-->Alignment",
+            "C": "Home--> align",
+            "D": "यापैकी नाही"
+        },
+        "correctAnswer": "B",
+        "userAnswer": null
     },
     {
-      "id": 16,
-      "question": "Powerpoint मधधध कमरत कमर\n__________ झचम उपलबब आम.ध",
-      "options": {
-        "A": "5",
-        "B": "10",
-        "C": "100",
-        "D": "300"
-      },
-      "correctAnswer": "B",
-      "userAnswer": null
+        "id": 16,
+        "question": "Powerpoint मध्ये कमीत कमी\nकिती % झूम उपलब्ध आहे.",
+        "options": {
+            "A": "5",
+            "B": "10",
+            "C": "100",
+            "D": "300"
+        },
+        "correctAnswer": "B",
+        "userAnswer": null
     },
     {
-      "id": 17,
-      "question": "Powerpoint मध्ये कमीत कमी\n10% झूम उपलब्ध आहे.",
-      "options": {
-        "A": "बरोबर",
-        "B": "शं",
-        "C": "",
-        "D": "पन"
-      },
-      "correctAnswer": "A",
-      "userAnswer": null
+        "id": 17,
+        "question": "Powerpoint मध्ये कमीत कमी\n10% झूम उपलब्ध आहे.",
+        "options": {
+            "A": "बरोबर",
+            "B": "चूक",
+            "C": "",
+            "D": ""
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 18,
-      "question": "MS-PowerPoint हे\nप्रकार चे\nsoftware आहे.",
-      "options": {
-        "A": "Word\nProcessor",
-        "B": "Spreadsheet",
-        "C": "Presentation\nmaker",
-        "D": "Image editor"
-      },
-      "correctAnswer": "C",
-      "userAnswer": null
+        "id": 18,
+        "question": "MS-PowerPoint हे कोणत्या\nप्रकार चे\nsoftware आहे.",
+        "options": {
+            "A": "Word Processor",
+            "B": "Spreadsheet",
+            "C": "Presentation maker",
+            "D": "Image editor"
+        },
+        "correctAnswer": "C",
+        "userAnswer": null
     },
     {
-      "id": 19,
-      "question": "MS-PowerPoint हे\nसाठी वापरले\nजाते.",
-      "options": {
-        "A": "Teaching",
-        "B": "Marketing",
-        "C": "Animation",
-        "D": "यापैकी सर्व"
-      },
-      "correctAnswer": "D",
-      "userAnswer": null
+        "id": 19,
+        "question": "MS-PowerPoint हे कशासाठी\nसाठी वापरले\nजाते.",
+        "options": {
+            "A": "Teaching",
+            "B": "Marketing",
+            "C": "Animation",
+            "D": "यापैकी सर्व"
+        },
+        "correctAnswer": "D",
+        "userAnswer": null
     },
     {
-      "id": 20,
-      "question": "MS-PowerPoint हे\nMicrosoft Office folder च्या\nअतर्गत येते",
-      "options": {
-        "A": "बरोबर",
-        "B": "x",
-        "C": "|",
-        "D": "क"
-      },
-      "correctAnswer": "A",
-      "userAnswer": null
+        "id": 20,
+        "question": "MS-PowerPoint हे\nMicrosoft Office folder च्या\nअंतर्गत येते",
+        "options": {
+            "A": "बरोबर",
+            "B": "चूक",
+            "C": "",
+            "D": ""
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 21,
-      "question": "HTTP चा वापर\nबनविण्यासाठी करतात.",
-      "options": {
-        "A": "Machine\nlanguage\nProgram",
-        "B": "High level\nprogram",
-        "C": "Web Page",
-        "D": "Web server"
-      },
-      "correctAnswer": "C",
-      "userAnswer": null
+        "id": 21,
+        "question": "HTTP चा वापर Webpage\nबनविण्यासाठी करतात.",
+        "options": {
+            "A": "Machine language Program",
+            "B": "High level program",
+            "C": "Web Page",
+            "D": "Web server"
+        },
+        "correctAnswer": "C",
+        "userAnswer": null
     },
     {
-      "id": 22,
-      "question": "format मध्ये\ndata पाठविण्यासाठी HTTP\nprotocol वापरला जातो.",
-      "options": {
-        "A": "Text",
-        "B": "",
-        "C": "",
-        "D": "वरील पैकी एकही\nनाही"
-      },
-      "correctAnswer": "A",
-      "userAnswer": null
+        "id": 22,
+        "question": "Text format मध्ये\ndata पाठविण्यासाठी HTTP\nprotocol वापरला जातो.",
+        "options": {
+            "A": "Text",
+            "B": "",
+            "C": "",
+            "D": "वरील पैकी एकही नाही"
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 23,
-      "question": "-ाणा?चा अर्थ Hyper Text\nTransfer Protocol असा आहे.",
-      "options": {
-        "A": "w=",
-        "B": "असत्य",
-        "C": "पन्ना",
-        "D": "पग,"
-      },
-      "correctAnswer": "A",
-      "userAnswer": null
+        "id": 23,
+        "question": "HTTP चा अर्थ Hyper Text\nTransfer Protocol असा आहे.",
+        "options": {
+            "A": "सत्य",
+            "B": "असत्य",
+            "C": "",
+            "D": ""
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 24,
-      "question": "HTTP चा उपयोग फाईल एका\nकॉम्प्युटरमधून दुसऱ्या कॉम्प्युटर\nकडे पाठविणे होय.",
-      "options": {
-        "A": "7.",
-        "B": "असत्य",
-        "C": "|",
-        "D": "क"
-      },
-      "correctAnswer": "B",
-      "userAnswer": null
+        "id": 24,
+        "question": "HTTP चा उपयोग फाईल एका\nकॉम्प्युटरमधून दुसऱ्या कॉम्प्युटर\nकडे पाठविणे होय.",
+        "options": {
+            "A": "सत्य",
+            "B": "असत्य",
+            "C": "",
+            "D": ""
+        },
+        "correctAnswer": "B",
+        "userAnswer": null
     },
     {
-      "id": 25,
-      "question": "Hypertext म्हणजे अक्षरांबरोबर\nअनेक चित्र किंवा ध्वनी होय.",
-      "options": {
-        "A": "बरोबर",
-        "B": "शा",
-        "C": "",
-        "D": "पन"
-      },
-      "correctAnswer": "B",
-      "userAnswer": null
+        "id": 25,
+        "question": "Hypertext म्हणजे अक्षरांबरोबर\nअनेक चित्र किंवा ध्वनी होय.",
+        "options": {
+            "A": "बरोबर",
+            "B": "चूक",
+            "C": "",
+            "D": ""
+        },
+        "correctAnswer": "B",
+        "userAnswer": null
     }
-  ],
+],
   "BATCH 1103": [
     {
-      "id": 1,
-      "question": "MS-Word 4% cut option\n___ Tab मध्ये उपलब्ध आहे",
-      "options": {
-        "A": "Home",
-        "B": "Reference",
-        "C": "Revies",
-        "D": "Edit"
-      },
-      "correctAnswer": "C",
-      "userAnswer": null
+        "id": 1,
+        "question": "MS-Word मध्ये cut option\nकोणत्या Tab मध्ये उपलब्ध आहे",
+        "options": {
+            "A": "Home",
+            "B": "Reference",
+            "C": "Review",
+            "D": "Edit"
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 2,
-      "question": "increase Font या button च्या\nखाली : : : : :.. हे button\nआहे.",
-      "options": {
-        "A": "Decrease\nFont",
-        "B": "Font Size",
-        "C": "Increase Font",
-        "D": "Colour"
-      },
-      "correctAnswer": "D",
-      "userAnswer": null
+        "id": 2,
+        "question": "increase Font या button च्या\nखाली Decrease Font हे button\nआहे.",
+        "options": {
+            "A": "Decrease Font",
+            "B": "Font Size",
+            "C": "Increase Font",
+            "D": "Colour"
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 3,
-      "question": "MS Excel 2019 मध्ये home\ntab मधील clear Tata हा\n___ करू शकतो.",
-      "options": {
-        "A": "clear\ncomments",
-        "B": "clear formats",
-        "C": "clear\nhyperlinks",
-        "D": "यापैकी सर्व"
-      },
-      "correctAnswer": "D",
-      "userAnswer": null
+        "id": 3,
+        "question": "MS Excel 2019 मध्ये home\ntab मधील clear Data हा\nकाय करू शकतो.",
+        "options": {
+            "A": "clear comments",
+            "B": "clear formats",
+            "C": "clear hyperlinks",
+            "D": "यापैकी सर्व"
+        },
+        "correctAnswer": "D",
+        "userAnswer": null
     },
     {
-      "id": 4,
-      "question": "__________ऱेक्वांवर\nWorksheet चे Current\nStatus पाहता येते.",
-      "options": {
-        "A": "Tool Bar",
-        "B": "Title Bar",
-        "C": "Status Bar",
-        "D": "यापैकी नाही"
-      },
-      "correctAnswer": "A",
-      "userAnswer": null
+        "id": 4,
+        "question": "Status Bar वर\nWorksheet चे Current\nStatus पाहता येते.",
+        "options": {
+            "A": "Tool Bar",
+            "B": "Title Bar",
+            "C": "Status Bar",
+            "D": "यापैकी नाही"
+        },
+        "correctAnswer": "C",
+        "userAnswer": null
     },
     {
-      "id": 5,
-      "question": "Email address ,\n\"gcc@gamil.com\" मधध\n.com ममणजध",
-      "options": {
-        "A": "username",
-        "B": "domain\nname",
-        "C": "Domain\nAddress",
-        "D": "domain code"
-      },
-      "correctAnswer": "D",
-      "userAnswer": null
+        "id": 5,
+        "question": "Email address,\n\"gcc@gmail.com\" मध्ये\n.com म्हणजे",
+        "options": {
+            "A": "username",
+            "B": "domain name",
+            "C": "Domain Address",
+            "D": "domain code"
+        },
+        "correctAnswer": "D",
+        "userAnswer": null
     },
     {
-      "id": 6,
-      "question": "MS-Word 2019 मधध,ध\nChange Case Option मल\nHome Tab मधधल\n… … … … … … .. धल Group\nमधधध उपलबध आम.ध",
-      "options": {
-        "A": "अररज",
-        "B": "णकलपबहरर",
-        "C": "फफनन",
-        "D": "सनलईल"
-      },
-      "correctAnswer": "C",
-      "userAnswer": null
+        "id": 6,
+        "question": "MS-Word 2019 मध्ये,\nChange Case Option हा\nHome Tab मधील\nFont या Group\nमध्ये उपलब्ध आहे.",
+        "options": {
+            "A": "अक्षर",
+            "B": "क्लिपबोर्ड",
+            "C": "फॉन्ट",
+            "D": "स्लाईड"
+        },
+        "correctAnswer": "C",
+        "userAnswer": null
     },
     {
-      "id": 7,
-      "question": "एमएस वरर मधध,ध document\nबनवलधल ननतर तधलचध default\nextension म धअसतध :",
-      "options": {
-        "A": ".dot",
-        "B": ".docx",
-        "C": ".vbp",
-        "D": ".xls"
-      },
-      "correctAnswer": "B",
-      "userAnswer": null
+        "id": 7,
+        "question": "एमएस वर्ड मध्ये, document\nबनवलेल्या नंतर त्याचा default\nextension .docx असतो:",
+        "options": {
+            "A": ".dot",
+            "B": ".docx",
+            "C": ".vbp",
+            "D": ".xls"
+        },
+        "correctAnswer": "B",
+        "userAnswer": null
     },
     {
-      "id": 8,
-      "question": "In MS-Word\nBold,Italic,Regular धलननल\n____ममणतलत",
-      "options": {
-        "A": "special effect",
-        "B": "word art",
-        "C": "text art",
-        "D": "font styles"
-      },
-      "correctAnswer": "D",
-      "userAnswer": null
+        "id": 8,
+        "question": "In MS-Word\nBold,Italic,Regular यांना\nFont Styles म्हणतात",
+        "options": {
+            "A": "special effect",
+            "B": "word art",
+            "C": "text art",
+            "D": "font styles"
+        },
+        "correctAnswer": "D",
+        "userAnswer": null
     },
     {
-      "id": 9,
-      "question": "In Ms-Word मधधध Insert Tab\nचल उपधहग करन Picture\nInsert कर शकतह.",
-      "options": {
-        "A": "चघक",
-        "B": "बरहबर",
-        "C": "",
-        "D": ""
-      },
-      "correctAnswer": "B",
-      "userAnswer": null
+        "id": 9,
+        "question": "In Ms-Word मध्ये Insert Tab\nचा उपयोग करून Picture\nInsert करू शकतो.",
+        "options": {
+            "A": "चूक",
+            "B": "बरोबर",
+            "C": "",
+            "D": ""
+        },
+        "correctAnswer": "B",
+        "userAnswer": null
     },
     {
-      "id": 10,
-      "question": "MS-Word 4% cut option\n___ Tab मध्ये उपलब्ध आहे",
-      "options": {
-        "A": "Home",
-        "B": "Reference",
-        "C": "Revies",
-        "D": "Edit"
-      },
-      "correctAnswer": "A",
-      "userAnswer": null
+        "id": 10,
+        "question": "MS-Word मध्ये cut option\nHome Tab मध्ये उपलब्ध आहे",
+        "options": {
+            "A": "Home",
+            "B": "Reference",
+            "C": "Review",
+            "D": "Edit"
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 11,
-      "question": "Excel 484 cells ची\nalignment करण्यासाठी",
-      "options": {
-        "A": "View\n-->Alignment",
-        "B": "Home\n-->Alignment",
-        "C": "Home--> align",
-        "D": "कोणतेही नाही"
-      },
-      "correctAnswer": "B",
-      "userAnswer": null
+        "id": 11,
+        "question": "Excel मध्ये cells चे\nalignment करण्यासाठी\nHome-->Alignment करतात.",
+        "options": {
+            "A": "View-->Alignment",
+            "B": "Home-->Alignment",
+            "C": "Home--> align",
+            "D": "कोणतेही नाही"
+        },
+        "correctAnswer": "B",
+        "userAnswer": null
     },
     {
-      "id": 12,
-      "question": "increase Font धल button चधल\nखललध … … … … … .. म ध button\nआम.ध",
-      "options": {
-        "A": "Decrease\nFont",
-        "B": "Font Size",
-        "C": "Increase Font",
-        "D": "Colour"
-      },
-      "correctAnswer": "A",
-      "userAnswer": null
+        "id": 12,
+        "question": "increase Font या button च्या\nखाली Decrease Font हे button\nआहे.",
+        "options": {
+            "A": "Decrease Font",
+            "B": "Font Size",
+            "C": "Increase Font",
+            "D": "Colour"
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 13,
-      "question": "MS Excel 2019 मध्ये home\ntab मधील clear Tata हा\n___ करू शकतो.",
-      "options": {
-        "A": "clear\ncomments",
-        "B": "clear formats",
-        "C": "clear\nhyperlinks",
-        "D": "यापैकी सर्व"
-      },
-      "correctAnswer": "D",
-      "userAnswer": null
+        "id": 13,
+        "question": "MS Excel 2019 मध्ये home\ntab मधील clear Data हा\nकाय करू शकतो.",
+        "options": {
+            "A": "clear comments",
+            "B": "clear formats",
+            "C": "clear hyperlinks",
+            "D": "यापैकी सर्व"
+        },
+        "correctAnswer": "D",
+        "userAnswer": null
     },
     {
-      "id": 14,
-      "question": "__________ऱेक्वांवर\nWorksheet चे Current\nStatus पाहता येते.",
-      "options": {
-        "A": "Tool Bar",
-        "B": "Title Bar",
-        "C": "Status Bar",
-        "D": "यापैकी नाही"
-      },
-      "correctAnswer": "C",
-      "userAnswer": null
+        "id": 14,
+        "question": "Status Bar वर\nWorksheet चे Current\nStatus पाहता येते.",
+        "options": {
+            "A": "Tool Bar",
+            "B": "Title Bar",
+            "C": "Status Bar",
+            "D": "यापैकी नाही"
+        },
+        "correctAnswer": "C",
+        "userAnswer": null
     },
     {
-      "id": 15,
-      "question": "… … … … … Bar वर\nWorksheet चध Current\nStatus पलमतल धधत.ध",
-      "options": {
-        "A": "Tool Bar",
-        "B": "Title Bar",
-        "C": "Status Bar",
-        "D": "कहणतधमध नलमध"
-      },
-      "correctAnswer": "C",
-      "userAnswer": null
+        "id": 15,
+        "question": "Status Bar वर\nWorksheet चे Current\nStatus पाहता येते.",
+        "options": {
+            "A": "Tool Bar",
+            "B": "Title Bar",
+            "C": "Status Bar",
+            "D": "कोणतेही नाही"
+        },
+        "correctAnswer": "C",
+        "userAnswer": null
     },
     {
-      "id": 16,
-      "question": "PowerPoint मध्ये New Slide\nहा option मध्ये\nअसतो.",
-      "options": {
-        "A": "Transition to\nthis slide",
-        "B": "Slide",
-        "C": "Presentation\nViews",
-        "D": "Page setup"
-      },
-      "correctAnswer": "B",
-      "userAnswer": null
+        "id": 16,
+        "question": "PowerPoint मध्ये New Slide\nहा option Slide या group\nमध्ये असतो.",
+        "options": {
+            "A": "Transition to this slide",
+            "B": "Slide",
+            "C": "Presentation Views",
+            "D": "Page setup"
+        },
+        "correctAnswer": "B",
+        "userAnswer": null
     },
     {
-      "id": 17,
-      "question": "Normal, Slide sorter,\nReading view, Slide show\nमध बननसस status bar वर\nअसतलत.",
-      "options": {
-        "A": "चघक",
-        "B": "बरहबर",
-        "C": "",
-        "D": ""
-      },
-      "correctAnswer": "B",
-      "userAnswer": null
+        "id": 17,
+        "question": "Normal, Slide sorter,\nReading view, Slide show\nया buttons status bar वर\nअसतात.",
+        "options": {
+            "A": "चूक",
+            "B": "बरोबर",
+            "C": "",
+            "D": ""
+        },
+        "correctAnswer": "B",
+        "userAnswer": null
     },
     {
-      "id": 18,
-      "question": "Notes page view कहणतधल\ntab मधघन वलपरतल धधतह?",
-      "options": {
-        "A": "Insert",
-        "B": "File",
-        "C": "Edit",
-        "D": "View"
-      },
-      "correctAnswer": "D",
-      "userAnswer": null
+        "id": 18,
+        "question": "Notes page view कोणत्या\ntab मधून वापरता येते?",
+        "options": {
+            "A": "Insert",
+            "B": "File",
+            "C": "Edit",
+            "D": "View"
+        },
+        "correctAnswer": "D",
+        "userAnswer": null
     },
     {
-      "id": 19,
-      "question": "PowerPoint मध्ये Notes\npage view =\nसाठी वापरले जातात.",
-      "options": {
-        "A": "Footnote",
-        "B": "speech notes",
-        "C": "any note with\nslide",
-        "D": "यापैकी सर्व"
-      },
-      "correctAnswer": "D",
-      "userAnswer": null
+        "id": 19,
+        "question": "PowerPoint मध्ये Notes\npage view कशासाठी\nसाठी वापरले जातात.",
+        "options": {
+            "A": "Footnote",
+            "B": "speech notes",
+            "C": "any note with slide",
+            "D": "यापैकी सर्व"
+        },
+        "correctAnswer": "D",
+        "userAnswer": null
     },
     {
-      "id": 20,
-      "question": "Fomat Tab मधील कोणत्या\noptions मध्ये 008० Rotate\nकरता येतात?",
-      "options": {
-        "A": "Rotate",
-        "B": "Auto Shapes",
-        "C": "Oval",
-        "D": "Chart"
-      },
-      "correctAnswer": "A",
-      "userAnswer": null
+        "id": 20,
+        "question": "Format Tab मधील कोणत्या\noptions मध्ये Objects Rotate\nकरता येतात?",
+        "options": {
+            "A": "Rotate",
+            "B": "Auto Shapes",
+            "C": "Oval",
+            "D": "Chart"
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 21,
-      "question": "आपण backward arrow\nवलपरलधलननतर, पकढधल webpage\nवर जलणधलसलठध ____________\nवलपर कर शकतह.",
-      "options": {
-        "A": "Forward\nArrow",
-        "B": "Backward\nArrow",
-        "C": "Down Arrow",
-        "D": "Up Arrow"
-      },
-      "correctAnswer": "A",
-      "userAnswer": null
+        "id": 21,
+        "question": "आपण backward arrow\nवापरल्यानंतर, पुढील webpage\nवर जाण्यासाठी Forward Arrow\nवापर करू शकतो.",
+        "options": {
+            "A": "Forward Arrow",
+            "B": "Backward Arrow",
+            "C": "Down Arrow",
+            "D": "Up Arrow"
+        },
+        "correctAnswer": "A",
+        "userAnswer": null
     },
     {
-      "id": 22,
-      "question": "आपलधललल एखलदल E-Mail लल\nउतर दणध धलसलठध\n_______________ बननवर\nणकलक करलवध ललगत.ध",
-      "options": {
-        "A": "Forward",
-        "B": "Compose",
-        "C": "Delete",
-        "D": "Reply"
-      },
-      "correctAnswer": "D",
-      "userAnswer": null
+        "id": 22,
+        "question": "आपल्याला एखादा E-Mail ला\nउत्तर देण्या यासाठी\nReply बटनवर\nक्लिक करावे लागते.",
+        "options": {
+            "A": "Forward",
+            "B": "Compose",
+            "C": "Delete",
+            "D": "Reply"
+        },
+        "correctAnswer": "D",
+        "userAnswer": null
     },
     {
-      "id": 23,
-      "question": "Gmail चधल कहणतधलमध\nsettings बदलणधलकरधतल\n________________ बनन वर\nclick करलव.ध",
-      "options": {
-        "A": "Spam",
-        "B": "Settings",
-        "C": "Trash",
-        "D": "Draft"
-      },
-      "correctAnswer": "B",
-      "userAnswer": null
+        "id": 23,
+        "question": "Gmail चे कोणतेही\nsettings बदलण्याकरिता\nSettings बटन वर\nclick करावे.",
+        "options": {
+            "A": "Spam",
+            "B": "Settings",
+            "C": "Trash",
+            "D": "Draft"
+        },
+        "correctAnswer": "B",
+        "userAnswer": null
     },
     {
-      "id": 24,
-      "question": "इननरनधनवदलरध एखलदध फलईल एकल\nकफममधकनर वरन दसक ऱधल\nकफममधकनरवर पलठणवलध जलतध तधवमल\nखललधल पपकक कहणतध सनजल\nवलपरलध जलईल.",
-      "options": {
-        "A": "Usenet",
-        "B": "Telnet",
-        "C": "FTP",
-        "D": "Packets"
-      },
-      "correctAnswer": "C",
-      "userAnswer": null
+        "id": 24,
+        "question": "इंटरनेटवरून एखादी फाईल एका\nकॉम्प्युटर वरून दुसऱ्या\nकॉम्प्युटरवर पाठवला जातो तेव्हा\nखालील पैकी कोणता सेवा\nवापरला जाईल.",
+        "options": {
+            "A": "Usenet",
+            "B": "Telnet",
+            "C": "FTP",
+            "D": "Packets"
+        },
+        "correctAnswer": "C",
+        "userAnswer": null
     },
     {
-      "id": 25,
-      "question": "Computer Window मध्ये\nहा विविध\nMenus दाखवतो.",
-      "options": {
-        "A": "Title Bar",
-        "B": "Tool Bar",
-        "C": "Address Bar",
-        "D": "Menu Bar"
-      },
-      "correctAnswer": "D",
-      "userAnswer": null
+        "id": 25,
+        "question": "Computer Window मध्ये\nMenu Bar हा विविध\nMenus दाखवतो.",
+        "options": {
+            "A": "Title Bar",
+            "B": "Tool Bar",
+            "C": "Address Bar",
+            "D": "Menu Bar"
+        },
+        "correctAnswer": "D",
+        "userAnswer": null
     }
-  ],
+],
   "BATCH 1104": [
     {
       "id": 1,
