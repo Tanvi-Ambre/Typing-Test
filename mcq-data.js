@@ -915,11 +915,11 @@ const allMCQBatches = {
   "BATCH 1104": [
     {
         "id": 1,
-        "question": "Data filter feature चा उपयोग\nहोतो, जेंव्हा मध्ये\ntable ready असतो.",
+        "question": "Data filter feature चा उपयोग\nहोतो, जेव्हा मध्ये\ntable ready असतो.",
         "options": {
             "A": "Worksheet",
             "B": "workbook",
-            "C": "mo",
+            "C": "Row",
             "D": "Column"
         },
         "correctAnswer": "B",
@@ -927,7 +927,7 @@ const allMCQBatches = {
     },
     {
         "id": 2,
-        "question": "Email मधे 9801161 म्हणजे",
+        "question": "Email मध्ये Attachment म्हणजे",
         "options": {
             "A": "Documents",
             "B": "Audio files",
@@ -987,7 +987,7 @@ const allMCQBatches = {
     },
     {
         "id": 7,
-        "question": "MS-Word मधील ___ना आपण\nruler ररहल option show\nकीरय Hide कधला जातात",
+        "question": "MS-Word मधील ___ना आपण\nruler वरील option show\nकिंवा Hide केला जातात",
         "options": {
             "A": "Insert",
             "B": "Home",
@@ -999,7 +999,7 @@ const allMCQBatches = {
     },
     {
         "id": 8,
-        "question": "MS-Word मध्ये Horizontal\nruler __________ मदत\nसाठी वापुन्हाात.",
+        "question": "MS-Word मध्ये Horizontal\nruler __________ मदत\nसाठी वापरतात.",
         "options": {
             "A": "to set indents",
             "B": "to set tabs",
@@ -1011,7 +1011,7 @@ const allMCQBatches = {
     },
     {
         "id": 9,
-        "question": "MS-Word मध्ये document चे\nनयर ____रर display मरत.ध",
+        "question": "MS-Word मध्ये document चे\nनाव ____वर display होते",
         "options": {
             "A": "status bar",
             "B": "formula bar",
@@ -1023,7 +1023,7 @@ const allMCQBatches = {
     },
     {
         "id": 10,
-        "question": "MS-Word 2019 मध्ये\nprofessionally design केलेला\ndocuments चे readymade\nformats दिला आहेत तययतनय\n… … . म्हणतात.",
+        "question": "MS-Word 2019 मध्ये\nprofessionally design केलेला\ndocuments चे readymade\nformats दिला आहेत त्यांना\n… … . म्हणतात.",
         "options": {
             "A": "Files",
             "B": "Chart",
@@ -1035,7 +1035,7 @@ const allMCQBatches = {
     },
     {
         "id": 11,
-        "question": "Data filter feature चय उपयोग\nमरतर, जेव्हा ___________मध्ये\ntable ready असतो.",
+        "question": "Data filter feature चा उपयोग\nहोतो, जेव्हा ___________मध्ये\ntable ready असतो.",
         "options": {
             "A": "Worksheet",
             "B": "workbook",
@@ -1047,7 +1047,7 @@ const allMCQBatches = {
     },
     {
         "id": 12,
-        "question": "Column चह default width मे\n____ असत.ध",
+        "question": "Column ची default width ही\n____ असते",
         "options": {
             "A": "11",
             "B": "8.43",
@@ -1083,7 +1083,7 @@ const allMCQBatches = {
     },
     {
         "id": 15,
-        "question": "MS Excel 2019 मध्ये active\ncell चय address करठध दयखरलय\nजातो ?",
+        "question": "MS Excel 2019 मध्ये active\ncell चा address कोठे दाखवला\nजातो ?",
         "options": {
             "A": "Status box",
             "B": "name box",
@@ -1095,7 +1095,7 @@ const allMCQBatches = {
     },
     {
         "id": 16,
-        "question": "slide मध्ये text hold\nकरणययसाठी ______________\nObject वापुन्हाात.",
+        "question": "slide मध्ये text hold\nकरण्यासाठी ______________\nObject वापरतात.",
         "options": {
             "A": "Place holder",
             "B": "Auto Layout",
@@ -1143,7 +1143,7 @@ const allMCQBatches = {
     },
     {
         "id": 20,
-        "question": "PowerPoint मध्ये Outline\nview म ध__________ साठी\nरयपरला जातात.",
+        "question": "PowerPoint मध्ये Outline\nview मध्ये __________ साठी\nवापरला जातात.",
         "options": {
             "A": "Sort the\nslides",
             "B": "Arrange or\nadjust\nsequence of\nmatter",
@@ -1191,7 +1191,7 @@ const allMCQBatches = {
     },
     {
         "id": 24,
-        "question": "E-Mail में BCC म्हणजेच",
+        "question": "E-Mail मध्ये BCC म्हणजेच",
         "options": {
             "A": "Brown\ncarbon copy",
             "B": "Black carbon\ncopy",
@@ -1203,7 +1203,7 @@ const allMCQBatches = {
     },
     {
         "id": 25,
-        "question": "E-Mail message मध्ये\nहा मेत्वाचा\nभाग आहे.",
+        "question": "E-Mail message मध्ये\nहा महत्त्वाचा\nभाग आहे.",
         "options": {
             "A": "Subject",
             "B": "E-Mail\nAddress",
@@ -1217,7 +1217,7 @@ const allMCQBatches = {
   "BATCH 1105": [
     {
         "id": 1,
-        "question": "'एम.एस.वर्ड Wey 'Ctrl + ₹' या\nShort cut key 4 सर्व मॅटर\nउजव्या बाजुला करता येते.",
+        "question": "'एम.एस.वर्ड मध्ये 'Ctrl + R' या\nShort cut key ने सर्व मॅटर\nउजव्या बाजुला करता येते.",
         "options": {
             "A": "बरोबर",
             "B": "चूक",
@@ -1241,7 +1241,7 @@ const allMCQBatches = {
     },
     {
         "id": 3,
-        "question": "Gmail मधलाल Inbox मधध\nतुमचाला कला सापडते?ध",
+        "question": "Gmail मधील Inbox मध्ये\nतुम्हाला काय सापडते?",
         "options": {
             "A": "deleted mail",
             "B": "read mail",
@@ -1253,7 +1253,7 @@ const allMCQBatches = {
     },
     {
         "id": 4,
-        "question": "Gmail मध्ये नवीन mail\nलिहिण्यासाठी वापरला जलणलरल\noption ------- आहे.",
+        "question": "Gmail मध्ये नवीन mail\nलिहिण्यासाठी वापरला जाणारा\noption ------- आहे.",
         "options": {
             "A": "New mail",
             "B": "compose",
@@ -1277,7 +1277,7 @@ const allMCQBatches = {
     },
     {
         "id": 6,
-        "question": "MS-Word मध्ये Header आणि\nFooter apply करण्यासलठव … ..\nTab चल उपयोग केला जातो.",
+        "question": "MS-Word मध्ये Header आणि\nFooter apply करण्यासाठी … ..\nTab चा उपयोग केला जातो.",
         "options": {
             "A": "Home",
             "B": "View",
@@ -1289,7 +1289,7 @@ const allMCQBatches = {
     },
     {
         "id": 7,
-        "question": "MS-WORD मध्ये शबद italic\nकरण्यास _________key\nवापुन्हाात",
+        "question": "MS-WORD मध्ये शब्द italic\nकरण्यास _________key\nवापरतात",
         "options": {
             "A": "CTRL+A",
             "B": "CTRL+Z",
@@ -1301,7 +1301,7 @@ const allMCQBatches = {
     },
     {
         "id": 8,
-        "question": "MS-Word मध्ये new\ndocument open करण्यास\n___tab वापुन्हाात",
+        "question": "MS-Word मध्ये new\ndocument open करण्यास\n___tab वापरतात",
         "options": {
             "A": "Edit",
             "B": "View",
@@ -1313,7 +1313,7 @@ const allMCQBatches = {
     },
     {
         "id": 9,
-        "question": "MS-Word मध्ये आपण ctrl+r\nshortcut key … ... alignment\nसलठव वलपुन्हात",
+        "question": "MS-Word मध्ये आपण ctrl+r\nshortcut key … ... alignment\nसाठी वापरतात",
         "options": {
             "A": "left",
             "B": "right",
@@ -1325,7 +1325,7 @@ const allMCQBatches = {
     },
     {
         "id": 10,
-        "question": "'एम.एस.वर्ड Wey 'Ctrl + ₹' या\nShort cut key 4 सर्व मॅटर\nउजव्या बाजुला करता येते.",
+        "question": "'एम.एस.वर्ड मध्ये 'Ctrl + R' या\nShort cut key ने सर्व मॅटर\nउजव्या बाजुला करता येते.",
         "options": {
             "A": "बरोबर",
             "B": "चूक",
@@ -1361,7 +1361,7 @@ const allMCQBatches = {
     },
     {
         "id": 13,
-        "question": "Active Cell Bar मध्ये type\nकेलेला formulas\n___________ मध्ये display\nमततलत.",
+        "question": "Active Cell Bar मध्ये type\nकेलेला formulas\n___________ मध्ये display\nहोतात.",
         "options": {
             "A": "Tool Bar",
             "B": "Status Bar",
@@ -1373,7 +1373,7 @@ const allMCQBatches = {
     },
     {
         "id": 14,
-        "question": "= max(56,65,78,38) धलचे\nआऊटपतट कला धधईल?",
+        "question": "= max(56,65,78,38) याचे\nआऊटपुट काय येईल?",
         "options": {
             "A": "130",
             "B": "65",
@@ -1385,7 +1385,7 @@ const allMCQBatches = {
     },
     {
         "id": 15,
-        "question": "MS Excel 2019 मध्ये\ngridlines आधवपलसचनच\nआपतआप दिसतेलत .",
+        "question": "MS Excel 2019 मध्ये\ngridlines आपोआपच\nआपोआप दिसतात .",
         "options": {
             "A": "बरोबर",
             "B": "चूक",
@@ -1397,7 +1397,7 @@ const allMCQBatches = {
     },
     {
         "id": 16,
-        "question": "Page Setup कमांड\nPowerpoint मधवल\n___________ धल ग्रुप मध्ये\nउपलब्ध आहे",
+        "question": "Page Setup कमांड\nPowerpoint मधील\n___________ या ग्रुप मध्ये\nउपलब्ध आहे",
         "options": {
             "A": "Home",
             "B": "Insert",
@@ -1436,9 +1436,9 @@ const allMCQBatches = {
         "question": "PowerPoint मध्ये\ngroup हा Home\ntab वर असतो.",
         "options": {
             "A": "Drawing",
-            "B": "णा mages",
-            "C": "Symbols",
-            "D": "“४ ledia"
+            “B”: “Images”,
+            “C”: “Symbols”,
+            “D”: “Media”
         },
         "correctAnswer": "A",
         "userAnswer": null
@@ -1469,7 +1469,7 @@ const allMCQBatches = {
     },
     {
         "id": 22,
-        "question": "Gmail मध्ये, compose\nbutton = साठी\nवापुन्हाात.",
+        "question": "Gmail मध्ये, compose\nbutton साठी\nवापरतात.",
         "options": {
             "A": "नविन E-Mail\nलिहण्यासाठी",
             "B": "Reply to\nE-Mail",
@@ -1481,7 +1481,7 @@ const allMCQBatches = {
     },
     {
         "id": 23,
-        "question": "Gmail 4%, forward button\n= साठी\nवापुन्हाात.",
+        "question": "Gmail मध्ये, forward button\nसाठी\nवापरतात.",
         "options": {
             "A": "Forward\nE-Mail",
             "B": "Delete E-Mail",
@@ -1493,7 +1493,7 @@ const allMCQBatches = {
     },
     {
         "id": 24,
-        "question": "Gmail मध्ये, reply button हे\nसाठी\nवापुन्हाात.",
+        "question": "Gmail मध्ये, reply button हे\nसाठी\nवापरतात.",
         "options": {
             "A": "Delete E-Mail",
             "B": "नविन E-Mail\nलिहण्यासाठी",
@@ -1505,7 +1505,7 @@ const allMCQBatches = {
     },
     {
         "id": 25,
-        "question": "Internet Explorer 42%\nrefresh साठी at\nshortcut key वापुन्हाात.",
+        "question": "Internet Explorer मध्ये\nrefresh साठी\nshortcut key वापरतात.",
         "options": {
             "A": "",
             "B": "चूक",
@@ -1555,7 +1555,7 @@ const allMCQBatches = {
     },
     {
         "id": 4,
-        "question": "Gmail मधध delete केलेले\nmessage आपण कसे पुन्हा\nमिळवतो?",
+        "question": "Gmail मध्ये delete केलेले\nmessage आपण कसे पुन्हा\nमिळवतो?",
         "options": {
             "A": "spam",
             "B": "Inbox",
@@ -1567,7 +1567,7 @@ const allMCQBatches = {
     },
     {
         "id": 5,
-        "question": "EMail मधध जधववा आपण\npassword type करतय तय\n--------- पॅटर्नमध्ये दिसतेय",
+        "question": "EMail मध्ये जेव्हा आपण\npassword type करतो ते\n--------- पॅटर्नमध्ये दिसते",
         "options": {
             "A": "star",
             "B": "black dots",
@@ -1591,7 +1591,7 @@ const allMCQBatches = {
     },
     {
         "id": 7,
-        "question": "In MS-Word मध्ये कोणत्या\nRibbon ना आपण margin\nchange करचल",
+        "question": "In MS-Word मध्ये कोणत्या\nRibbon ना आपण margin\nchange करता येते",
         "options": {
             "A": "Page Layout",
             "B": "View",
@@ -1615,7 +1615,7 @@ const allMCQBatches = {
     },
     {
         "id": 9,
-        "question": "MS-Word मधय.ध......चया\nमदतीना टेबल कर शकतो",
+        "question": "MS-Word मध्ये......च्या\nमदतीने टेबल कर शकतो",
         "options": {
             "A": "Insert table",
             "B": "Create Table",
@@ -1639,7 +1639,7 @@ const allMCQBatches = {
     },
     {
         "id": 11,
-        "question": "row ची height मोजण्यासाठी\n:: : : :. atunit चा\nवापर होतो.",
+        "question": "row ची height मोजण्यासाठी\n___ unit चा\nवापर होतो.",
         "options": {
             "A": "Point",
             "B": "cm",
@@ -1651,7 +1651,7 @@ const allMCQBatches = {
     },
     {
         "id": 12,
-        "question": "MS Excel 2019 मध्ये if\nfunction चा result वा\ncondition वर अवलंबून असतय .",
+        "question": "MS Excel 2019 मध्ये if\nfunction चा result हा\ncondition वर अवलंबून असतो .",
         "options": {
             "A": "बरोबर",
             "B": "चूक",
@@ -1687,7 +1687,7 @@ const allMCQBatches = {
     },
     {
         "id": 15,
-        "question": "Workbook मधील sheet चे\nनाव बदलता यधत.ध",
+        "question": "Workbook मधील sheet चे\nनाव बदलता येते",
         "options": {
             "A": "बरोबर",
             "B": "चूक",
@@ -1723,7 +1723,7 @@ const allMCQBatches = {
     },
     {
         "id": 18,
-        "question": "PPT files gt\nप्रकारचे 59५88 आहे.",
+        "question": "PPT files ___ प्रकारचे\nsoftware आहे.",
         "options": {
             "A": "MS-Word",
             "B": "MS-PowerPo\nint",
@@ -1747,7 +1747,7 @@ const allMCQBatches = {
     },
     {
         "id": 20,
-        "question": "Presentation file\n-7श प्रकारच्या\nsoftware मध्ये तयार होते.",
+        "question": "Presentation file ___ या\nप्रकारच्या\nsoftware मध्ये तयार होते.",
         "options": {
             "A": "Presentation\nGraphics\nPrograms",
             "B": "Word\nProcessor",
@@ -1759,7 +1759,7 @@ const allMCQBatches = {
     },
     {
         "id": 21,
-        "question": "Internet Explorer 42 find\nया Option साठी __ ही\nshortcut key वापुन्हाात.",
+        "question": "Internet Explorer मध्ये find\nया Option साठी __ ही\nshortcut key वापरतात.",
         "options": {
             "A": "Alt+F",
             "B": "Ctlr+F",
@@ -1771,7 +1771,7 @@ const allMCQBatches = {
     },
     {
         "id": 22,
-        "question": "Internet Explorer मध्ये Find\nया option साठी\n____________ वी Shortcut\nkey वापुन्हाात.",
+        "question": "Internet Explorer मध्ये Find\nया option साठी\n____________ ही Shortcut\nkey वापरतात.",
         "options": {
             "A": "Ctrl + F",
             "B": "Alt + F",
@@ -1783,7 +1783,7 @@ const allMCQBatches = {
     },
     {
         "id": 23,
-        "question": "Webpage मध्ये Ctrl + F\nshortcut key चा वापर\nWebpage मधील _________\nव धoption वापरणयासाठी वयतय.",
+        "question": "Webpage मध्ये Ctrl + F\nshortcut key चा वापर\nWebpage मधील _________\nया option वापरण्यासाठी होतो.",
         "options": {
             "A": "Favorites",
             "B": "Find",
@@ -1795,7 +1795,7 @@ const allMCQBatches = {
     },
     {
         "id": 24,
-        "question": "Internet Explorer मध्ये\nrecently open केलेल्या web\nsites ची list toolbar वरठल\n___ या button मध्ये पाहायला\nमिळतो.",
+        "question": "Internet Explorer मध्ये\nrecently open केलेल्या web\nsites ची list toolbar वरील\n___ या button मध्ये पाहायला\nमिळतो.",
         "options": {
             "A": "History",
             "B": "Favorites",
@@ -1807,7 +1807,7 @@ const allMCQBatches = {
     },
     {
         "id": 25,
-        "question": "In Internet Explorer मध्ये\nRecently open केलेल्या सर्व\nWeb Site Addresses ची list\nपचवणयासाठी ____________\nवा Option वापुन्हाात.",
+        "question": "In Internet Explorer मध्ये\nRecently open केलेल्या सर्व\nWeb Site Addresses ची list\nपाहण्यासाठी ____________\nहा Option वापरतात.",
         "options": {
             "A": "History",
             "B": "Favorites",
@@ -1833,7 +1833,7 @@ const allMCQBatches = {
     },
     {
         "id": 2,
-        "question": "Increase Font चा option\n: : : :.. मध्ये उपलब्ध\nअसतो.",
+        "question": "Increase Font चा option\n___ मध्ये उपलब्ध\nअसतो.",
         "options": {
             "A": "Font size",
             "B": "View",
@@ -1869,12 +1869,12 @@ const allMCQBatches = {
     },
     {
         "id": 5,
-        "question": "जगभरतताल biggest network\nकोणता ?",
+        "question": "जगभरातील biggest network\nकोणता ?",
         "options": {
             "A": "LAN",
             "B": "MAN",
             "C": "Internet",
-            "D": "यापैकी नतहच"
+            "D": "यापैकी नाही"
         },
         "correctAnswer": "C",
         "userAnswer": null
@@ -1886,14 +1886,14 @@ const allMCQBatches = {
             "A": "save the file\nas",
             "B": "File save",
             "C": "Save As",
-            "D": "यापैकी नतहच"
+            "D": "यापैकी नाही"
         },
         "correctAnswer": "C",
         "userAnswer": null
     },
     {
         "id": 7,
-        "question": "एमएस वर्ड मध्ये, CtrltHome\nकीयासाठी : : : :.\nवापुन्हाात.",
+        "question": "एमएस वर्ड मध्ये, Ctrl+Home\nकी साठी ___\nवापरतात.",
         "options": {
             "A": "Move the\ncursor to the\nbeginning of\ndocument",
             "B": "Move the\ncursor to the\nleft of\ndocument",
@@ -1905,7 +1905,7 @@ const allMCQBatches = {
     },
     {
         "id": 8,
-        "question": "एमएस वर्ड मधध,ध Ctrl+Home\nकी धत सतीच … … … … .\nवतपुन्हातत.",
+        "question": "एमएस वर्ड मध्ये Ctrl+Home\nकी ही साठी … … … … .\nवापरतात.",
         "options": {
             "A": "Move the\ncursor to the\nbeginning of\ndocument",
             "B": "Move the\ncursor to the\nleft of\ndocument",
@@ -1917,9 +1917,9 @@ const allMCQBatches = {
     },
     {
         "id": 9,
-        "question": "एमएस वर्ड मध्ये Ctrl+U धत की\nना रबद uppercase करतत\nधधततत",
+        "question": "एमएस वर्ड मध्ये Ctrl+U ही की\nने शब्द uppercase करतो",
         "options": {
-            "A": "बरकबर",
+            "A": "बरोबर",
             "B": "चूक",
             "C": "",
             "D": ""
@@ -1941,9 +1941,9 @@ const allMCQBatches = {
     },
     {
         "id": 11,
-        "question": "Workbook मधचल sheet चे\nनतव बदलना अरकध आह.ध",
+        "question": "Workbook मधील sheet चे\nनाव बदलणे अशक्य आहे",
         "options": {
-            "A": "बरकबर",
+            "A": "बरोबर",
             "B": "चूक",
             "C": "",
             "D": ""
@@ -1953,7 +1953,7 @@ const allMCQBatches = {
     },
     {
         "id": 12,
-        "question": "Increase Font चत option\n… … … … .. मध्ये उपलब्ध\nअसतक.",
+        "question": "Increase Font चा option\n___ मध्ये उपलब्ध\nअसतो.",
         "options": {
             "A": "Font size",
             "B": "View",
@@ -1989,7 +1989,7 @@ const allMCQBatches = {
     },
     {
         "id": 15,
-        "question": "TODAY() धत फअकरनना कते\nदररववला जतत?ध",
+        "question": "TODAY() हा फंक्शनने काय\nदर्शविला जातो?",
         "options": {
             "A": "System Date\nand Time",
             "B": "System Time",
@@ -2001,7 +2001,7 @@ const allMCQBatches = {
     },
     {
         "id": 16,
-        "question": "Presentation file\n________________ पकतरचेत\nsoftware मध्ये तेतर हकत.ध",
+        "question": "Presentation file\n________________ प्रकारच्या\nsoftware मध्ये तयार होते.",
         "options": {
             "A": "Presentation\nGraphics\nPrograms",
             "B": "Word\nProcessor",
@@ -2025,7 +2025,7 @@ const allMCQBatches = {
     },
     {
         "id": 18,
-        "question": "Presentation files लत\n________ह धextension असत.ध",
+        "question": "Presentation files ला\n________हे extension असते",
         "options": {
             "A": ".txt",
             "B": ".xlxs",
@@ -2073,7 +2073,7 @@ const allMCQBatches = {
     },
     {
         "id": 22,
-        "question": "Internet Explorer मध्ये\nreading करतत Web page\nsave करणधतसतीच File Menu\nमधसन ___ धत Option वर click\nकरतव.ध",
+        "question": "Internet Explorer मध्ये\nreading करत Web page\nsave करण्यासाठी File Menu\nमधून ___ या Option वर click\nकरावे.",
         "options": {
             "A": "Send",
             "B": "Print",
@@ -2085,7 +2085,7 @@ const allMCQBatches = {
     },
     {
         "id": 23,
-        "question": "इंटरनेटमध्ये 186111101099/ IP\nम्हणजे..",
+        "question": "इंटरनेटमध्ये TCP/IP\nम्हणजे..",
         "options": {
             "A": "Internet\nProvider",
             "B": "Internet\nProtocol",
@@ -2097,7 +2097,7 @@ const allMCQBatches = {
     },
     {
         "id": 24,
-        "question": "Internet मध्ये Information\ntransfer करततनत ता लहतन\nलहतन तसकडतअमध्ये पतीववलच\nजतते, तेतलत ____ असध मेणततत.",
+        "question": "Internet मध्ये Information\ntransfer करताना ती लहान\nलहान तुकड्यांमध्ये पाठविली\nजाते, त्याला ____ असे म्हणतात.",
         "options": {
             "A": "Packets",
             "B": "Pieces",
@@ -2109,11 +2109,11 @@ const allMCQBatches = {
     },
     {
         "id": 25,
-        "question": "Network मध्ये नोड हे\nमध्यवर्ती 589४७ ला जोडले\nजातात.",
+        "question": "Network मध्ये नोड हे\nमध्यवर्ती server ला जोडले\nजातात.",
         "options": {
             "A": "E-Mail\nClients",
             "B": "Clients",
-            "C": "क्व jodem",
+            "C": "Modem",
             "D": "Baud Rate"
         },
         "correctAnswer": "B",
@@ -2128,14 +2128,14 @@ const allMCQBatches = {
             "A": "Grammatical\nMistake",
             "B": "A highlighted\nword",
             "C": "spelling\nmistake",
-            "D": "An underkined\nword"
+            "D": "An underlined\nword"
         },
         "correctAnswer": "A",
         "userAnswer": null
     },
     {
         "id": 2,
-        "question": ": : :081 च्या उजव्या side\nला Zoom slider strip बघता\naa.",
+        "question": "___ च्या उजव्या side\nला Zoom slider strip बघता\nयेतो.",
         "options": {
             "A": "Scroll bar",
             "B": "Title Bar",
@@ -2149,7 +2149,7 @@ const allMCQBatches = {
         "id": 3,
         "question": "एका workbook मध्ये\nmaximum 255\nअसतात",
         "options": {
-            "A": "शि",
+            "A": "Sheets",
             "B": "Column",
             "C": "Pages",
             "D": "Sheets"
@@ -2159,7 +2159,7 @@ const allMCQBatches = {
     },
     {
         "id": 4,
-        "question": "Computer चतत --------- मधमरच\nमधचल मतहहता फक वतातत तेते\nतततत बदल करतत तेत नतहच.",
+        "question": "Computer च्या --------- मेमरी\nमधील माहिती फक्त वाचता येते\nपण बदल करता येत नाही.",
         "options": {
             "A": "ROM",
             "B": "RAM",
@@ -2171,7 +2171,7 @@ const allMCQBatches = {
     },
     {
         "id": 5,
-        "question": "मतहहता ससगणकतातत\n___________ Device वर\nदतखहवलच जतते.",
+        "question": "माहिती संगणकाच्या\n___________ Device वर\nदाखविली जाते.",
         "options": {
             "A": "Speaker",
             "B": "Keyboard",
@@ -2183,12 +2183,12 @@ const allMCQBatches = {
     },
     {
         "id": 6,
-        "question": "एमएस वडर मधत,ध footnotes,\nendnotes & indexes ह धसर्व\n____ इनसटर कर शकतक",
+        "question": "एमएस वर्ड मध्ये footnotes,\nendnotes & indexes हे सर्व\n____ इन्सर्ट करू शकतो",
         "options": {
             "A": "Hyperlinks",
             "B": "Booksmarks",
             "C": "Word fields",
-            "D": "Cross-Refenc\ne"
+            "D": "Cross-Reference"
         },
         "correctAnswer": "A",
         "userAnswer": null
@@ -2207,7 +2207,7 @@ const allMCQBatches = {
     },
     {
         "id": 8,
-        "question": "आपण MS-Word मधते\nexisting document बसद\nकरणततसतीच कशतात वतपर\nकरतक?",
+        "question": "आपण MS-Word मध्ये\nexisting document बंद\nकरण्यासाठी कशाचा वापर\nकरतो?",
         "options": {
             "A": "Ctrl + F1",
             "B": "Ctrl + F2",
@@ -2219,12 +2219,12 @@ const allMCQBatches = {
     },
     {
         "id": 9,
-        "question": "MS-Word मधते Document चे\nनतव __________________\nवर दशरहवला जतत.ध",
+        "question": "MS-Word मध्ये Document चे\nनाव __________________\nवर दर्शविला जातो",
         "options": {
-            "A": "टतईटल बतर",
-            "B": "सटधटस बतर",
-            "C": "रलर",
-            "D": "इसडडट"
+            "A": "टायटल बार",
+            "B": "स्टेटस बार",
+            "C": "रूलर",
+            "D": "इन्सर्ट"
         },
         "correctAnswer": "A",
         "userAnswer": null
@@ -2236,14 +2236,14 @@ const allMCQBatches = {
             "A": "Grammatical\nMistake",
             "B": "A highlighted\nword",
             "C": "spelling\nmistake",
-            "D": "An underkined\nword"
+            "D": "An underlined\nword"
         },
         "correctAnswer": "C",
         "userAnswer": null
     },
     {
         "id": 11,
-        "question": "Row height चे unit\n… … … … ह धअसत.ध",
+        "question": "Row height चे unit\n… … … … हे असते",
         "options": {
             "A": "Meter",
             "B": "Points",
@@ -2255,12 +2255,12 @@ const allMCQBatches = {
     },
     {
         "id": 12,
-        "question": "… … … bar चतत उजवत side\nलत Zoom slider strip बघतत\nतेत.ध",
+        "question": "… … … bar च्या उजव्या side\nला Zoom slider strip बघता\nयेतो.",
         "options": {
             "A": "Scroll bar",
             "B": "Title Bar",
             "C": "Status Bar",
-            "D": "वरचलपैकी एकहच\nनतहच"
+            "D": "वरीलपैकी एकही\nनाही"
         },
         "correctAnswer": "C",
         "userAnswer": null
@@ -2269,7 +2269,7 @@ const allMCQBatches = {
         "id": 13,
         "question": "एका workbook मध्ये\nmaximum 255\nअसतात",
         "options": {
-            "A": "शि",
+            "A": "Sheets",
             "B": "Column",
             "C": "Pages",
             "D": "Sheets"
@@ -2279,7 +2279,7 @@ const allMCQBatches = {
     },
     {
         "id": 14,
-        "question": "Workbook मधते जतसतात जतसत\n______ sheets असततत.",
+        "question": "Workbook मध्ये जास्तीत जास्त\n______ sheets असतात.",
         "options": {
             "A": "250",
             "B": "255",
@@ -2291,7 +2291,7 @@ const allMCQBatches = {
     },
     {
         "id": 15,
-        "question": "MS Excel 2019 मधते\nformula टतईप करततनत कतत\nवतपुन्हाताे नसते ?",
+        "question": "MS Excel 2019 मध्ये\nformula टाईप करताना काय\nवापरले नसते ?",
         "options": {
             "A": "spaces",
             "B": "numbers",
@@ -2303,9 +2303,9 @@ const allMCQBatches = {
     },
     {
         "id": 16,
-        "question": "Presentation Software ह ध\nMS-Office application मधते\nअसत.ध",
+        "question": "Presentation Software हे\nMS-Office application मध्ये\nअसते.",
         "options": {
-            "A": "बरकबर",
+            "A": "बरोबर",
             "B": "चूक",
             "C": "",
             "D": ""
@@ -2315,7 +2315,7 @@ const allMCQBatches = {
     },
     {
         "id": 17,
-        "question": "Slide show करततसनत शकतततसनत\nससकनवर ददसणतऱतत slides व\nतततसतीचातत कतहच नकटसस\nपपरहवलतत जतततत तततसनत\n--------------- असध मेणततत.",
+        "question": "Slide show करताना स्क्रीनवर\nदिसणाऱ्या slides व\nत्यांच्याबद्दल काही notes\nपुरविल्या जातात त्यांना\n--------------- असे म्हणतात.",
         "options": {
             "A": "Reference\nMaterial",
             "B": "Hand bills",
@@ -2327,7 +2327,7 @@ const allMCQBatches = {
     },
     {
         "id": 18,
-        "question": "PowerPoint मधते Pushहत\n______________ चत effect\nआह.ध",
+        "question": "PowerPoint मध्ये Push हा\n______________ चा effect\nआहे.",
         "options": {
             "A": "Image",
             "B": "Animation",
@@ -2366,7 +2366,7 @@ const allMCQBatches = {
         "question": "network मध्ये Data Transfer\nहोत असतानाचा वेग Baud\nRate या परिमाणात मोजतात.",
         "options": {
             "A": "बरोबर",
-            "B": "=",
+            "B": "चूक",
             "C": "",
             "D": ""
         },
@@ -2387,7 +2387,7 @@ const allMCQBatches = {
     },
     {
         "id": 23,
-        "question": "पहहलतत हपढचमधचल\nComputers\nमधत_ध ______________\nवतपरला हकत.ध",
+        "question": "पहिल्या पिढीमधील\nComputers\nमध्ये ______________\nवापरला गेला.",
         "options": {
             "A": "Transistors",
             "B": "Vacuum\nTubes",
@@ -2399,10 +2399,10 @@ const allMCQBatches = {
     },
     {
         "id": 24,
-        "question": "Internet Explorer 42%\nwebsite चा Address Menu\nBar मध्ये देतात.",
+        "question": "Internet Explorer मध्ये\nwebsite चा Address Menu\nBar मध्ये देतात.",
         "options": {
             "A": "बरोबर",
-            "B": "7",
+            "B": "चूक",
             "C": "",
             "D": ""
         },
@@ -2411,7 +2411,7 @@ const allMCQBatches = {
     },
     {
         "id": 25,
-        "question": "Windows 10 मध्ये\nkey चालू\nTask रह करते.",
+        "question": "Windows 10 मध्ये\n___ key चालू\nTask बंद करते.",
         "options": {
             "A": "Delete",
             "B": "",
