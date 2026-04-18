@@ -1,12 +1,64 @@
 // Speed Passages - Organized by Month
-// Generated: 2026-04-05T16:39:00.685Z
-// Total months: 2
-// Total passages: 40
+// Generated: 2026-04-18T15:12:56.734Z
+// Total months: 3
+// Total passages: 50
 
-console.log('📚 Loading passages-data.js...');
-
-// Make variables globally accessible in browser
-var passagesByMonth = {
+const passagesByMonth = {
+  "demo": {
+    "displayName": "Demo",
+    "passages": [
+      {
+        "filename": "Eng30 -101-batch.docx",
+        "text": "     One-day Emperor Johnson lay in bed thinking about his vast empire and the power he had. He began to feel very proud and superior. No one would dare to disobey me, he thought, I am the greatest the most powerful. Why even God does not have powers greater than mine. In fact, is there any other god than me? Thinking such boastful thoughts, he fell asleep.\n     The next morning, he wanted to go hunting. No sooner saiud than done. Preparations were made immediately and he went hunting along with many guards and attendants. The whole morning, they chased and hunted wild animals. The Emperor began to get tired, hot and thirsty. Just then, he saw a stream flowing by. He ordered his guards to stop.\n     Wait here at a distance till I refresh myself in the stream. So saying he rode alone to the edge of the water, alighted from the horse took off his clothes and plunged into the cool, crystal clear water. He forgot the heat the exhaustion and began to relax.",
+        "wordCount": 174
+      },
+      {
+        "filename": "Eng30 -102-batch.docx",
+        "text": "     There is a time and place for everything. You must know the true value of the time, snatch and seize and enjoy every moment of it. No idleness, no laziness. Never put off till tomorrow what you can do today.\n     If work is done in time, it saves a lot of labour later on. For example, you notice that the button on your shirt hanging loose. It would be better to sew it on tightly before you lose the button altogether. This applies to the studies also. If you keep studying daily and not putting it off to later date, the examination time would not be one tension and worry. Otherwise your mind will not be able to cope up with all the last minute cramming and learning. Everything will seem to be new and Greek to you then.\n     When you find some task unpleasant, there is a tendency to postpone. You know it has to be done so why let it obsess your mind by not completing it. Think of the relief and peace of mind you will get when it is over and done with it.",
+        "wordCount": 188
+      },
+      {
+        "filename": "Eng30 -103-batch.docx",
+        "text": "     When the organisation at the cellular level falls short of carrying out all life processes then organisation at the tissue level develops. In these living things cells function in groups in order to carry out various life processes. A group of cells all of which perform the same function is called a tissue. This level of organisation is called tissue level organisation. We see such tissue level organisation in living things like moss, algae.\n     Various kinds of tissues come together to form an organ. Organs like the stomach or liver in animals are made up of various tissues. These organs perform different functions at different stages. When life processes in living things are carried out by organs then it is known as organ level organisation.\n     Life processes like respiration digestion excretion and reproduction take place in living things. To carry out these functions, organs function together. A group of organs together carry out a certain function.",
+        "wordCount": 156
+      },
+      {
+        "filename": "Eng30 -104-batch.docx",
+        "text": "     It was a clear moonlight night. The shimmering waters of the sea reflected the starry sky right up to the horizon.\n     Subhau\n     stood looking at the silhouette of his ship. It looked majestic against the silver, sparkling sea. Subahu felt cool, wet sand beneath his feet and relaxed. All day long he had supervised cargo being loaded on to the ship and had given instructions to the crew. All ready to sail now he thought. His heart beat with the eagerness he always felt at the start of every voyage.\n     A shadow falling on the sands before him made him turn. Datta, you should be sleeping boy. We set sail early tomorrow. This is your first voyage. That is what keeps me awake. They say that many who go to the seas never return and the ship it’s so frail so small against the mighty sea.  Subahu smiled a little and looked at Datta with kind understanding eyes. Look at me young man. I am fourteen voyages old. And do not you worry about the ship. It is a strong",
+        "wordCount": 180
+      },
+      {
+        "filename": "Eng30 -105-batch.docx",
+        "text": "     We see many living things around us. Of these some are animals and some are plants. The structure of some living things is simple while others have complex structures.\n     You have learnt that living things like amoeba, paramecium, chlorella is unicellular. All living things are made of cells. Cells are very small in size. We cannot see them with the naked eye. We can see them with the help of a microscope.\n     Various life processes like respiration, digestion go on in the bodies of living things. In unicellular living things all processes are carried out in that single cell whereas in multicellular living things there are different organs to carry out different processes. That is why the cell is considered to be the fundamental unit of the structure and function of living things. The structure of living things is suited to the functions they must perform. This is known as the organisation of living things. The processes of living things are carried.",
+        "wordCount": 162
+      },
+      {
+        "filename": "Eng30 -201-batch.docx",
+        "text": "     In the poorer parts of the New York, there was a colony where many struggling artists lived together. Among them, there are two persons Sue and Joanna. They had come to New York from different parts of the United States of America. When they met, they found that they shared the same interests, and so they became best friends of life. Together they took up rooms in the colony. There they set up a joint studio and tried to earn a living through art.\n     Joanna was small, thin and not very strong. After spending a few months in New York, she became ill with pneumonia. In those days, it was not easy to cure pneumonia patients. Though Sue looked after her well, Joanna or John as she was called showed no signs of improvement.\n     One day the doctor told Sue that John had one chance in ten. And that chance is for her to want to live, he said Your little lady has made up her mind that she's not going to get well. He told Sue that medicines alone did not help.",
+        "wordCount": 183
+      },
+      {
+        "filename": "Eng30 -202-batch.docx",
+        "text": "     You know how the tug of war is played. There are an equal number of players on either side. The team which has stronger players pulls over the weaker team. What would happen if the players all had equal strength? Both teams will be equally strong and neither side will win. Now what would happen if a player of one team crosses over to the other side. The first team is one player short. The second has an extra player.\n     The latter team becomes stronger. The teams are not balanced any more. This is how minute particles go from one substance to the another and electric charge is created. Why does rubbing one substance on the another create charge. Every substance is made of matter. You have learnt that the smallest particle of matter is called atom. Every atom contains smaller particles with either the positive or the negative charge. As the number of positively and negatively charged particles of an atom is equal, they neutralize each other.",
+        "wordCount": 168
+      },
+      {
+        "filename": "Eng30 -203-batch.docx",
+        "text": "     Flowers are normally composed of four different sets of parts. Taking them from the outside, to the centre of the flower, they are sepals which are often green in colour, the petals are generally coloured stems which are the male sex organs and pistils, which are the female sex organs.\n     These separate parts of a flower may be attached at different levels. When all these sets of parts are present, the flower is considered complete. If a flower lacks either stamens or pistils, it is said to be imperfect. Flowers lead to production of fruits and seeds. Most plants reproduce sexually by the fusion of male and female cells which are found in the base of the pistil and which mature to become the fruit, after fertilisation.\n     Fertilisation is achieved when pollen is transferred from another to the stigma. This process is called pollination. There are many kinds of flowers some of the better known are roses, lilies, buttercups etc. This process is called.",
+        "wordCount": 164
+      },
+      {
+        "filename": "Eng30 -204-batch.docx",
+        "text": "     Time is precious. Time once lost can never be regained. We can regain our lost valuables. We can regain lost health. Lost money can also be earned. But time once wasted cannot be brought back. Time once gone is gone for ever. It never returns. So we should try to make best use of our time.\n     History shows that only those men have succeeded in life who had made use of every moment in their life. Progress of civilisation is the story of the careful use of time. Man could march from stone age to the computer age only by making use of his time. Man's life is short but there are lots of work which call his attention. So he should lead a life of purpose.\n     He should make maximum use of his time. Even if one lives hundred years but wastes time in idleness, one is forgotten. Nobody remembers him. Such persons do nothing for the society. People are often found complaining that it is very difficult to pass time. This happens because they have no purpose in life.",
+        "wordCount": 181
+      },
+      {
+        "filename": "Eng30 -205-batch.docx",
+        "text": "     The cow is a very common animal in India. It is found everywhere. It is a very useful. It is a four footed domestic animal which gives us milk. Even a small farmer can have a cow. If we consider rural part of our country, the cow is a good source of earning. The cow is of different colours. It may be black, white, brown or grey. It has a body about a metre or so high. It has two horns, two long ears, and a long tail with a tuft of black hair at the lower end of it. It has a hump on its back. It has two eyes and four feet divided into hoofs.\n     The cow is a gentle animal. It eats grass. It grazes grass on the banks of the river, fields and in hill side. It also eats hay and straw. The cow also likes to eat husk. Sometime it is fed grain porridge and a solution of bran and oil cakes. The cow swallows its food, quickly. The green fodder is its favourite food. Even at rest, it chews the cud. The cow is very easy to manage and tame. The cow serves us in many.",
+        "wordCount": 202
+      }
+    ]
+  },
   "jan-2026": {
     "displayName": "Jan 2026",
     "passages": [
@@ -220,7 +272,12 @@ var passagesByMonth = {
 };
 
 // Get list of available months
-var availableMonths = [
+const availableMonths = [
+  {
+    "key": "demo",
+    "display": "Demo",
+    "count": 10
+  },
   {
     "key": "jan-2026",
     "display": "Jan 2026",
@@ -232,11 +289,6 @@ var availableMonths = [
     "count": 10
   }
 ];
-
-console.log('✓ Passages data loaded:', {
-    months: availableMonths.length,
-    totalPassages: Object.values(passagesByMonth).reduce((sum, m) => sum + m.passages.length, 0)
-});
 
 // Export for use in browser
 if (typeof module !== 'undefined' && module.exports) {
