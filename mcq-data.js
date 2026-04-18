@@ -1436,9 +1436,9 @@ const allMCQBatches = {
         "question": "PowerPoint मध्ये\ngroup हा Home\ntab वर असतो.",
         "options": {
             "A": "Drawing",
-            “B”: “Images”,
-            “C”: “Symbols”,
-            “D”: “Media”
+            "B": "Images",
+            "C": "Symbols",
+            "D": "Media"
         },
         "correctAnswer": "A",
         "userAnswer": null
@@ -3611,7 +3611,7 @@ const allMCQBatches = {
       "options": {
         "A": "MAN",
         "B": "WAN",
-        "C": "“",
+        "C": "LAN",
         "D": "VSNL"
       },
       "correctAnswer": "B",
@@ -5316,7 +5316,7 @@ const allMCQBatches = {
         "A": "Bar,Pie\ndiagram",
         "B": "Text",
         "C": "Clip art",
-        "D": "” mage"
+        "D": "Image"
       },
       "correctAnswer": "A",
       "userAnswer": null
@@ -6377,7 +6377,7 @@ const allMCQBatches = {
       "id": 4,
       "question": "MS Excel 2019 मध्ये कोणते\nपर्याय font group मध्ये उपलब्ध\nनाहीत ?",
       "options": {
-        "A": "“",
+        "A": "bold",
         "B": "italic",
         "C": "clear",
         "D": "fill color"
@@ -6497,7 +6497,7 @@ const allMCQBatches = {
       "id": 14,
       "question": "MS Excel 2019 मध्ये कोणते\nपर्याय font group मध्ये उपलब्ध\nनाहीत ?",
       "options": {
-        "A": "“",
+        "A": "bold",
         "B": "italic",
         "C": "clear",
         "D": "fill color"
